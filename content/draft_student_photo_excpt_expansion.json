@@ -1,0 +1,772 @@
+{
+  "title": "Student-inspired original ExCPT practice: body systems, regulations and business math",
+  "sourceNotes": "Two instructor-provided student screenshots: exam recollection and handwritten whiteboard. Student's name, images, and identifiable info intentionally omitted.",
+  "type": "ORIGINAL practice, NOT official NHA questions or verified exam recall",
+  "excpBlueprint": "Current ExCPT version started 2025-07-09; instructor to check local curriculum and updated NHA plan.",
+  "weekAssignment": "Not yet assigned",
+  "qa": {
+    "markup": "Cost $30, sell $40: markup 33.3%; gross margin 25%. Do not treat them as synonyms.",
+    "bottles": "Classroom 30mL/fl oz yields five 1-fl-oz bottles; exact US 29.5735 mL/fl oz yields six. State the assumed conversion and whether rounding up is needed."
+  },
+  "questions": [
+    {
+      "id": "student-photo-01",
+      "category": "Regulations",
+      "points": 200,
+      "question": "A sample DEA number is AB123456?. What is the check digit using the common DEA checksum method?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Odd positions: 1+3+5=9. Even positions: (2+4+6)×2=24. Total 33, so the check digit is 3. A checksum match alone does not establish registration validity.",
+      "skill": "DEA check digit",
+      "origin": "Original based on student's exam recollection",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Small neutral courthouse/document glyph; never use an image that labels the correct agency",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-02",
+      "category": "Regulations",
+      "points": 100,
+      "question": "Which federal agency administers the Controlled Substances Act and registers controlled-substance handlers?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "FDA"
+        },
+        {
+          "key": "B",
+          "text": "DEA"
+        },
+        {
+          "key": "C",
+          "text": "OSHA"
+        },
+        {
+          "key": "D",
+          "text": "EPA"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The DEA is responsible for federal controlled-substance registration and enforcement.",
+      "skill": "Distinguish federal agencies",
+      "origin": "Student reported difficulty with similar legal roles",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Small neutral courthouse/document glyph; never use an image that labels the correct agency",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-03",
+      "category": "Regulations",
+      "points": 300,
+      "question": "Which federal agency primarily sets and enforces workplace standards for bloodborne-pathogen exposure?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "FDA"
+        },
+        {
+          "key": "B",
+          "text": "DEA"
+        },
+        {
+          "key": "C",
+          "text": "OSHA"
+        },
+        {
+          "key": "D",
+          "text": "CPSC"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "OSHA's Bloodborne Pathogens Standard concerns workplace exposures.",
+      "skill": "Distinguish federal agencies",
+      "origin": "Student reported difficulty with similar legal roles",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Small neutral courthouse/document glyph; never use an image that labels the correct agency",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-04",
+      "category": "Regulations",
+      "points": 400,
+      "question": "A pharmacist's patient asks whether a medication is safe during pregnancy. What is the appropriate technician action?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Answer using a package label alone"
+        },
+        {
+          "key": "B",
+          "text": "Recommend stopping the prescription"
+        },
+        {
+          "key": "C",
+          "text": "Refer to the pharmacist"
+        },
+        {
+          "key": "D",
+          "text": "Suggest an alternative OTC medication"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Patient-specific clinical counseling and pregnancy safety should be handled by the pharmacist.",
+      "skill": "Scope and patient safety",
+      "origin": "Original inspired by student's request for system connections",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Small neutral courthouse/document glyph; never use an image that labels the correct agency",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-05",
+      "category": "Business Math",
+      "points": 300,
+      "question": "A pharmacy buys a product for $30 and sells it for $40. What is the percent markup based on acquisition cost?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "25%"
+        },
+        {
+          "key": "B",
+          "text": "30%"
+        },
+        {
+          "key": "C",
+          "text": "33.3%"
+        },
+        {
+          "key": "D",
+          "text": "40%"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Markup on cost is ($40−$30)/$30×100=33.3%. This is not the profit margin.",
+      "skill": "Markup on cost",
+      "origin": "Student recollection; wording repaired",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Price tag and small calculator",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-06",
+      "category": "Business Math",
+      "points": 400,
+      "question": "A pharmacy buys a product for $30 and sells it for $40. What is the gross profit margin as a percentage of selling price?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "20%"
+        },
+        {
+          "key": "B",
+          "text": "25%"
+        },
+        {
+          "key": "C",
+          "text": "33.3%"
+        },
+        {
+          "key": "D",
+          "text": "40%"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Gross margin is ($40−$30)/$40×100=25%. Markup on cost would be 33.3%.",
+      "skill": "Gross profit margin",
+      "origin": "Student recollection; wording repaired",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Price tag and small calculator",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-07",
+      "category": "Conversions",
+      "points": 200,
+      "question": "Using the pharmacy-class approximation 1 fl oz = 30 mL, how many 1-fl-oz bottles are needed for 150 mL of medication?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "150 mL÷30 mL/bottle=5 bottles. The question specifies the classroom approximation.",
+      "skill": "Bottle packages using class conversion",
+      "origin": "Student recollection; explicit conversion assumption",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Neutral bottle silhouettes with measurements labeled only when necessary",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-08",
+      "category": "Conversions",
+      "points": 500,
+      "question": "Each bottle has an exact capacity of 1 US fluid ounce (29.57 mL). How many bottles are needed to contain all 150 mL without exceeding each bottle's capacity?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "4"
+        },
+        {
+          "key": "B",
+          "text": "5"
+        },
+        {
+          "key": "C",
+          "text": "6"
+        },
+        {
+          "key": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "150÷29.57≈5.073. Whole bottles must round up to 6. This differs from treating 1 fl oz as approximately 30 mL.",
+      "skill": "Package round up, precision",
+      "origin": "Student recollection; exact-capacity alternate",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Neutral bottle silhouettes with measurements labeled only when necessary",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-09",
+      "category": "Urinary / Renal",
+      "points": 100,
+      "question": "A UTI primarily affects which body system?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Urinary system"
+        },
+        {
+          "key": "B",
+          "text": "Respiratory system"
+        },
+        {
+          "key": "C",
+          "text": "Nervous system"
+        },
+        {
+          "key": "D",
+          "text": "Integumentary system"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "UTI means urinary tract infection.",
+      "skill": "Body system connection",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Subtle kidney-and-bladder outline for medication-class items",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-10",
+      "category": "Urinary / Renal",
+      "points": 300,
+      "question": "Which diuretic class includes hydrochlorothiazide?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Loop diuretic"
+        },
+        {
+          "key": "B",
+          "text": "Thiazide diuretic"
+        },
+        {
+          "key": "C",
+          "text": "Potassium-sparing diuretic"
+        },
+        {
+          "key": "D",
+          "text": "Osmotic diuretic"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Hydrochlorothiazide is a thiazide-type diuretic.",
+      "skill": "Diuretic class",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Subtle kidney-and-bladder outline for medication-class items",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-11",
+      "category": "Urinary / Renal",
+      "points": 400,
+      "question": "What drug class is furosemide (Lasix)?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Thiazide diuretic"
+        },
+        {
+          "key": "B",
+          "text": "ACE inhibitor"
+        },
+        {
+          "key": "C",
+          "text": "Loop diuretic"
+        },
+        {
+          "key": "D",
+          "text": "Beta blocker"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Furosemide is a loop diuretic used for conditions including edema.",
+      "skill": "Brand/generic and drug class",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Subtle kidney-and-bladder outline for medication-class items",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-12",
+      "category": "Respiratory",
+      "points": 100,
+      "question": "Which organ system is primarily involved in asthma?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Endocrine"
+        },
+        {
+          "key": "B",
+          "text": "Respiratory"
+        },
+        {
+          "key": "C",
+          "text": "Urinary"
+        },
+        {
+          "key": "D",
+          "text": "Gastrointestinal"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Asthma is an inflammatory airway disease affecting the respiratory system.",
+      "skill": "Condition to organ",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Unlabeled lungs and airway drawing",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-13",
+      "category": "Respiratory",
+      "points": 200,
+      "question": "Albuterol belongs to which class?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Antihistamine"
+        },
+        {
+          "key": "B",
+          "text": "Short-acting beta-2 agonist bronchodilator"
+        },
+        {
+          "key": "C",
+          "text": "Leukotriene receptor antagonist"
+        },
+        {
+          "key": "D",
+          "text": "Antitussive"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Albuterol is a short-acting beta-2 agonist used for rapid relief of bronchospasm.",
+      "skill": "Bronchodilator class",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Unlabeled lungs and airway drawing",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-14",
+      "category": "Respiratory",
+      "points": 300,
+      "question": "Which respiratory or allergy drug belongs to the leukotriene receptor antagonist class?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Albuterol"
+        },
+        {
+          "key": "B",
+          "text": "Montelukast"
+        },
+        {
+          "key": "C",
+          "text": "Dextromethorphan"
+        },
+        {
+          "key": "D",
+          "text": "Cetirizine"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Montelukast is a leukotriene receptor antagonist. The -lukast ending can be a recognition clue, but verify the full drug name.",
+      "skill": "Medication stems",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Unlabeled lungs and airway drawing",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-15",
+      "category": "Respiratory",
+      "points": 300,
+      "question": "What class is cetirizine (Zyrtec)?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Decongestant"
+        },
+        {
+          "key": "B",
+          "text": "Antitussive"
+        },
+        {
+          "key": "C",
+          "text": "Antihistamine"
+        },
+        {
+          "key": "D",
+          "text": "Inhaled beta-2 agonist"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Cetirizine is a second-generation H1 antihistamine used for allergy symptoms.",
+      "skill": "Class and brand/generic",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Unlabeled lungs and airway drawing",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-16",
+      "category": "Respiratory",
+      "points": 400,
+      "question": "Which medication is commonly classified as an antitussive (cough suppressant)?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Dextromethorphan"
+        },
+        {
+          "key": "B",
+          "text": "Guaifenesin"
+        },
+        {
+          "key": "C",
+          "text": "Pseudoephedrine"
+        },
+        {
+          "key": "D",
+          "text": "Fluticasone"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Dextromethorphan suppresses cough; guaifenesin is an expectorant, pseudoephedrine is a decongestant, and fluticasone is a corticosteroid.",
+      "skill": "Class and indication",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Unlabeled lungs and airway drawing",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-17",
+      "category": "Respiratory",
+      "points": 500,
+      "question": "A product containing pseudoephedrine is requested. Which drug class should a technician recognize?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Antitussive"
+        },
+        {
+          "key": "B",
+          "text": "Decongestant"
+        },
+        {
+          "key": "C",
+          "text": "Expectorant"
+        },
+        {
+          "key": "D",
+          "text": "Antihistamine"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Pseudoephedrine is a decongestant. Behind-the-counter sales are subject to applicable restrictions.",
+      "skill": "BTC drug class",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Unlabeled lungs and airway drawing",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-18",
+      "category": "Endocrine",
+      "points": 100,
+      "question": "Which gland is responsible for producing thyroid hormones?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Adrenal gland"
+        },
+        {
+          "key": "B",
+          "text": "Pituitary gland"
+        },
+        {
+          "key": "C",
+          "text": "Thyroid gland"
+        },
+        {
+          "key": "D",
+          "text": "Pancreas"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The thyroid gland produces thyroid hormones that regulate metabolism.",
+      "skill": "Gland and function",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Pancreas/thyroid diagram chosen by the question; avoid revealing anatomy answers",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-19",
+      "category": "Endocrine",
+      "points": 200,
+      "question": "Metformin belongs to which type 2 diabetes medication class?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Sulfonylurea"
+        },
+        {
+          "key": "B",
+          "text": "Biguanide"
+        },
+        {
+          "key": "C",
+          "text": "DPP-4 inhibitor"
+        },
+        {
+          "key": "D",
+          "text": "Alpha-glucosidase inhibitor"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Metformin is a biguanide.",
+      "skill": "Medication class",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Pancreas/thyroid diagram chosen by the question; avoid revealing anatomy answers",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-20",
+      "category": "Endocrine",
+      "points": 300,
+      "question": "Which oral diabetes drug is a sulfonylurea?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Metformin"
+        },
+        {
+          "key": "B",
+          "text": "Sitagliptin"
+        },
+        {
+          "key": "C",
+          "text": "Glipizide"
+        },
+        {
+          "key": "D",
+          "text": "Empagliflozin"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Glipizide is a sulfonylurea that increases pancreatic insulin secretion.",
+      "skill": "Medication class",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Pancreas/thyroid diagram chosen by the question; avoid revealing anatomy answers",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-21",
+      "category": "Endocrine",
+      "points": 400,
+      "question": "Levothyroxine is commonly used for which condition?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Hyperthyroidism"
+        },
+        {
+          "key": "B",
+          "text": "Hypothyroidism"
+        },
+        {
+          "key": "C",
+          "text": "Type 2 diabetes"
+        },
+        {
+          "key": "D",
+          "text": "Cushing syndrome"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Levothyroxine replaces thyroid hormone in patients with hypothyroidism.",
+      "skill": "Medication to disease state",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Pancreas/thyroid diagram chosen by the question; avoid revealing anatomy answers",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-22",
+      "category": "Endocrine",
+      "points": 500,
+      "question": "Which insulin is commonly classified as long-acting basal insulin?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Insulin lispro"
+        },
+        {
+          "key": "B",
+          "text": "Regular insulin"
+        },
+        {
+          "key": "C",
+          "text": "Insulin glargine"
+        },
+        {
+          "key": "D",
+          "text": "Insulin aspart"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Insulin glargine is a long-acting basal insulin, unlike the rapid-acting analogs lispro and aspart.",
+      "skill": "Insulin class",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Pancreas/thyroid diagram chosen by the question; avoid revealing anatomy answers",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    },
+    {
+      "id": "student-photo-23",
+      "category": "Reproductive / Endocrine",
+      "points": 300,
+      "question": "Which hormone category includes estradiol?",
+      "choices": [
+        {
+          "key": "A",
+          "text": "Estrogen"
+        },
+        {
+          "key": "B",
+          "text": "Androgen"
+        },
+        {
+          "key": "C",
+          "text": "Glucocorticoid"
+        },
+        {
+          "key": "D",
+          "text": "Thyroid hormone"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Estradiol is an estrogen. It links reproductive function and endocrine pharmacotherapy.",
+      "skill": "Hormone recognition",
+      "origin": "Student whiteboard",
+      "source": "Instructor-provided anonymized student notes and board photo, 2026-10-08",
+      "imageSuggestion": "Neutral hormone or endocrine icon",
+      "status": "draft",
+      "live": false,
+      "eligibility": "Instructor to place after specific subject was taught; business math and advanced conversion questions may be held for PHRA 1009 / 1043"
+    }
+  ]
+}
