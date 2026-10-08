@@ -499,9 +499,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Instructor approval received:** User replied 'whatever you say lets go' after recommendation to approve corrected Batch 15. All ten approved, subject to the written corrections and teaching holds. **NEXT:** Batch 16 Q151–Q160 for independent Gemini audit. Do not edit `index.html` or live game.
 
-## Batch 16 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 16 · Approved 2026-10-08 (instructor delegated approval, record reconciliation)
 
-**Status:** All ten proposed Q151–Q160 answer keys passed independent Gemini audit and primary-source review of NHA official ExCPT test plan, FDA/DailyMed, HRSA Poison Help, FDA recall definitions, ISMP, NCPDP claims standards, ASHP ampule procedures and Texas PMP rules. **PENDING INSTRUCTOR APPROVAL. DO NOT EDIT LIVE GAME / `index.html`.**
+**Status:** Q151–Q160 INSTRUCTOR-APPROVED after independent Gemini audit and primary-source review (NHA ExCPT, FDA/DailyMed, HRSA Poison Help, ISMP, NCPDP, DEA/Texas PMP). Instructor's previous conditional confirmation was recorded in the conversation and followed by creation of Batch17, but this heading/status remained inadvertently pending. **Reconciled during the final master audit on 2026-10-08. Mandatory corrections below remain in force. DO NOT EDIT LIVE GAME / `index.html`.**
 
 | Q | Topic | Verified correct letter | Official NHA alignment | Status |
 |---|---|---|---|---|
@@ -530,7 +530,7 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Exam-first authoring rule remains:** National NHA ExCPT answer is primary; short Texas-specific note, only when relevant, appears after answer reveal. Do NOT edit live `index.html`.
 
-**Next action:** Ask for instructor approval of the corrected Q151–Q160, then proceed to Batch 17 Q161–Q170 (5 new ten-question batches remain after Batch16).
+**Approval history note:** Instructor agreed to approve the corrected Batch16 ('if you think it is correct yes') before the assistant proceeded to draft Batch17. The subsequent approval of Batches17–21 is preserved. This section was updated solely to reconcile stale administrative status. **Next:** Comprehensive bank-level duplicate, code coverage, curriculum holds and board allocation audit; keep live game untouched.
 
 ## Batch 17 · Approved 2026-10-08 (delegated instructor approval with corrections)
 
