@@ -347,3 +347,32 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 **Official NHA blueprint**: https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
 
 **Approval recorded:** Instructor delegated final judgment ('whatever you think is correct'); approved corrected versions of Q101–Q110. Preserve Q105 neurological-course hold and Q106 FDA references-course hold. **Next:** Batch 12 questions Q111–Q120 for independent review. Do not edit `index.html`.
+
+## Batch 12 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** All ten Q111–Q120 answer keys verified against independent Gemini audit, FDA/DailyMed label, NHA official blueprint, HHS privacy guidance, and relevant pharmacy law; **NOT YET INSTRUCTOR APPROVED** and **NOT ADDED TO LIVE GAME**. The instructor previously delegated judgment for Batch 11 only, not an evergreen waiver of new-batch approval.
+
+| Q | Topic | Verified answer | Accurate NHA mapping | Status |
+|---|---|---|---|---|
+| 111 | Lovenox/enoxaparin LMWH | A | K.57, K.59, K.68 | PASS, pending |
+| 112 | Keflex/cephalexin 1st-generation cephalosporin | C | K.57, K.61, K.68 | PASS, pending |
+| 113 | Pulmicort Flexhaler/budesonide ICS for maintenance | B | K.57, K.61, K.68 | PASS, pending |
+| 114 | Isotretinoin iPLEDGE authorization missing; do not dispense | D | K.95, K.159, task 4B.3 | PASS, pending |
+| 115 | Manufacturer-specified amoxicillin 400 mg/5mL, 100-mL bottle requires 71 mL water | B | task 4B.6; K.129 (diluents and base products), task 4D.6 (select appropriate diluent) as applicable | PASS, pending; fix K.129 definition |
+| 116 | FDA MedWatch for voluntary suspected ADR reports | C | K.154 (ADEs/ADRs), K.155 (MedWatch), task 5H | PASS, pending |
+| 117 | 500 mL × 15 gtt/mL / (4 h × 60 min/h) = 31.25 → 31 gtt/min | A | K.119; task 4C calculations | PASS, pending; HOLD PHRA 1009 Meeting 7 |
+| 118 | HIPAA PHI label into approved confidential-destruction container | D | K.25; task 2A.4 | PASS, pending |
+| 119 | Do not release Rx before required pharmacist final verification | C | K.2 (role of pharmacist), task 1I (ensure final pharmacist verification) | PASS, pending; clarify limited tech-check-tech |
+| 120 | Hospital unit-dose label/records: medication name, strength, lot identification and expiration/BUD | B | K.135 (components of a unit-dose label), tasks 4D.11 and 4D.13 | PASS, pending; HOLD until unit-dose introduction |
+
+**Corrections required before approval/publishing:**
+1. **K.129** means *diluents and base products* in the NHA plan, NOT “reconstitution of oral liquids.” For Q115, reconstitution itself is Task **4B.6**. When discussing selection of diluent by manufacturer recommendation, Task **4D.6** and K.129 are supporting alignments. The specified DailyMed 400mg/5mL, 100mL finished bottle requires **71mL water**, added according to mixing directions (first ~1/3, shake, then remainder, shake). Avoid teaching universal 71mL across all brands or concentrations. DailyMed: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08100595-e6de-4a8a-a177-a94f849bbe9f
+2. **K.2** means *role of the pharmacist*, including oversight, verification and counseling, not a broad title stating all legally permissible tech duties. Task **1I** says to ensure final pharmacist verification before release to the patient. For Q119 outpatient Rx with no pharmacist check, answer C is unequivocally correct. Avoid Gemini claim final verification is categorically nondelegable in every setting; restricted tech-check-tech is permitted for unit-dose/floor-stock systems in approved Texas hospitals with previously pharmacist-reviewed orders. Texas board: https://www.pharmacy.texas.gov/licensees/tech-programs-for-hospital-pharm.asp and NHA: https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+3. **K.135** precisely means *components of a unit dose label*; tasks **4D.11** repackaging/labeling and **4D.13** documentation. Distinguish printed label elements from associated traceability records; exact contents depend on product, applicable rule, and facility policy. Preserve question's wording “package label and traceability records,” which is appropriately broad.
+4. **K.155 = MedWatch**; **K.154 = adverse drug events/reactions**, while K.156=FAERS and K.157=VAERS. Vaccine injury compensation (VICP) is not a reporting portal; VAERS is the vaccine adverse-event reporting system. Q116 MedWatch correct. FDA: https://www.fda.gov/about-fda/medical-product-safety-information/medwatch-forms-fda-safety-reporting
+5. **Q114 iPLEDGE:** REMS still applies to all FDA-approved isotretinoin brands. At time of review 2026-10-08, FDA announced the modifications previously planned for August were delayed to **2026-11-15**; no need to teach old future rules as already effective. Stem avoids dates and stays valid. Do not claim only women have the risk; prevention applies to pregnancy potential/embryo-fetal toxicity. FDA: https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/ipledge-risk-evaluation-and-mitigation-strategy-rems
+6. **Q117** unit conversion: 4 hours = 240 min; (500mL × 15gtt/mL) / 240min = 31.25gtt/min rounded to **31gtt/min**; reserve until PHRA1009 Meeting7.
+7. **Q118** secure disposal follows HHS guidelines and actual pharmacy procedure; using the locked approved confidential-destruction bin is correct. https://www.hhs.gov/hipaa/for-professionals/faq/what-does-hipaa-require-of-covered-entities-when-they-dispose-information/index.html
+8. **Q111–113** correct brand/generic and drug classifications; no changes to answer choices.
+
+**Approval next:** Explicitly ask instructor if Q111–Q120 may be approved with these refinements. Do not edit live `index.html`.
