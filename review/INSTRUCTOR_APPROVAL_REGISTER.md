@@ -601,9 +601,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 **Official NHA source:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
 **Instructor approval confirmed:** User replied 'ok' to approval request for corrected Batch 18 Q171–Q180. **Next:** Batch 19 Q181–Q190 for independent Gemini audit. Do not edit live `index.html`.
 
-## Batch 19 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 19 · Approved 2026-10-08 (instructor confirmation with corrections and dilution notation)
 
-**Status:** Uploaded Gemini independent audit rated all ten Q181–Q190 answer choices correct (PASS). Independent check confirmed answers using NHA official 2023-job-analysis ExCPT test plan; FDA/DailyMed labeling; NCCIH herbal-drug information; Joint Commission prohibited notation; federal Medicaid drug-review rules (42 CFR 456.705); Texas 22 TAC 291.33; and dilution calculation. **TEN ANSWER KEYS VERIFIED. PENDING INSTRUCTOR APPROVAL. DO NOT EDIT PLAYABLE GAME / `index.html`.**
+**Status:** ALL TEN Q181–Q190 INSTRUCTOR-APPROVED with all required NHA code-description, safety and federal/Texas post-answer-note corrections below. Instructor explicitly said 'yes, that said, approve now' after confirming original stock/desired dilution notation. Q190's worked solution must use **BOTH `C₁V₁=C₂V₂` AND `SC×SV=DC×DV`**, identifying STOCK/HAVE versus DESIRED/WANT, `SV=(DC×DV)/SC`, and q.s. final volume; any `DV−SV` classroom step must state additive-volume assumption. **DO NOT EDIT PLAYABLE GAME / `index.html`.**
 
 | Q | Topic | Correct letter | Exact NHA tag/task | Decision |
 |---|---|---|---|---|
@@ -634,7 +634,7 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **National ExCPT first:** Add separate Texas law note only AFTER correct-answer reveal if legally necessary. Question wording and right answers remain nationally framed. All 10 remain NON-LIVE.
 
-**Next:** Ask for instructor approval of corrected Batch 19 Q181–Q190. On approval, mark it approved and proceed to Batch 20 Q191–Q200; no live game changes.
+**Approval confirmed:** User explicitly approved corrected Batch 19 ('yes, that said, approve now'). The standing dual-notation dilution format recorded below applies to Q190 and future appropriate C1V1 questions. **Next:** Draft Batch 20 Q191–Q200 for independent Gemini audit; no live-game changes.
 
 ## Standing dilution worked-solution teaching format · 2026-10-08
 
