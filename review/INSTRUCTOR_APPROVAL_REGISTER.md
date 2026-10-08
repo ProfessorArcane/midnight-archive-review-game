@@ -111,22 +111,22 @@ Gemini's audit reported all ten questions Q31–Q40 as PASS, but mistakenly rela
 
 **Instructor approval received:** User replied 'yes' to approval of Batch 04 with corrected NHA tags and explanations. **Next:** Draft/review Batch 05. Do NOT modify index.html.
 
-## Batch 05 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 05 · Approved 2026-10-08 (conditional instructor approval, corrections applied)
 
-**Status:** Ten answers Q41–Q50 passed external audit and primary-source check; **INSTRUCTOR APPROVAL PENDING**. These questions have **NOT** been added to live game.
+**Status:** ALL TEN QUESTIONS Q41–Q50 APPROVED BY INSTRUCTOR **ON CONDITION THAT THE CORRECT NHA ALIGNMENTS AND EXPLANATION CLARIFICATIONS ARE USED**, as documented below. Corrected version is the approved version. **NOT ADDED TO LIVE GAME.**
 
 | Q | Topic | Verified correct choice | NHA topic alignment | Status |
 |---|---|---|---|---|
-| 41 | Eliquis/apixaban, factor Xa inhibitor | B | K.57, K.61, K.68 | Verified, pending |
-| 42 | Fosamax/alendronate, bisphosphonate | A | K.57, K.61, K.68 | Verified, pending |
-| 43 | Xalatan/latanoprost | C | K.61, K.62, K.68 | Verified, pending |
-| 44 | Zofran/ondansetron, 5-HT3 antagonist | D | K.57, K.61, K.68 | Verified, pending |
-| 45 | Ferrous sulfate, iron-deficiency anemia | B | K.61, K.62, K.65 | Verified, pending |
-| 46 | Azithromycin 250 mg six-tablet 5-day regimen | C | K.111, task 4C.4 | Verified, pending |
-| 47 | C-IV 6-month refills, 8-month-old Rx | D | K.49, task 2B.4 | Verified, pending |
-| 48 | Error-prone abbreviation 'U' for units | A | K.81, K.153, task 5D | Verified, pending |
-| 49 | USP <800> hazardous-drug handling | C | K.39, K.99 | Verified, pending |
-| 50 | Outpatient FDA Medication Guide | B | K.96, task 4B.9 | Verified, pending |
+| 41 | Eliquis/apixaban, factor Xa inhibitor | B | K.57, K.61, K.68 | Verified, APPROVED with corrections |
+| 42 | Fosamax/alendronate, bisphosphonate | A | K.57, K.61, K.68 | Verified, APPROVED with corrections |
+| 43 | Xalatan/latanoprost | C | K.61, K.62, K.68 | Verified, APPROVED with corrections |
+| 44 | Zofran/ondansetron, 5-HT3 antagonist | D | K.57, K.61, K.68 | Verified, APPROVED with corrections |
+| 45 | Ferrous sulfate, iron-deficiency anemia | B | K.61, K.62, K.65 | Verified, APPROVED with corrections |
+| 46 | Azithromycin 250 mg six-tablet 5-day regimen | C | K.111, task 4C.4 | Verified, APPROVED with corrections |
+| 47 | C-IV 6-month refills, 8-month-old Rx | D | K.49, task 2B.4 | Verified, APPROVED with corrections |
+| 48 | Error-prone abbreviation 'U' for units | A | K.81, K.153, task 5D | Verified, APPROVED with corrections |
+| 49 | USP <800> hazardous-drug handling | C | K.39, K.99 | Verified, APPROVED with corrections |
+| 50 | Outpatient FDA Medication Guide | B | K.96, task 4B.9 | Verified, APPROVED with corrections |
 
 **Caution about Gemini's revised codes:** K.29 refers to OBRA '90; K.31 is the FD&C Act; K.48 DEA forms; K.50 emergency filling; K.14 storage; K.18 Orange Book; K.20 clinical information sources; K.22 Handbook on Injectables; K.16 SDS; K.25 HIPAA. Thus Gemini's proposed tags in Q46–Q50 are incorrect; use topic alignments above.
 
@@ -144,4 +144,4 @@ Primary references:
 - 21 CFR §208.24 and §208.26: https://www.ecfr.gov/current/title-21/part-208/section-208.24 and https://www.ecfr.gov/current/title-21/part-208/section-208.26
 - ISMP Insulin Safety Guide: https://www.ismp.org/sites/default/files/attachments/2018-09/ISMP138D-Insulin%20Guideline-091318.pdf
 
-**Next:** Ask instructor to explicitly approve Q41–Q50 with original/corrected blueprint alignments. No modifications to `index.html` are authorized yet.
+**Approval recorded:** The instructor replied 'okay as long as you make all the right corrections' after reviewing the corrected alignment and Medication Guide explanation. This approval applies ONLY to the corrected version and not Gemini's erroneous K-code replacements. **Next:** Present Batch 06 for review. No modifications to `index.html` are authorized yet.
