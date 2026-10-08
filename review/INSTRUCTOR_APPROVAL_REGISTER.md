@@ -498,3 +498,36 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 **Official source:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
 
 **Instructor approval received:** User replied 'whatever you say lets go' after recommendation to approve corrected Batch 15. All ten approved, subject to the written corrections and teaching holds. **NEXT:** Batch 16 Q151–Q160 for independent Gemini audit. Do not edit `index.html` or live game.
+
+## Batch 16 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** All ten proposed Q151–Q160 answer keys passed independent Gemini audit and primary-source review of NHA official ExCPT test plan, FDA/DailyMed, HRSA Poison Help, FDA recall definitions, ISMP, NCPDP claims standards, ASHP ampule procedures and Texas PMP rules. **PENDING INSTRUCTOR APPROVAL. DO NOT EDIT LIVE GAME / `index.html`.**
+
+| Q | Topic | Verified correct letter | Official NHA alignment | Status |
+|---|---|---|---|---|
+| 151 | Aricept/donepezil = acetylcholinesterase inhibitor | B | K.57, K.61, K.68 | PASS; HOLD neurology instruction |
+| 152 | Proscar/finasteride = 5-alpha-reductase inhibitor for BPH | D | K.57, K.61, K.68 | PASS; HOLD genitourinary instruction |
+| 153 | Norvasc/amlodipine = dihydropyridine calcium channel blocker | A | K.57, K.61, K.68 | PASS |
+| 154 | Child possible ingestion, currently stable: call Poison Help 1-800-222-1222 and alert pharmacist immediately | C | K.24 (Poison Control Centers), task 1H, 1O | PASS |
+| 155 | FDA Class II recall means potential reversible/temporary adverse effects or remote serious risk | A | K.11 (recall classes and action), task 1M | PASS |
+| 156 | PDMP purpose: state controlled-substance prescription/dispensing database | D | K.56 (diversion and prescription monitoring programs) | PASS; optional Texas post-answer note |
+| 157 | MSO4 vs MgSO4 prohibited/error-prone abbreviations: stop, pharmacist clarification, full names | B | **K.81 (ISMP error-prone abbreviations list)**, **K.153 (error-prone abbreviations)**, task 5D | PASS; correct code definitions |
+| 158 | PCN in pharmacy claims acts as secondary routing identifier, often alongside BIN | C | **K.85 (components required to process third-party claims)**, task 4A.5 | PASS; correct code definition |
+| 159 | Withdrawing from glass ampule using filter needle/straw to reduce glass particulates | A | **K.127 (needle gauges and types)**, tasks 4D.5 and 4D.7 | PASS; HOLD sterile compounding |
+| 160 | 25% markup on cost of $48 = selling price $60 | D | K.122, task 4C.8 | PASS; HOLD PHRA1009 Meeting 8 |
+
+**REQUIRED CORRECTIONS, SAFETY NOTES, AND PRIMARY REFERENCES**
+
+1. **Q157 NHA label exactness:** K.81 is the **ISMP error-prone abbreviations list**, NOT Tall Man lettering or broad sound-alike drug name differentiation. K.153 is **error-prone abbreviations**. **K.150** separately covers Tall Man lettering. ISMP's 2024 list explicitly flags MSO4 (morphine sulfate) and MgSO4 (magnesium sulfate); write out full drug name. https://www.ismp.org/system/files/resources/2024-04/ISMP_ErrorProneAbbreviation_List.pdf
+2. **Q158 NHA label exactness:** K.85 is **components required to process a third-party claim** (BIN, PCN, member ID etc.), not merely a general “routing code.” PCN specifically a secondary routing identifier defined by processor/plan, sometimes differentiating plans; not all plans necessarily require a unique PCN. The stem explicitly says this payer requires it; answer C stands. Prefer NCPDP primary source rather than originally cited unrelated CMS bridge document. https://www.ncpdp.org/Resources/The-Bank-Identification-Number-%28BIN%29-is-a-term-fro
+3. **Q159 NHA label exactness:** K.127 is **needle gauges and types** (regular, filter, vented), not all sterile compounding equipment/supplies. Tasks 4D.5 select equipment and 4D.7 use aseptic technique. CDC artesunate protocol AND ASHP guidance support suitable filter needle or straw withdrawal from broken glass ampules to limit glass particulates. Do not assert every situation has an identical universally mandated filter pore size, or that a filter needle eliminates every contaminant; follow product/facility procedures and replace withdrawal needle as appropriate. CDC https://stacks.cdc.gov/view/cdc/152651/cdc_152651_DS1.pdf ; ASHP https://www.ashp.org/-/media/assets/pharmacy-practice/resource-centers/pharmaceutical-waste/preparation-guidelines-hazardous-drugs.pdf
+4. **Q154:** HRSA recommends immediately contacting Poison Help (1-800-222-1222) after suspected ingestion, even before symptoms. **Emergency signs such as unresponsiveness, seizure or breathing difficulty warrant 911.** Question says child currently awake and breathing normally, so answer C is sound. Do not induce vomiting, offer milk, or wait. https://poisonhelp.hrsa.gov/what-you-can-do
+5. **Q155:** FDA 21 CFR 7.3, Class II definition in stem is correct. Distinguish from Class I (reasonable probability of serious harm/death) and Class III (unlikely adverse consequence). Different from earlier Class I question, not duplication. https://www.fda.gov/safety/industry-guidance-recalls/recalls-background-and-definitions
+6. **Q156 national vs Texas separation:** K.56 is **diversion and prescription monitoring programs**, including PDMP, not exclusively “PDMPs” as its title. National answer D. **Texas Law Note, shown ONLY AFTER ANSWER:** Texas Prescription Monitoring Program captures Schedule II–V dispensing data, and Texas-licensed pharmacies report no later than **next business day after prescription is filled** under 22 TAC §315.6. Do not turn this into a Texas law stem or suggest state reporting deadlines are universal. TSBP https://www.pharmacy.texas.gov/pmp/ ; current board rules https://www.pharmacy.texas.gov/files_pdf/tsbp%20rules_master%20file.pdf
+7. **Q151–153:** Correct brand/generic/class pairs. DailyMed Aricept/donepezil; Proscar/finasteride 5α-reductase; Norvasc/amlodipine dihydropyridine CCB. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b and https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b00570ff-4081-4514-b45b-eb6f753450f5 and https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=042a59ea-131a-4806-b0f4-2f791d4414e2
+8. **Q160 math:** $48 × 0.25 = $12 markup; $48 + $12 = **$60 selling price**. Percentage is **markup on acquisition cost** (not gross profit margin). PHRA1009 Meeting 8; show cost→markup→selling price.
+9. **Teaching holds:** Q151 neurology, Q152 genitourinary, Q159 sterile-compounding equipment, Q160 PHRA1009 Meeting 8. Do not show on student review boards prior to lesson.
+
+**Exam-first authoring rule remains:** National NHA ExCPT answer is primary; short Texas-specific note, only when relevant, appears after answer reveal. Do NOT edit live `index.html`.
+
+**Next action:** Ask for instructor approval of the corrected Q151–Q160, then proceed to Batch 17 Q161–Q170 (5 new ten-question batches remain after Batch16).
