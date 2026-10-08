@@ -660,9 +660,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Audit scope:** Check previously drafted dilution/mixing exercises, not ratio strength, alligation, reconstitution, IV flow or dosage questions that require different relationships. Apply the STOCK/DESIRED format only when `C₁V₁=C₂V₂` is mathematically suitable, not indiscriminately to every percentage question.
 
-## Batch 20 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 20 · Approved 2026-10-08 (instructor conditional confirmation with corrections)
 
-**Status:** Q191–Q200 uploaded Gemini audit gave all ten a PASS. Independently checked NHA 2023-job-analysis ExCPT plan, FDA/DailyMed brand-specific labels, DEA and federal CFR, ISMP abbreviation safety, Texas Ch.486 for a limited post-answer note, and ratio-strength conversion. **ALL 10 ANSWER KEYS SOUND, WITH REQUIRED CODE/DISPENSING-SAFETY REFINEMENTS BELOW. INSTRUCTOR APPROVAL PENDING. NO LIVE GAME CHANGES.**
+**Status:** Q191–Q200 INSTRUCTOR-APPROVED with all documented NHA code, safe patient-facing SIG, Pradaxa storage and federally framed controlled-substance corrections. User replied 'if u do yes' to assistant's recommendation to approve corrected Batch 20. Texas-specific information ONLY after answer reveal. **NO LIVE GAME CHANGES.**
 
 | Q | Topic | Correct answer | Correct official NHA alignment | Review |
 |---|---|---|---|---|
@@ -691,4 +691,4 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Exam-first rule:** National ExCPT question and answer first, only verified Texas distinction after answer reveal, not in question stem. **DO NOT EDIT `index.html`.**
 
-**Next step:** Request instructor sign-off on corrected Q191–Q200; then draft the final Batch21 Q201–Q210 for Gemini audit. 
+**Instructor approval confirmed:** User replied 'if u do yes' following explicit recommendation to approve the corrected Batch 20. **Next:** Final Batch 21 Q201–Q210 for Gemini independent audit. Never edit live `index.html` without separate permission. 
