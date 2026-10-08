@@ -110,3 +110,38 @@ Gemini's audit reported all ten questions Q31–Q40 as PASS, but mistakenly rela
 - Keep original question-answer choices unchanged. Final instructor approval required before game integration.
 
 **Instructor approval received:** User replied 'yes' to approval of Batch 04 with corrected NHA tags and explanations. **Next:** Draft/review Batch 05. Do NOT modify index.html.
+
+## Batch 05 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** Ten answers Q41–Q50 passed external audit and primary-source check; **INSTRUCTOR APPROVAL PENDING**. These questions have **NOT** been added to live game.
+
+| Q | Topic | Verified correct choice | NHA topic alignment | Status |
+|---|---|---|---|---|
+| 41 | Eliquis/apixaban, factor Xa inhibitor | B | K.57, K.61, K.68 | Verified, pending |
+| 42 | Fosamax/alendronate, bisphosphonate | A | K.57, K.61, K.68 | Verified, pending |
+| 43 | Xalatan/latanoprost | C | K.61, K.62, K.68 | Verified, pending |
+| 44 | Zofran/ondansetron, 5-HT3 antagonist | D | K.57, K.61, K.68 | Verified, pending |
+| 45 | Ferrous sulfate, iron-deficiency anemia | B | K.61, K.62, K.65 | Verified, pending |
+| 46 | Azithromycin 250 mg six-tablet 5-day regimen | C | K.111, task 4C.4 | Verified, pending |
+| 47 | C-IV 6-month refills, 8-month-old Rx | D | K.49, task 2B.4 | Verified, pending |
+| 48 | Error-prone abbreviation 'U' for units | A | K.81, K.153, task 5D | Verified, pending |
+| 49 | USP <800> hazardous-drug handling | C | K.39, K.99 | Verified, pending |
+| 50 | Outpatient FDA Medication Guide | B | K.96, task 4B.9 | Verified, pending |
+
+**Caution about Gemini's revised codes:** K.29 refers to OBRA '90; K.31 is the FD&C Act; K.48 DEA forms; K.50 emergency filling; K.14 storage; K.18 Orange Book; K.20 clinical information sources; K.22 Handbook on Injectables; K.16 SDS; K.25 HIPAA. Thus Gemini's proposed tags in Q46–Q50 are incorrect; use topic alignments above.
+
+**Nuances to preserve for teaching:**
+- Q46 quantity: 2 tablets day 1 + 1 tablet days 2, 3, 4, 5 = 6 tablets. The task is quantity calculation 4C.4.
+- Q47 21 CFR §1306.22: no filling/refilling C-III or C-IV after six months from issue, and no more than five refills even within that window.
+- Q48 'U' is unsafe; use the fully written word 'units' and pharmacist verification as indicated. Match K.81/K.153.
+- Q49 USP <800> is hazardous-drug handling, not a synonym for all sterile compounding.
+- Q50 Medication Guides required for covered outpatient prescriptions unless an exception or authorized exemption under 21 CFR 208.26 applies; preserve 'as applicable' and technician/pharmacist workflow. The original answer B remains correct.
+- Confirm actual taught week prior to activating each question. PHRA 1009 is pharmacy math, not an insurance/billing course.
+
+Primary references:
+- NHA ExCPT blueprint: https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+- 21 CFR §1306.22: https://www.ecfr.gov/current/title-21/part-1306/section-1306.22
+- 21 CFR §208.24 and §208.26: https://www.ecfr.gov/current/title-21/part-208/section-208.24 and https://www.ecfr.gov/current/title-21/part-208/section-208.26
+- ISMP Insulin Safety Guide: https://www.ismp.org/sites/default/files/attachments/2018-09/ISMP138D-Insulin%20Guideline-091318.pdf
+
+**Next:** Ask instructor to explicitly approve Q41–Q50 with original/corrected blueprint alignments. No modifications to `index.html` are authorized yet.
