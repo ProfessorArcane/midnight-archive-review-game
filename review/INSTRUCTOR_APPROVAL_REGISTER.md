@@ -145,3 +145,35 @@ Primary references:
 - ISMP Insulin Safety Guide: https://www.ismp.org/sites/default/files/attachments/2018-09/ISMP138D-Insulin%20Guideline-091318.pdf
 
 **Approval recorded:** The instructor replied 'okay as long as you make all the right corrections' after reviewing the corrected alignment and Medication Guide explanation. This approval applies ONLY to the corrected version and not Gemini's erroneous K-code replacements. **Next:** Present Batch 06 for review. No modifications to `index.html` are authorized yet.
+
+## Batch 06 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** Gemini audit received for Q51–Q60. All 10 answer keys supported; corrections to NHA descriptors and two explanations required. **INSTRUCTOR HAS NOT APPROVED BATCH 06 YET. NOTHING MOVED INTO LIVE GAME.**
+
+| Q | Topic | Verified key | Correct NHA alignment | Review disposition |
+|---|---|---|---|---|
+| 51 | MiraLAX/polyethylene glycol 3350 osmotic laxative | B | K.57, K.65 | Pass |
+| 52 | Ditropan XL/oxybutynin antimuscarinic | C | K.57, K.61, K.68 | Pass |
+| 53 | Yasmin/ethinyl estradiol + drospirenone | D | K.68, K.59 | Pass; HOLD until reproductive teaching |
+| 54 | Atrovent HFA/ipratropium anticholinergic | A | K.57, K.61, K.68 | Pass |
+| 55 | DSCSA suspect/tampered product | D | K.33, Task 1J | Explanation revision required |
+| 56 | 2% w/v = 2 g/100 mL = 20 mg/mL | C | K.117, Task 4C.7 | Pass; HOLD until PHRA 1009 percent concentration |
+| 57 | Missing patient name on prescription | B | K.74, Task 4A.1 | Explanation revision required |
+| 58 | BIN for pharmacy claim routing | A | K.85, Task 4A.5 | Pass |
+| 59 | Contaminated sterile needle tip | C | K.125, K.130, Task 4D.7 | Pass |
+| 60 | Class I drug recall definition | B | K.11, Task 1M | Pass |
+
+**Mandatory corrections to use with approval**:
+1. K.68 is *brand/generic names*, NOT a body-systems code (K.62 addresses basic body systems and disease states). K.59 refers to dosage forms. Q53 specifically tests brand composition, primarily K.68. For 55 the original K.33 DSCSA code is correct; 1J is inventory work.
+2. Q55 revised explanation: “Potentially tampered or suspect prescription drug products must be quarantined and promptly investigated under DSCSA pharmacy procedures; the technician segregates the product and alerts the pharmacist. FDA and applicable trading partner notification under DSCSA is required following determination of an *illegitimate* product, not automatically upon every initial suspicion.” Reference: https://www.fda.gov/drugs/drug-supply-chain-security-act-dscsa/notify-fda-illegitimate-products
+3. Q57 revised explanation: “A prescription missing the patient's name or other required identifying information must be held while the technician follows authorized pharmacy procedures to identify the intended patient and resolve missing information. Do not guess, substitute insurance identifiers, or dispense before the discrepancy is resolved. Avoid asserting a universal legal-invalidity rule based solely on the undefined phrase 'positive patient identification'.” See NHA Task 4A.1/K.74.
+4. Q56: `2 g/100 mL × 1000 mg/1 g = 20 mg/mL`. Keep PHRA 1009 only until taught.
+5. Q53: Combination hormonal contraceptive brand/generic after reproductive mini-lesson. Q59 is awareness of aseptic technique and should not be scored before its overview.
+
+**Authoritative verification:**
+- NHA ExCPT 2023 job analysis test plan: https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+- FDA DSCSA verification systems: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/verification-systems-under-drug-supply-chain-security-act-certain-prescription-drugs
+- FDA Class I recall definition: https://www.fda.gov/safety/industry-guidance-recalls/recalls-background-and-definitions
+- DailyMed Ditropan XL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b0384a5-c65a-454d-9761-716af8afe5bd
+
+**Next action:** Request explicit instructor approval for Q51–Q60 with refinements above. Do not modify playable `index.html`.
