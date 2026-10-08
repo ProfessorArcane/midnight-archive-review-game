@@ -146,18 +146,18 @@ Primary references:
 
 **Approval recorded:** The instructor replied 'okay as long as you make all the right corrections' after reviewing the corrected alignment and Medication Guide explanation. This approval applies ONLY to the corrected version and not Gemini's erroneous K-code replacements. **Next:** Present Batch 06 for review. No modifications to `index.html` are authorized yet.
 
-## Batch 06 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 06 · Approved 2026-10-08 (instructor confirmation, corrections applied)
 
-**Status:** Gemini audit received for Q51–Q60. All 10 answer keys supported; corrections to NHA descriptors and two explanations required. **INSTRUCTOR HAS NOT APPROVED BATCH 06 YET. NOTHING MOVED INTO LIVE GAME.**
+**Status:** ALL TEN QUESTIONS Q51–Q60 APPROVED BY INSTRUCTOR WITH CORRECTED NHA DESCRIPTORS AND MANDATORY Q55/Q57 EXPLANATION REVISIONS. **NOT ADDED TO LIVE GAME.**
 
 | Q | Topic | Verified key | Correct NHA alignment | Review disposition |
 |---|---|---|---|---|
 | 51 | MiraLAX/polyethylene glycol 3350 osmotic laxative | B | K.57, K.65 | Pass |
 | 52 | Ditropan XL/oxybutynin antimuscarinic | C | K.57, K.61, K.68 | Pass |
-| 53 | Yasmin/ethinyl estradiol + drospirenone | D | K.68, K.59 | Pass; HOLD until reproductive teaching |
+| 53 | Yasmin/ethinyl estradiol + drospirenone | D | K.68, K.59 | Approved; HOLD until reproductive teaching |
 | 54 | Atrovent HFA/ipratropium anticholinergic | A | K.57, K.61, K.68 | Pass |
-| 55 | DSCSA suspect/tampered product | D | K.33, Task 1J | Explanation revision required |
-| 56 | 2% w/v = 2 g/100 mL = 20 mg/mL | C | K.117, Task 4C.7 | Pass; HOLD until PHRA 1009 percent concentration |
+| 55 | DSCSA suspect/tampered product | D | K.33, Task 1J | Approved with revised explanation |
+| 56 | 2% w/v = 2 g/100 mL = 20 mg/mL | C | K.117, Task 4C.7 | Approved; HOLD until PHRA 1009 percent concentration |
 | 57 | Missing patient name on prescription | B | K.74, Task 4A.1 | Explanation revision required |
 | 58 | BIN for pharmacy claim routing | A | K.85, Task 4A.5 | Pass |
 | 59 | Contaminated sterile needle tip | C | K.125, K.130, Task 4D.7 | Pass |
@@ -176,4 +176,4 @@ Primary references:
 - FDA Class I recall definition: https://www.fda.gov/safety/industry-guidance-recalls/recalls-background-and-definitions
 - DailyMed Ditropan XL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b0384a5-c65a-454d-9761-716af8afe5bd
 
-**Next action:** Request explicit instructor approval for Q51–Q60 with refinements above. Do not modify playable `index.html`.
+**Instructor approval received:** Instructor wrote 'yes lets continue as long as you think everything is correct.' Approval applies to the corrected answers, K-code descriptions, and explanations listed in this register. Q53 is held until the reproductive lesson; Q56 is held until PHRA 1009 percent strength. **Next:** Review Batch 07. Do not modify playable `index.html`.
