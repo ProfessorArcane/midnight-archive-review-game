@@ -25,9 +25,9 @@ The instructor explicitly approved all 10 questions in Batch 01 after external f
 
 **Next step:** Prepare and review Batch 02; do not modify the current playable `index.html` until the instructor separately approves integration.
 
-## Batch 02 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 02 · Approved 2026-10-08 (instructor confirmation)
 
-**Status:** External AI audit received. Answer keys for Q11–Q20 all supported, but **NOT YET APPROVED BY INSTRUCTOR**. **NOT ADDED TO LIVE GAME.**
+**Status:** ALL TEN QUESTIONS Q11–Q20 APPROVED BY INSTRUCTOR after external AI audit and NHA tag corrections. **NOT ADDED TO LIVE GAME.**
 
 The external review labeled Q15 (Dilantin), Q17 (Macrobid), and Q18 (Sprintec) as potentially too advanced for generic PHRA 1001 courses. We instead use this instructor's actual sequence: Q15 matches Week 6 neurologic medications; Q17 tests basic Macrobid → nitrofurantoin monohydrate/macrocrystals brand/formulation recognition, not component arithmetic; Q18 requires teaching the supplemental reproductive mini-lesson before use. Confirm final week assignments before publishing.
 
@@ -37,4 +37,4 @@ The external review labeled Q15 (Dilantin), Q17 (Macrobid), and Q18 (Sprintec) a
 
 **Primary references:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf ; https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f270a9f-12a1-44d4-bc7e-873613555801
 
-**Next step:** Await explicit instructor approval for Batch 02. Preserve all original live content.
+**Instructor approval received:** The instructor replied 'yes' to approval of all ten questions with NHA tags corrected and Q15/Q17/Q18 placed only after relevant instruction. Preserve all original live content; no playable game changes were requested. **Next step:** Review Batch 03.
