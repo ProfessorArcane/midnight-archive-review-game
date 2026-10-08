@@ -247,3 +247,33 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 **ASHP BUD overview:** https://ashp.mhmedical.com/content.aspx?bookid=3688&sectionid=308946140
 
 **Instructor approval received:** User replied 'yes okay' to approval of Q71–Q80 with the listed corrections. The corrected version is the approved version, and original keys remain. **Next:** Present Batch 09 for review. No changes to `index.html`.
+
+## Batch 09 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** All ten question-answer keys Q81–Q90 passed the submitted Gemini audit; independently cross-checked relevant FDA/CPSC/NCC MERP facts and official NHA K-code definitions. **INSTRUCTOR APPROVAL STILL REQUIRED. NOT PUBLISHED TO THE LIVE GAME.** These are original ExCPT-style questions, not official NHA exam items.
+
+| Question | Topic | Verified answer | NHA knowledge/task alignment | Current status |
+|---|---|---|---|---|
+| Q81 | Plavix / clopidogrel P2Y12 antiplatelet | B | K.57, K.68, optionally K.61 | PASS pending approval |
+| Q82 | Spiriva HandiHaler capsules inhaled, not swallowed | B | K.59 dosage form; K.60 route; K.97 instructions for use / 3A.3 | PASS pending approval |
+| Q83 | Tapazole / methimazole for hyperthyroidism | B | K.57, K.61, K.62; K.68 if brand-generic is taught | PASS pending approval |
+| Q84 | Imitrex / sumatriptan for acute migraine | B | K.61, K.68, optionally K.62 | PASS pending approval |
+| Q85 | Doxycycline hyclate, tetracycline antibiotic | C | K.57, K.61 | PASS pending approval |
+| Q86 | Poison Prevention Packaging Act | A | K.35, task 2A.6 | PASS pending approval |
+| Q87 | Sublingual nitroglycerin in original glass bottle | B | K.14, K.93, task 1K | PASS pending approval |
+| Q88 | NCC MERP Category B near miss not reaching patient | B | K.160 (types of medication errors), K.158 reporting as appropriate; tasks 5G/5H | PASS pending approval |
+| Q89 | Technician helps collect/compare information for medication reconciliation | C | K.6, task 1C | PASS pending approval |
+| Q90 | Controlled-drug discrepancy in automated dispensing cabinet | D | K.54/K.55 (controlled-drug handling/inventory/tracking), K.92 ADC role, task 5J (inventory quality) and 1B security | PASS pending approval |
+
+**Required corrections to external audit before approved use:**
+- Q81, Q83, Q84: **K.68 = brand/generic names**, **K.62 = basic body systems and disease states**. These were incorrectly relabeled in the submitted Gemini review. Do not use its erroneous descriptions.
+- Q82: **K.59 is dosage forms, K.60 is routes**, **K.97 is purpose/use of Medication Guides, patient package inserts and instructions for use** (not simply "Administration Instructions" as a formal NHA title). Spiriva HandiHaler instructions explicitly say *do not swallow capsules*. Do not claim a boxed warning for this unless labeling explicitly supports that characterization. FDA/DailyMed: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9
+- Q86: PPPA allows specific prescriber or patient requests for non-child-resistant packaging for applicable prescription products; follow procedures and state rules. CPSC: https://www.cpsc.gov/Poison-Prevention-Packaging-Act
+- Q87: Nitrostat label specifically requires original glass container, tightly capped, to prevent loss of potency. Avoid unsupported over-specific mechanism claims about "evaporation into plastic walls." Product label: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9a52da75-d0af-4237-96c0-0b12adfa8636
+- Q88: **K.14 = medication storage requirements; K.18 = FDA Orange Book**, neither labels the NCC MERP Medication Error Index. K.160 types of errors and tasks 5G/5H are suitable. NCC MERP's Index categories A–I classify by whether an error occurred/reached the patient and harm severity; a dispensing mistake intercepted before release is Category B. Keep distinct from ISMP's other safety materials. NCC MERP: https://www.nccmerp.org/types-medication-errors
+- Q90: K.92 pertains to role/benefits of automated dispensing systems, not by itself the detailed controlled-substance discrepancy procedure. Supplement with K.54/K.55 and 1B/5J. Do not universally assert "immediate quarantine" for an inventory-count mismatch; follow facility discrepancy/security policy, document and promptly escalate, without falsifying or hiding records. 
+- Original answer letters remain unchanged. Confirm taught weekly coverage before activating any question. Never silently move quiz questions into the live board.
+
+**Blueprint:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+
+**Next:** Obtain instructor approval of Batch 09 **with these corrections**. Keep `index.html` unchanged.
