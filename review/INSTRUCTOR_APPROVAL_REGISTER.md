@@ -78,24 +78,24 @@ The external review labeled Q15 (Dilantin), Q17 (Macrobid), and Q18 (Sprintec) a
 
 **Instructor approval received:** User explicitly replied 'yes now save and next batch' to approval of all ten Q21–Q30 with the above refinements. **Next:** Review Batch 04. Preserve the playable game unchanged.
 
-## Batch 04 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 04 · Approved 2026-10-08 (instructor confirmation)
 
-**Status: 10 answer keys passed; instructor approval NOT YET received; live game NOT updated.**
+**Status: ALL TEN QUESTIONS Q31–Q40 APPROVED BY INSTRUCTOR with corrected NHA tags and safety clarifications. Live game NOT updated.**
 
 Gemini's audit reported all ten questions Q31–Q40 as PASS, but mistakenly relabeled multiple NHA ExCPT knowledge codes. Primary-source reference: NHA ExCPT Test Plan based on 2023 Job Analysis, the current blueprint for the exam updated in July 2025: https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
 
 | Q | Topic | Approved key | Correct NHA codes/tasks (instructor review) | Status |
 |---|---|---|---|---|
-| 31 | Schedule II refills | B | K.49; 2B.4 | PASS, NOT APPROVED |
-| 32 | Methotrexate daily vs weekly RA error | C | K.142, K.151; 5D, 5G | PASS, NOT APPROVED |
-| 33 | Metoprolol succinate ER versus tartrate IR | B | K.59; 4B.2 | PASS, NOT APPROVED |
-| 34 | Flomax/tamsulosin alpha-1 blocker | A | K.57, K.61, K.68 | PASS, NOT APPROVED |
-| 35 | Penicillin anaphylaxis & Augmentin order | D | K.78; 4A.2; 5G | PASS, NOT APPROVED |
-| 36 | 150 mL / (5 mL × 3/day) = 10 days | B | K.111; 4C.3 | PASS, NOT APPROVED |
-| 37 | DAW 1 | B | K.82; 4A.9 | PASS, NOT APPROVED |
-| 38 | Refill Too Soon | C | K.88; 4A.6 | PASS, NOT APPROVED |
-| 39 | Lipitor/atorvastatin/statin | B | K.57, K.61, K.68 | PASS, NOT APPROVED |
-| 40 | NDC labeler/product/package components | C | K.98; K.27 | PASS, NOT APPROVED |
+| 31 | Schedule II refills | B | K.49; 2B.4 | PASS, APPROVED |
+| 32 | Methotrexate daily vs weekly RA error | C | K.142, K.151; 5D, 5G | PASS, APPROVED |
+| 33 | Metoprolol succinate ER versus tartrate IR | B | K.59; 4B.2 | PASS, APPROVED |
+| 34 | Flomax/tamsulosin alpha-1 blocker | A | K.57, K.61, K.68 | PASS, APPROVED |
+| 35 | Penicillin anaphylaxis & Augmentin order | D | K.78; 4A.2; 5G | PASS, APPROVED |
+| 36 | 150 mL / (5 mL × 3/day) = 10 days | B | K.111; 4C.3 | PASS, APPROVED |
+| 37 | DAW 1 | B | K.82; 4A.9 | PASS, APPROVED |
+| 38 | Refill Too Soon | C | K.88; 4A.6 | PASS, APPROVED |
+| 39 | Lipitor/atorvastatin/statin | B | K.57, K.61, K.68 | PASS, APPROVED |
+| 40 | NDC labeler/product/package components | C | K.98; K.27 | PASS, APPROVED |
 
 **Critical corrections to Gemini:**
 - K.48 = DEA forms, K.49 = expiration dates and refills for controlled substances, K.50 = emergency filling. Keep original Q31 K.49.
@@ -109,4 +109,4 @@ Gemini's audit reported all ten questions Q31–Q40 as PASS, but mistakenly rela
 - Current NDC components remain labeler/product/package; FDA 12-digit 6-4-2 uniform transition effective March 7, 2033: https://www.fda.gov/drugs/drug-approvals-and-databases/national-drug-code-directory .
 - Keep original question-answer choices unchanged. Final instructor approval required before game integration.
 
-**Next step:** Ask instructor for explicit approval of Batch 04 with these corrected tags and explanation clarifications. Do NOT modify index.html.
+**Instructor approval received:** User replied 'yes' to approval of Batch 04 with corrected NHA tags and explanations. **Next:** Draft/review Batch 05. Do NOT modify index.html.
