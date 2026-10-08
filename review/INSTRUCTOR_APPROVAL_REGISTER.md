@@ -77,3 +77,36 @@ The external review labeled Q15 (Dilantin), Q17 (Macrobid), and Q18 (Sprintec) a
 - CDC vaccine storage: https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-5-vaccine-storage-and-handling.html
 
 **Instructor approval received:** User explicitly replied 'yes now save and next batch' to approval of all ten Q21–Q30 with the above refinements. **Next:** Review Batch 04. Preserve the playable game unchanged.
+
+## Batch 04 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status: 10 answer keys passed; instructor approval NOT YET received; live game NOT updated.**
+
+Gemini's audit reported all ten questions Q31–Q40 as PASS, but mistakenly relabeled multiple NHA ExCPT knowledge codes. Primary-source reference: NHA ExCPT Test Plan based on 2023 Job Analysis, the current blueprint for the exam updated in July 2025: https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+
+| Q | Topic | Approved key | Correct NHA codes/tasks (instructor review) | Status |
+|---|---|---|---|---|
+| 31 | Schedule II refills | B | K.49; 2B.4 | PASS, NOT APPROVED |
+| 32 | Methotrexate daily vs weekly RA error | C | K.142, K.151; 5D, 5G | PASS, NOT APPROVED |
+| 33 | Metoprolol succinate ER versus tartrate IR | B | K.59; 4B.2 | PASS, NOT APPROVED |
+| 34 | Flomax/tamsulosin alpha-1 blocker | A | K.57, K.61, K.68 | PASS, NOT APPROVED |
+| 35 | Penicillin anaphylaxis & Augmentin order | D | K.78; 4A.2; 5G | PASS, NOT APPROVED |
+| 36 | 150 mL / (5 mL × 3/day) = 10 days | B | K.111; 4C.3 | PASS, NOT APPROVED |
+| 37 | DAW 1 | B | K.82; 4A.9 | PASS, NOT APPROVED |
+| 38 | Refill Too Soon | C | K.88; 4A.6 | PASS, NOT APPROVED |
+| 39 | Lipitor/atorvastatin/statin | B | K.57, K.61, K.68 | PASS, NOT APPROVED |
+| 40 | NDC labeler/product/package components | C | K.98; K.27 | PASS, NOT APPROVED |
+
+**Critical corrections to Gemini:**
+- K.48 = DEA forms, K.49 = expiration dates and refills for controlled substances, K.50 = emergency filling. Keep original Q31 K.49.
+- K.14 = storage requirements; K.18 = FDA Orange Book. For Q32, keep original safety tags K.142 (ISMP Guidelines) and K.151 (high-alert/high-risk).
+- K.29 = OBRA 1990 and K.31 = FD&C Act; Q36 is K.111 (dosage units and days' supply), task 4C.3.
+- K.42 = CSA; K.43 = DEA. For Q37 use K.82 (DAW), 4A.9. For Q38 use K.88 (third-party rejections), 4A.6.
+- K.25 = HIPAA and K.40 = non-controlled prescription filling laws; for Q40 use K.98 (NDC components), K.27 (Drug Listing Act incl. NDC).
+- Gemini's statement that cross-sensitivity between penicillin and amoxicillin/clavulanate is approximately 100% should not be used. Amoxicillin itself is penicillin-class, and Augmentin is contraindicated in a patient with a history of serious anaphylaxis to penicillins. FDA label: https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/050720s039lbl.pdf .
+- Q36 arithmetic result is 10 **days**; preserve mL units in setup (not currency symbols).
+- DAW and third-party claims processing are PHRA 1001 content, NOT PHRA 1009, which is the pharmacy mathematics course. Days' supply recurs during PHRA 1009.
+- Current NDC components remain labeler/product/package; FDA 12-digit 6-4-2 uniform transition effective March 7, 2033: https://www.fda.gov/drugs/drug-approvals-and-databases/national-drug-code-directory .
+- Keep original question-answer choices unchanged. Final instructor approval required before game integration.
+
+**Next step:** Ask instructor for explicit approval of Batch 04 with these corrected tags and explanation clarifications. Do NOT modify index.html.
