@@ -3,13 +3,14 @@
   "status": "DERIVED METADATA ONLY — NOT CANONICAL APPROVED QUESTION TEXT, NOT PLAYABLE",
   "created": "2026-10-08",
   "source": "review/INSTRUCTOR_APPROVAL_REGISTER.md and archived Batch01 source; Batch02 external audit key summary",
-  "warning": "All 210 IDs approved, but full original stem, four choice strings, exact rationale and corrected revealed Texas notes remain unarchived. Do not use this metadata alone as exam/game source. Exact original Q11–Q160 were not recovered from prior chat index or library uploads.",
+  "warning": "210 IDs and keys are audited metadata, NOT 210 reconstructed full exam questions. Exact original Q011–Q170 (160 items) cannot currently be recovered from approval summaries, indexed old chats or Library. Q171–210 (40) have original text visible in the current conversation but are not yet safely archived into a canonical content file. Do not invent unrecovered wording or mark it originally approved.",
   "counts": {
     "total": 210,
     "keys_present": 210,
     "full_question_text_stored_in_library": 10,
     "unrecovered_exact_text_Q11_Q160": 150,
-    "more_recent_question_text_visible_but_not_canonical_Q161_Q210": 50
+    "original_batch17_exact_text_unrecovered_Q161_Q170": 10,
+    "full_question_text_visible_in_current_chat_Q171_Q210": 40
   },
   "answer_key_distribution": {
     "B": 58,
@@ -2109,8 +2110,8 @@
       "stem": null,
       "options": null,
       "explanation": null,
-      "provenance": "GitHub approval register; original text available in recent conversation but not yet committed in canonical form",
-      "full_text_status": "CHAT_VISIBLE_NOT_ARCHIVED_AS_CANONICAL"
+      "provenance": "Batch17 condensed prior-conversation summary, answer-key metadata in review register; exact complete original stem, all four option strings and full explanation not recovered",
+      "full_text_status": "SUMMARY_ONLY_NOT_EXACT_ORIGINAL"
     },
     {
       "id": 162,
@@ -2122,8 +2123,8 @@
       "stem": null,
       "options": null,
       "explanation": null,
-      "provenance": "GitHub approval register; original text available in recent conversation but not yet committed in canonical form",
-      "full_text_status": "CHAT_VISIBLE_NOT_ARCHIVED_AS_CANONICAL"
+      "provenance": "Batch17 condensed prior-conversation summary, answer-key metadata in review register; exact complete original stem, all four option strings and full explanation not recovered",
+      "full_text_status": "SUMMARY_ONLY_NOT_EXACT_ORIGINAL"
     },
     {
       "id": 163,
@@ -2135,8 +2136,8 @@
       "stem": null,
       "options": null,
       "explanation": null,
-      "provenance": "GitHub approval register; original text available in recent conversation but not yet committed in canonical form",
-      "full_text_status": "CHAT_VISIBLE_NOT_ARCHIVED_AS_CANONICAL"
+      "provenance": "Batch17 condensed prior-conversation summary, answer-key metadata in review register; exact complete original stem, all four option strings and full explanation not recovered",
+      "full_text_status": "SUMMARY_ONLY_NOT_EXACT_ORIGINAL"
     },
     {
       "id": 164,
@@ -2148,8 +2149,8 @@
       "stem": null,
       "options": null,
       "explanation": null,
-      "provenance": "GitHub approval register; original text available in recent conversation but not yet committed in canonical form",
-      "full_text_status": "CHAT_VISIBLE_NOT_ARCHIVED_AS_CANONICAL"
+      "provenance": "Batch17 condensed prior-conversation summary, answer-key metadata in review register; exact complete original stem, all four option strings and full explanation not recovered",
+      "full_text_status": "SUMMARY_ONLY_NOT_EXACT_ORIGINAL"
     },
     {
       "id": 165,
@@ -2161,8 +2162,8 @@
       "stem": null,
       "options": null,
       "explanation": null,
-      "provenance": "GitHub approval register; original text available in recent conversation but not yet committed in canonical form",
-      "full_text_status": "CHAT_VISIBLE_NOT_ARCHIVED_AS_CANONICAL"
+      "provenance": "Batch17 condensed prior-conversation summary, answer-key metadata in review register; exact complete original stem, all four option strings and full explanation not recovered",
+      "full_text_status": "SUMMARY_ONLY_NOT_EXACT_ORIGINAL"
     },
     {
       "id": 166,
@@ -2174,8 +2175,8 @@
       "stem": null,
       "options": null,
       "explanation": null,
-      "provenance": "GitHub approval register; original text available in recent conversation but not yet committed in canonical form",
-      "full_text_status": "CHAT_VISIBLE_NOT_ARCHIVED_AS_CANONICAL"
+      "provenance": "Batch17 condensed prior-conversation summary, answer-key metadata in review register; exact complete original stem, all four option strings and full explanation not recovered",
+      "full_text_status": "SUMMARY_ONLY_NOT_EXACT_ORIGINAL"
     },
     {
       "id": 167,
@@ -2187,8 +2188,8 @@
       "stem": null,
       "options": null,
       "explanation": null,
-      "provenance": "GitHub approval register; original text available in recent conversation but not yet committed in canonical form",
-      "full_text_status": "CHAT_VISIBLE_NOT_ARCHIVED_AS_CANONICAL"
+      "provenance": "Batch17 condensed prior-conversation summary, answer-key metadata in review register; exact complete original stem, all four option strings and full explanation not recovered",
+      "full_text_status": "SUMMARY_ONLY_NOT_EXACT_ORIGINAL"
     },
     {
       "id": 168,
@@ -2200,8 +2201,8 @@
       "stem": null,
       "options": null,
       "explanation": null,
-      "provenance": "GitHub approval register; original text available in recent conversation but not yet committed in canonical form",
-      "full_text_status": "CHAT_VISIBLE_NOT_ARCHIVED_AS_CANONICAL"
+      "provenance": "Batch17 condensed prior-conversation summary, answer-key metadata in review register; exact complete original stem, all four option strings and full explanation not recovered",
+      "full_text_status": "SUMMARY_ONLY_NOT_EXACT_ORIGINAL"
     },
     {
       "id": 169,
@@ -2213,8 +2214,8 @@
       "stem": null,
       "options": null,
       "explanation": null,
-      "provenance": "GitHub approval register; original text available in recent conversation but not yet committed in canonical form",
-      "full_text_status": "CHAT_VISIBLE_NOT_ARCHIVED_AS_CANONICAL"
+      "provenance": "Batch17 condensed prior-conversation summary, answer-key metadata in review register; exact complete original stem, all four option strings and full explanation not recovered",
+      "full_text_status": "SUMMARY_ONLY_NOT_EXACT_ORIGINAL"
     },
     {
       "id": 170,
@@ -2226,8 +2227,8 @@
       "stem": null,
       "options": null,
       "explanation": null,
-      "provenance": "GitHub approval register; original text available in recent conversation but not yet committed in canonical form",
-      "full_text_status": "CHAT_VISIBLE_NOT_ARCHIVED_AS_CANONICAL"
+      "provenance": "Batch17 condensed prior-conversation summary, answer-key metadata in review register; exact complete original stem, all four option strings and full explanation not recovered",
+      "full_text_status": "SUMMARY_ONLY_NOT_EXACT_ORIGINAL"
     },
     {
       "id": 171,
