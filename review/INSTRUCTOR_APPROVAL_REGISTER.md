@@ -278,9 +278,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Instructor approval received:** User explicitly said 'yes give me next' in reply to approving Q81–Q90 with corrections. Approval applies to the verified corrected version. **Next:** Prepare Batch 10 (Q91–Q100). Keep `index.html` unchanged.
 
-## Batch 10 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 10 · Approved 2026-10-08 (instructor confirmation with corrections)
 
-**Status:** Q91–Q100 answer keys passed Gemini audit and primary-source NHA/FDA/DEA verification. **TEN VERIFIED, NOT YET INSTRUCTOR-APPROVED.** No content has been added to the playable game.
+**Status:** Q91–Q100 VERIFIED AND INSTRUCTOR-APPROVED with the NHA code corrections, safety explanations, DEA reporting distinction, and curriculum holds documented below. **NOT ADDED TO THE PLAYABLE GAME.**
 
 | Q | Topic | Correct answer | Verified NHA code/task alignment | Decision |
 |---|---|---|---|---|
@@ -314,4 +314,4 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 - DEA Form 106 portal: https://www.deadiversion.usdoj.gov/21cfr_reports/theft/theft-loss.html
 - Depo-Provera CI label: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049
 
-**Next step:** Ask instructor explicitly to approve Batch 10 with correct K.150, K.149/K.154, 45-day Form 106 clarification and curriculum holds before recording approved. **Do NOT modify `index.html` yet.**
+**Instructor approval received:** User stated 'okay as long as you agree let us move forward.' Approval applies to the corrected NHA codes (including K.150, K.149/K.154), reporting explanation, and curriculum holds recorded here. **Next: draft Batch 11, Q101–Q110 for external review. Do NOT modify `index.html` yet.**
