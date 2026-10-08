@@ -178,9 +178,9 @@ Primary references:
 
 **Instructor approval received:** Instructor wrote 'yes lets continue as long as you think everything is correct.' Approval applies to the corrected answers, K-code descriptions, and explanations listed in this register. Q53 is held until the reproductive lesson; Q56 is held until PHRA 1009 percent strength. **Next:** Review Batch 07. Do not modify playable `index.html`.
 
-## Batch 07 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 07 · Approved 2026-10-08 (conditional approval, corrections applied)
 
-**Status:** All ten answer keys Q61–Q70 independently reviewed against available primary sources and agreed with external review. **PENDING INSTRUCTOR APPROVAL; NOT IN LIVE GAME.**
+**Status:** ALL TEN QUESTIONS Q61–Q70 INSTRUCTOR-APPROVED, CONDITIONAL ON THE CORRECT NHA TERMINOLOGY AND EXPLANATION REFINEMENTS IN THIS RECORD. **NOT IN LIVE GAME.**
 
 | Q | Topic | Correct choice | NHA alignment | Disposition |
 |---|---|---|---|---|
@@ -211,4 +211,4 @@ Primary references:
 - DailyMed Advair Diskus 2026: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4eeb5f6a-593f-4a9e-9692-adefa2caf8fc
 - Medicare outpatient Part D coverage: https://www.medicare.gov/coverage/prescription-drugs-outpatient
 
-**Next:** Ask instructor to approve Q61–Q70 with above precise labels and explanation refinements; THEN mark Batch 07 approved. Do not modify `index.html`.
+**Instructor approval received:** User said 'next batch as long as everything is correct.' Approval applies to the verified, corrected explanations and NHA tags recorded above. Hold Q65 until reproductive mini-lesson and Q70 for PHRA 1009 ratio strength. **Next:** Batch 08 for review. Do not modify `index.html`.
