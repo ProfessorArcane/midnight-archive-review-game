@@ -426,7 +426,7 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 | 133 | Valtrex/valacyclovir, antiviral for shingles | C | K.57, K.61, K.68 | PASS |
 | 134 | Shingrix recombinant zoster vaccine prevents shingles | D | K.73 | PASS; HOLD until immunization overview |
 | 135 | Concentrated KCl injection wrong storage; stop and refer | C | K.151, tasks 5D/5G | PASS; HOLD until high-alert/hospital safety |
-| 136 | One-time EPCS C-II initial dispensing transfer electronically | D | K.53, task 2B.4 | PASS; refine scope of authorized pharmacists |
+| 136 | Texas-specific EPCS C-II initial-fill forwarding/transfer, where technologically supported | D | K.53, task 2B.4 | **REVISE FOR TEXAS; DO NOT APPROVE YET** |
 | 137 | Eligible home blood-glucose meter: Original Medicare Part B DME | A | K.90, K.91, task 4A.12 | PASS |
 | 138 | Bactrim DS + warfarin raises INR risk: pharmacist review | D | K.71, K.84, task 4A.11 | PASS; precise safety language |
 | 139 | 120 actuations / (2 puffs/dose × 2 doses/day) = 30 days | B | K.111, task 4C.3 | PASS; HOLD until PHRA 1009 days' supply lesson |
@@ -446,4 +446,20 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Authoritative test plan** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
 
-**Next:** Obtain instructor approval for corrected Q131–Q140. DO NOT edit `index.html`.
+**Q136 TEXAS-SPECIFIC OVERRIDE (2026-10-08):** Texas State Board of Pharmacy FAQ no. 23 (February 2025) states that for initial dispensing of a previously unfilled electronic prescription for controlled substances, when both originating and receiving pharmacies have software capability to forward/receive the EPCS, electronic forwarding is available for **all schedules, including Schedule II**. Without that capability, the board recommends contacting prescriber to retract and resend. Do NOT teach 'Texas bans all Schedule II transfers' as an absolute. Distinguish C-II **no refills** (true) from eligible initial-fill electronic forwarding. TSBP: https://www.pharmacy.texas.gov/files_pdf/TSBP_Rules_FAQs.pdf ; 22 TAC 291.34(g): https://regulations.justia.com/states/texas/title-22/part-15/chapter-291/subchapter-b/section-291-34/ ; federal 21 CFR 1306.08(e)-(h). Q136 currently PENDING and must be revised to explicitly state Texas initial fill and electronic compatibility before instructor approval.
+
+**Next:** Revise Q136 for Texas specifics and request instructor approval of revised Batch 14. DO NOT edit `index.html`.
+
+## Texas-law jurisdiction directive and retroactive review · 2026-10-08
+
+**Instructor directive:** Pharmacy law and regulatory assessment questions for this Texas cohort must use current TEXAS rules in combination with applicable federal law. Where Texas is stricter or more specific, assess the state-compliant rule and explicitly distinguish federal minimums. The legal audit is NOT complete. Verify legal questions against the Texas State Board of Pharmacy (TSBP), Texas Administrative Code, Texas Health & Safety Code, as well as DEA/CFR/FDA. Do not say a topic is “Texas verified” based solely on federal law.
+
+**URGENT RETROACTIVE HOLD, Q110 (Batch 11):** Q110 was approved in a FEDERAL-only form with “at least every two years” as answer C, citing 21 CFR 1304.11(c). That is true as a **federal minimum** but MISLEADING for students answering Texas operational questions. 22 TAC §291.17(c) requires an **ANNUAL inventory** for Texas Class A, A-S, C, C-S and F pharmacies, on May 1 or regular general physical inventory date within allowable window, plus other inventories as specified. **Do NOT activate original Q110** for a Texas-classroom assessment until rewritten and re-approved. Proposed replacement: “Under Texas Board rule §291.17, how frequently must a Texas Class A community pharmacy take its routine controlled-substance inventory?” A Every 30 days; B Annually; C Every two years; D Only when a discrepancy occurs. **Correct B**. Clarify federal biennial minimum in teacher notes. Pending instructor signoff on revised wording. September 1, 2025 Texas amendments eliminated notarization requirement; do not rely on stale TSBP handouts requiring notarization.
+Texas rule: https://www.pharmacy.texas.gov/files_pdf/BN/Aug25/C.1.3.pdf ; adopted changes: https://www.sos.state.tx.us/texreg/pdf/backview/0829/0829adop.pdf ; 21 CFR: https://www.ecfr.gov/current/title-21/chapter-II/part-1304/section-1304.11
+
+**Batch 14 Q136** remains PENDING for Texas-tailored revision. TSBP FAQ #23 expressly allows certain EPCS initial forwarding (including C-II) when both pharmacies have compatible software; otherwise prescriber retraction and resend preferred. No C-II refills. Distinguish paper/faxed controlled Rx, CIII-V refills and unfilled initial EPCS forwarding. https://www.pharmacy.texas.gov/files_pdf/TSBP_Rules_FAQs.pdf
+
+**Other previously discussed law questions to check for Texas caveats, pending separate systematic audit:** Q29 pseudoephedrine OTC sale procedures and exemptions; Q31 C-II unauthorized refills (no refills federal and TX); Q37 DAW/prescriber substitution prohibition (Texas generic substitution law); Q47 Schedule III–IV five refills/six months; Q79 DEA Form 222; Q86 non-child-resistant packaging; Q99 Form 106, including TSBP separate **immediate written theft/loss reporting** under §291.3(f) and federal DEA deadlines; Q119 final pharmacist verification and Texas institutional tech-check-tech exceptions; Q140 suspected alteration and pharmacist/prescriber validation. May extend as new legal scenarios are added. Q99 answer C remains correct, but Texas-reporting notes must be added.
+TSBP FAQ Q20: https://www.pharmacy.texas.gov/files_pdf/TSBP_Rules_FAQs.pdf
+
+**Status:** Batch 14 Q131–Q140 remains *not approved*. Batch 11 Q110 approval is **suspended for Texas exam use** pending rewritten version; preserve original answer C only as a clearly labeled FEDERAL-law question. No changes to `index.html` have been authorized.
