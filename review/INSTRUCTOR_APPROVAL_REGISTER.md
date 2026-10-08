@@ -315,3 +315,35 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 - Depo-Provera CI label: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049
 
 **Instructor approval received:** User stated 'okay as long as you agree let us move forward.' Approval applies to the corrected NHA codes (including K.150, K.149/K.154), reporting explanation, and curriculum holds recorded here. **Next: draft Batch 11, Q101–Q110 for external review. Do NOT modify `index.html` yet.**
+
+## Batch 11 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** Gemini reports all ten Q101–Q110 answer choices correct; answers are independently consistent with checked NHA/FDA/DEA/CMS sources. **PENDING INSTRUCTOR APPROVAL. NO LIVE GAME UPDATE.** Practice questions are original and not actual ExCPT exam items.
+
+| Q | Topic | Correct answer | NHA alignment | Outcome |
+|---|---|---|---|---|
+| 101 | Coreg/carvedilol alpha/beta blockade | C | K.57, K.61, K.68; optionally K.62 | PASS; approval pending |
+| 102 | Diflucan/fluconazole triazole antifungal | A | K.57, K.61, K.68; 3A.1 | PASS; approval pending |
+| 103 | Lyrica/pregabalin federal Schedule V | D | K.44, K.61, K.68; 2B.1 | PASS; approval pending |
+| 104 | Wellbutrin XL 150 ordered, bupropion SR 150 chosen by mistake | B | K.59, K.68; 4B.2, 5D | PASS; amend explanation |
+| 105 | Keppra/levetiracetam | A | K.68, optionally K.57/K.61/K.62 | PASS; HOLD until neurologic/anticonvulsant lessons |
+| 106 | Purple Book FDA reference for licensed biologics and biosimilars | C | task 1O (use references), K.18 Orange Book / K.19 AAP Red Book only as *comparators* | PASS; amend distractor explanation; HOLD until drug reference lesson |
+| 107 | NPI uniquely identifies provider for HIPAA administrative transactions | D | K.79; 4A.1/4A.5 as applicable | PASS |
+| 108 | Simvastatin/grapefruit juice interaction, refer to pharmacist | B | K.71; 4B.12 | PASS |
+| 109 | COB submit designated primary payer before secondary as applicable | A | K.86; 4A.6 | PASS |
+| 110 | Federal controlled-substance biennial inventory at least every 2 years | C | task 2B.7, K.54 (ordering/receiving/storing/disposal procedures), plus inventory context; distinguish K.55 perpetual tracking | PASS; clarify exact tag definition |
+
+**Mandatory precision corrections to external audit and future question explanations:**
+
+- Q104: Correct response is to stop and select the *prescribed XL product* with pharmacist verification. XL and SR are different-release formulations and should not be substituted without authorization, but the blanket claim that they are clinically "non-interchangeable" is inaccurate: **WELLBUTRIN XL FDA labeling explicitly provides for prescriber-directed switching from WELLBUTRIN SR to XL, giving the same total daily dose when possible**. Do not imply medically supervised switching cannot occur. Source: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a435da9d-f6e8-4ddc-897d-8cd2bf777b21
+- Q106: Purple Book is FDA's database of licensed biological products and biosimilar/interchangeable relationships. **The answer C is correct.** The specific distractor in the question is **American Academy of Pediatrics Red Book**, a pediatric infectious-disease reference formally named under **NHA K.19**. Gemini incorrectly described it as the pharmaceutical drug-pricing Red Book (a different publication). Orange Book is K.18. Purple Book is NOT explicitly listed as its own K-code on the NHA outline; task **1O: Access and use references and resources** is accurate. FDA reference: https://purplebooksearch.fda.gov/index.cfm?event=about . AAP Red Book reference: https://publications.aap.org/redbook
+- Q110: Federal requirement is at least **every two years** after initial inventory under 21 CFR 1304.11(c), subject to more demanding state law or institutional policy. NHA K.54's full wording is **"Procedures for ordering, receiving, storing, and disposing of controlled substances"**. It is NOT specifically defined as "initial/biennial/perpetual inventory requirements" despite Gemini's claim; **K.55 = tracking requirements for perpetual inventory**. The clearest primary alignment is **task 2B.7** (order, store, maintain controlled-substance inventory), with K.54 as adjacent supporting knowledge. 21 CFR: https://www.ecfr.gov/current/title-21/chapter-II/part-1304/section-1304.11
+- Q103: Pregabalin is federally C-V; some states may have extra restrictions on other anticonvulsants such as gabapentin. Keep distinction.
+- Q105: Student must learn neurological medication recognition before game use. Original question asks brand/generic, so K.68 is primary.
+- Q107: K.79 explicitly names the **National Provider Identifier (NPI)**; do not generalize its official title to "all prescriber information." CMS: https://www.cms.gov/regulations-and-guidance/administrative-simplification/nationalprovidentstand
+- Q108: Current simvastatin labeling advises **avoid grapefruit juice**; referral to pharmacist is correct, not technician dietary advice. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=acaaab63-c9ff-44c9-8fde-9a4ea6454dd7
+- Q109: Primary payer is processed first *as designated by the correct COB sequence*, then secondary where applicable; do not submit two plans as primary.
+
+**Official NHA blueprint**: https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+
+**Next step:** Ask the instructor to explicitly approve Batch 11 Q101–Q110 **with the above corrections and teaching holds** before marking approved. Do not edit `index.html`.
