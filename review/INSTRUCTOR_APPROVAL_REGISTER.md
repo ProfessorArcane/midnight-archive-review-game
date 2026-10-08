@@ -24,3 +24,17 @@ The instructor explicitly approved all 10 questions in Batch 01 after external f
 **Answer key storage:** The full question text and answer key were reviewed with the instructor in the chat. Do not publish a fresh consolidated answer key on the public repository before gameplay implementation. Existing public draft question files are still unapproved except where this register specifically marks a reviewed Batch 01 item; overlapping drafts do not acquire blanket approval. 
 
 **Next step:** Prepare and review Batch 02; do not modify the current playable `index.html` until the instructor separately approves integration.
+
+## Batch 02 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** External AI audit received. Answer keys for Q11–Q20 all supported, but **NOT YET APPROVED BY INSTRUCTOR**. **NOT ADDED TO LIVE GAME.**
+
+The external review labeled Q15 (Dilantin), Q17 (Macrobid), and Q18 (Sprintec) as potentially too advanced for generic PHRA 1001 courses. We instead use this instructor's actual sequence: Q15 matches Week 6 neurologic medications; Q17 tests basic Macrobid → nitrofurantoin monohydrate/macrocrystals brand/formulation recognition, not component arithmetic; Q18 requires teaching the supplemental reproductive mini-lesson before use. Confirm final week assignments before publishing.
+
+**Critical correction to external review:** NHA's actual ExCPT knowledge statements are **K.57 = Drug classes**, **K.59 = Dosage forms**, **K.61 = Indications for frequently prescribed medications**, **K.62 = Basic body systems and disease states**, **K.63 = Basic pharmacotherapy for common acute and chronic diseases**, and **K.68 = Brand/generic medication names**. Do not repeat its erroneous descriptions (e.g. K.62 as brand/generic, K.68 as cardiovascular system).
+
+**Selected alignment corrections:** Q11 K.68 (also K.62/63 if teaching hypertension); Q12 K.61/K.63 and pharmacist consultation duty 4B.12 rather than K.62 as a scope code; Q13 K.57/K.61; Q14 K.57/K.63; Q15 K.68; Q16 K.68; Q17 K.68/K.59; Q18 K.68/K.59; Q19 K.57/K.59; Q20 K.61/K.62. Treat exact tags as subject to final instructor mapping.
+
+**Primary references:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf ; https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f270a9f-12a1-44d4-bc7e-873613555801
+
+**Next step:** Await explicit instructor approval for Batch 02. Preserve all original live content.
