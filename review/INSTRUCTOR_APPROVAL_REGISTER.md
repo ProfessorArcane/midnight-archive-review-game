@@ -277,3 +277,41 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 **Blueprint:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
 
 **Instructor approval received:** User explicitly said 'yes give me next' in reply to approving Q81–Q90 with corrections. Approval applies to the verified corrected version. **Next:** Prepare Batch 10 (Q91–Q100). Keep `index.html` unchanged.
+
+## Batch 10 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** Q91–Q100 answer keys passed Gemini audit and primary-source NHA/FDA/DEA verification. **TEN VERIFIED, NOT YET INSTRUCTOR-APPROVED.** No content has been added to the playable game.
+
+| Q | Topic | Correct answer | Verified NHA code/task alignment | Decision |
+|---|---|---|---|---|
+| 91 | Lanoxin/digoxin cardiac glycoside | B | K.57, K.61, K.68 | PASS, pending |
+| 92 | Pyridium/phenazopyridine urinary analgesic, not antimicrobial | C | K.61, K.62, K.68 | PASS, pending |
+| 93 | Reglan/metoclopramide gastrointestinal prokinetic | A | K.57, K.61, K.62; K.149 for boxed-warning teaching | PASS, pending |
+| 94 | Lamictal/lamotrigine new rash: urgent pharmacist escalation | D | K.70, K.149, K.154; task 5G; 4B.12 | PASS, pending; clarify boxed warning |
+| 95 | Depo-Provera CI medroxyprogesterone acetate 150 mg/mL IM | A | K.59 dosage forms; K.60 routes; K.68 brand/generic | PASS, pending; HOLD until reproductive lesson |
+| 96 | Tall Man glipiZIDE vs glyBURIDE | B | **K.150** and task **5D**, NOT K.81 | PASS, pending; correct metadata |
+| 97 | 125 mg/5 mL; 375 mg BID x5 days = 150 mL | D | K.111; tasks 4C.2 and 4C.4 | PASS, pending; HOLD until PHRA 1009 liquid dosing |
+| 98 | First-expiring-first-out: Nov 2026 before Mar 2027 | A | K.13, task 1J (and 1L when expired stock) | PASS, pending |
+| 99 | DEA Form 106 for theft/significant loss | C | K.48, task 2B.7 | PASS, pending; distinguish reporting deadlines |
+| 100 | Spironolactone + OTC potassium risk of hyperkalemia | B | K.71, task 4B.12 | PASS, pending |
+
+**Required corrections and nuance to preserve in approved versions:**
+
+1. NHA **K.68 means brand and generic medication names, not body systems**; **K.62 means basic body systems and disease states**.
+2. Q94: K.70 = effects and side effects; K.149 = boxed warnings; K.154 = ADEs and ADRs; K.71 = basic drug interactions (not the correct key tag for this standalone rash scenario). FDA 2025/2026 lamotrigine labeling indicates serious rashes such as SJS/TEN can be fatal, should generally prompt discontinuation at first sign unless clearly non-drug-related; pharmacist/qualified clinician handles treatment decisions. Technician must urgently flag the rash and never independently adjust a prescription.
+3. Q96: Both original and Gemini cited K.81, but that refers only to **ISMP's error-prone abbreviations list**. Actual Tall Man code is **K.150**. The proper task is 5D (prevent confusion of look-alike/sound-alike names). Verify glipiZIDE/glyBURIDE casing from FDA Name Differentiation Project.
+4. Q97: Calculation with unit setup: 375 mg × (5 mL/125 mg) = 15 mL per dose; ×2 doses/day ×5 days = 150 mL. PHRA1009, only after teaching.
+5. Q98: FEFO Nov 2026 vs Mar 2027 assumes both stock bottles currently usable, as stem says. Expired products are removed, not rotated into use.
+6. Q99: DEA registrant **notifies the local DEA field office in writing within one business day** of discovery of theft/significant loss, then **files complete, accurate DEA Form 106 through online secure portal within 45 days** after discovery under current 21 CFR §1301.76(b). Minor count discrepancies are not automatically significant loss. Distinguish notification from Form 106 filing. Technicians escalate, registrants handle DEA reporting.
+7. Q95: Depo-Provera *CI*, specifically, is 150 mg/mL for deep intramuscular injection every 13 weeks; avoid conflating with different formulations. Keep on reproductive hold.
+8. Q100: No supplement advice beyond spotting potential hyperkalemia interaction and promptly referring to pharmacist.
+
+**Official supporting sources:**
+- NHA ExCPT test plan: https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+- FDA Tall Man list: https://www.fda.gov/drugs/medication-errors-related-cder-regulated-drug-products/fda-name-differentiation-project
+- FDA LAMICTAL label: https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/020241s068s069%2C020764s061s062%2C022251s032s033lbl.pdf
+- 21 CFR 1301.76(b): https://www.ecfr.gov/current/title-21/chapter-II/part-1301/section-1301.76
+- DEA Form 106 portal: https://www.deadiversion.usdoj.gov/21cfr_reports/theft/theft-loss.html
+- Depo-Provera CI label: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049
+
+**Next step:** Ask instructor explicitly to approve Batch 10 with correct K.150, K.149/K.154, 45-day Form 106 clarification and curriculum holds before recording approved. **Do NOT modify `index.html` yet.**
