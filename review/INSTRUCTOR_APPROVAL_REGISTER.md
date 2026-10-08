@@ -415,9 +415,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Instructor approval received:** User replied 'ok' after recommendation to approve Batch 13 with its documented corrections. Approval applies to the corrected version. Q122 held until psychiatric instruction, Q126 until sterile-compounding overview, Q130 until PHRA 1009 Meeting 5. **Next:** Draft Batch 14 Q131–Q140 for independent review. Do not modify `index.html`.
 
-## Batch 14 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 14 · Approved 2026-10-08 (instructor confirmation with corrections)
 
-**Status:** All ten answer keys Q131–Q140 independently reviewed against submitted Gemini audit and appropriate NHA, FDA, CDC, DEA, CMS, DailyMed primary references. **ANSWER REVIEW PASS. INSTRUCTOR APPROVAL PENDING. NOT ADDED TO PLAYABLE GAME.**
+**Status:** ALL TEN Q131–Q140 INSTRUCTOR-APPROVED with reviewed NHA mapping and nationally scoped federal law. Texas-specific operational differences appear **only after answer reveal** as an optional note, not in the question stem or correct key. **NOT ADDED TO PLAYABLE GAME.**
 
 | Q | Topic | Verified choice | NHA alignment | Review |
 |---|---|---|---|---|
@@ -426,7 +426,7 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 | 133 | Valtrex/valacyclovir, antiviral for shingles | C | K.57, K.61, K.68 | PASS |
 | 134 | Shingrix recombinant zoster vaccine prevents shingles | D | K.73 | PASS; HOLD until immunization overview |
 | 135 | Concentrated KCl injection wrong storage; stop and refer | C | K.151, tasks 5D/5G | PASS; HOLD until high-alert/hospital safety |
-| 136 | One-time EPCS C-II initial-fill transfer under federal rules with state-law allowance | D | K.53, task 2B.4 | PASS federally; Texas clarification AFTER answer; Batch 14 pending instructor approval |
+| 136 | One-time EPCS C-II initial-fill transfer under federal rules with state-law allowance | D | K.53, task 2B.4 | APPROVED; Texas clarification AFTER answer only |
 | 137 | Eligible home blood-glucose meter: Original Medicare Part B DME | A | K.90, K.91, task 4A.12 | PASS |
 | 138 | Bactrim DS + warfarin raises INR risk: pharmacist review | D | K.71, K.84, task 4A.11 | PASS; precise safety language |
 | 139 | 120 actuations / (2 puffs/dose × 2 doses/day) = 30 days | B | K.111, task 4C.3 | PASS; HOLD until PHRA 1009 days' supply lesson |
@@ -448,7 +448,7 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Q136 NHA-PRIORITY CLARIFICATION (2026-10-08):** The original nationally framed ExCPT-style question remains answer D: eligible unfilled electronic Schedule II–V prescriptions may be transferred once for initial filling between qualifying pharmacies, when state law allows, following 21 CFR 1306.08(e)–(h). Use a short **Texas Law Note ONLY AFTER THE ANSWER REVEAL**: Texas permits qualifying unfilled C-II EPCS electronic forwarding when software capability and required conditions are met; **no C-II refills**. If electronic forwarding is not available, contact the prescriber to cancel/reissue as appropriate. Never put Texas-specific caveats in the stem unless the NHA blueprint itself requires a state-law comparison. Sources: https://www.pharmacy.texas.gov/files_pdf/TSBP_Rules_FAQs.pdf and https://www.ecfr.gov/current/title-21/chapter-II/part-1306/section-1306.08.
 
-**Next:** Request instructor approval for Batch 14 in nationally framed ExCPT format; preserve Q136's Texas note only as post-answer instructor feedback. DO NOT edit `index.html`.
+**Instructor approval received:** User said 'okay lets continue' in direct response to the explanation that Batch 14 needed final approval before progressing. Approval applies to the corrected nationally framed Q131–Q140 and Texas note after Q136's answer. **Next:** Batch 15 Q141–Q150 review. DO NOT edit `index.html`.
 
 ## Standing question-authoring policy · National ExCPT first, Texas post-answer notes · 2026-10-08
 
@@ -458,7 +458,7 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Q110 (Batch 11), prior state-law-only hold lifted for NATIONAL practice:** The existing explicit stem says “**Under federal DEA regulations** ... after ... initial controlled-substance inventory, how often must ... inventory, at minimum?” Answer **C, at least every 2 years**, remains **correct and APPROVED for ExCPT national practice**, under 21 CFR §1304.11(c). After answer reveal add **Texas Law Note:** “Texas generally requires an **annual controlled-substance inventory** for Class A, A-S, C, C-S and F pharmacies under 22 TAC §291.17(c).” Do not replace this question with Texas-only wording or change its correct letter. Texas rule https://www.pharmacy.texas.gov/files_pdf/BN/May25/C.2.2.pdf ; federal: https://www.ecfr.gov/current/title-21/chapter-II/part-1304/section-1304.11
 
-**Q136 (Batch 14), nationally framed pending question:** Original answer **D** remains right under federal 21 CFR §1306.08(e)–(h), with state-law allowance already in the stem. After answer reveal add **Texas Law Note:** “Texas permits qualifying initial-fill transfers of previously unfilled C-II electronic prescriptions when the pharmacies support the necessary electronic transfer and other legal conditions are met. Schedule II prescriptions cannot be refilled.” Not a blanket “no C-II transfers.” TSBP FAQ https://www.pharmacy.texas.gov/files_pdf/TSBP_Rules_FAQs.pdf. **Batch 14 is still PENDING instructor approval as a whole**, not automatically approved by this policy edit.
+**Q136 (Batch 14), nationally framed approved question:** Original answer **D** remains right under federal 21 CFR §1306.08(e)–(h), with state-law allowance already in the stem. After answer reveal add **Texas Law Note:** “Texas permits qualifying initial-fill transfers of previously unfilled C-II electronic prescriptions when the pharmacies support the necessary electronic transfer and other legal conditions are met. Schedule II prescriptions cannot be refilled.” Not a blanket “no C-II transfers.” TSBP FAQ https://www.pharmacy.texas.gov/files_pdf/TSBP_Rules_FAQs.pdf. **Batch 14 instructor approval was subsequently received**, with Texas note presented after the answer only.
 
 **Other state-specific caveats to inspect as post-answer notes when appropriate:** Q29 pseudoephedrine; Q31 C-II refills; Q37 DAW; Q47 III–IV refills; Q79 DEA Form 222; Q86 child-resistant packaging; Q99 Form 106 including separate Texas Board reporting; Q119 pharmacist verification vs permitted Texas institutional tech-check-tech; Q140 suspected alteration. These are flagged for *review of notes*, not automatic invalidation of nationally correct answers. Only add a Texas Law Note when factually warranted and supported by TSBP/TAC sources.
 
