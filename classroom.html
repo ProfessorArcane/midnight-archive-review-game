@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Midnight Archive | Classroom Game</title><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Midnight Archive | Classroom Game</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet"><style>
 :root{color-scheme:dark;--ivory:#f3efdf;--muted:#bdc3cb;--marble:#d7dce1;--navy:#07101a;--slate:#111a26;--border:#988675;--gold:#d8c196;--gold2:#eee0bd;--sage:#859982;--steel:#8aabc7;--violet:#ad9ec7;--crimson:#ba8b8a;--glass:rgba(6,12,19,.93)}
 *{box-sizing:border-box}html,body{height:100%;margin:0}body{color:var(--ivory);font-family:Georgia,'Times New Roman',serif;background-color:#08101a;background-image:linear-gradient(90deg,rgba(1,7,13,.03),rgba(2,7,13,.09) 45%,rgba(2,7,13,.12)),url("none");background-position:center center;background-size:cover;background-repeat:no-repeat;background-attachment:fixed}button,select{font:inherit}button{cursor:pointer}button:focus-visible,select:focus-visible{outline:3px solid #ecdbaf;outline-offset:3px}button:disabled{cursor:default}
 .app{height:100dvh;min-height:680px;width:min(100%,1920px);margin:0 auto;padding:10px clamp(12px,2.2vw,33px) 8px 0;display:grid;grid-template-columns:22.5% minmax(0,1fr);grid-template-rows:minmax(110px,15vh) minmax(37px,4.8vh) 40px minmax(23px,3.2vh) minmax(0,1fr) minmax(91px,12vh) 15px;row-gap:5px;overflow:hidden}
@@ -174,6 +174,89 @@ body{background-color:#07111c;color:var(--ivory)}
 .board,.scorebar{left:-4.2%!important;width:calc(100% + 4.2%)!important}
 @media(max-width:1024px){.app{grid-template-columns:19% minmax(0,1fr)!important}.board,.scorebar{left:-3.5%!important;width:calc(100% + 3.5%)!important}}
 
+
+/* V4: visual correction only. Exact Formulary typography, no faux marble. */
+:root{
+ --display:'Playfair Display',Georgia,'Times New Roman',serif;
+ --ui:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+ --ivory:#ebedf0;--muted:#c6cdd5;--navy:#07111c;--slate:#101b28;
+ --border:#8494a3;--gold:#b8b6a9;--gold2:#d3d4d0;
+ --sage:#789889;--steel:#83a4bd;--violet:#a79abc;--crimson:#aa858b;
+}
+body{font-family:var(--ui)!important;color:var(--ivory)!important}
+/* Separate title and tabs from the statue; only lower game extends into empty space */
+.app{
+ grid-template-columns:21.2% minmax(0,1fr)!important;
+ grid-template-rows:minmax(97px,13.6vh) minmax(35px,4.7vh) minmax(30px,4.1vh) minmax(21px,3.0vh) minmax(0,1fr) minmax(86px,12vh) 15px!important;
+ row-gap:8px!important;
+ padding-top:12px!important;
+ padding-bottom:8px!important;
+}
+.hero{padding-top:1px!important;gap:1px!important}
+.hero-title{font-family:var(--display)!important;font-variant:normal!important;font-size:clamp(28px,3.3vw,58px)!important;letter-spacing:.052em!important;line-height:1.05!important;font-weight:600!important;color:#f0f0ee!important}
+.hero-prefix{font-family:var(--display)!important;letter-spacing:.37em!important;margin-top:1px!important}
+.motto{font-family:var(--display)!important;font-size:clamp(11px,1.17vw,18px)!important;letter-spacing:.13em!important;color:#d7dce0!important;margin-top:4px!important;line-height:1.2!important}
+.translation{font-family:var(--display)!important;letter-spacing:.02em!important;color:#bcc7d1!important;font-size:clamp(10px,.92vw,15px)!important;line-height:1.25!important;margin-top:2px!important}
+.week-tabs{gap:7px!important;padding:0 1.2%!important;left:0!important;width:100%!important}
+.week-tab{font-family:var(--display)!important;font-size:clamp(11px,.95vw,16px)!important;color:#e2e6e8!important;
+ background:linear-gradient(180deg,#1a2532,#0a121e)!important;border:1px solid #8994a0!important;border-radius:7px!important;
+ box-shadow:inset 0 1px rgba(255,255,255,.07)!important}
+.week-tab.active{color:#101925!important;background:linear-gradient(180deg,#dddcd7,#bfc6c9)!important;border-color:#aeb6b9!important;box-shadow:inset 0 1px #fff8,0 0 0 1px #c3cbd255!important}
+.week-tab:not(:disabled):hover{background:#243141!important;border-color:#bbc7d0!important}
+.tools{gap:9px!important;margin-top:0!important;}
+.tools label,.tools .label-mini{font-family:var(--ui)!important;font-size:clamp(10px,.72vw,12px)!important}
+.tools select,.tools button{font-family:var(--ui)!important;height:30px!important;color:#e1e6ea!important;background:#111d2be8!important;border-color:#6c7d8a!important}
+.meta-row{margin-top:0!important;font-family:var(--ui)!important}
+.meta-row .info{font:500 10px/1.3 var(--ui)!important;color:#c6d1da!important}
+.board-progress{font:500 11px/1.3 var(--ui)!important}
+/* Directly bridge the artificial blank strip left after removing the globe. */
+.board,.scorebar{left:-9.2%!important;width:calc(100% + 9.2%)!important}
+.board{gap:5px!important;padding:6px!important;background:#050a12ec!important;border:1px solid #85909b!important;border-radius:13px!important;
+ box-shadow:0 12px 28px #0008,0 0 0 2px #0a131bcc,inset 0 0 0 1px #bec8d020!important}
+.column{gap:5px!important;grid-template-rows:minmax(57px,1.22fr) repeat(5,minmax(0,1fr))!important}
+.category{background:linear-gradient(155deg,#1a2836,#09131f)!important;border-color:#667789!important;border-radius:5px!important;color:#eef2f4!important;padding:4px!important}
+.cat-glyph{height:28px!important;color:#c2cbd1!important}
+.cat-glyph svg{height:25px!important;width:25px!important;stroke-width:1.65!important;filter:none!important}
+.cat-main{font-family:var(--display)!important;font-weight:600!important;letter-spacing:.025em!important;font-size:clamp(9px,.95vw,15px)!important;line-height:1.15!important}
+.cat-sub{font-family:var(--ui)!important;font-size:clamp(7px,.67vw,10px)!important;line-height:1.15!important;color:#bdcbd4!important}
+.tile{font-family:var(--display)!important;font-size:clamp(20px,2.1vw,36px)!important;color:#eceef0!important;
+ background:linear-gradient(160deg,#172331,#0c1622 70%)!important;border:1px solid #5e7080!important;border-radius:5px!important;
+ box-shadow:inset 0 1px rgba(255,255,255,.085),0 1px 2px #0006!important;text-shadow:0 1px 1px #0008!important}
+.tile:not(:disabled):hover{color:#fff!important;background:linear-gradient(145deg,#314559,#152636)!important;border-color:#aab9c3!important}
+.tile.done{background:linear-gradient(145deg,#0a121c,#0b131c)!important;color:#697683!important;border-color:#364553!important}
+.tile.empty{background:#07101a!important;color:#354452!important;border-color:#273748!important}
+.scorebar{gap:7px!important;margin-top:1px!important}
+.guild{padding:5px 7px!important;border-color:#697a8b!important;background:linear-gradient(145deg,#142230,#09131f)!important}
+.guild:nth-child(1){background:linear-gradient(145deg,#152a27,#08151b)!important}
+.guild:nth-child(2){background:linear-gradient(145deg,#132637,#091722)!important}
+.guild:nth-child(4){background:linear-gradient(145deg,#211d2f,#0e111d)!important}
+.guild:nth-child(5){background:linear-gradient(145deg,#2b2028,#15131b)!important}
+.guild-head{gap:7px!important}
+.guild-name{font-family:var(--display)!important;font-variant:normal!important;font-size:clamp(10px,.9vw,15px)!important;letter-spacing:0!important;font-weight:600!important;color:#e1e7ea!important}
+.guild-points{font-family:var(--display)!important;font-size:clamp(23px,2vw,38px)!important;color:#e6ebef!important}
+.guild-hint{font-family:var(--ui)!important}
+.timer-ring{border-color:#a8b8c1!important;background:linear-gradient(150deg,#132536,#07111c)!important;box-shadow:inset 0 0 0 5px #091420,inset 0 0 0 6px #677c8a,0 0 0 3px #889caa66!important}
+.main-clock{font-family:var(--display)!important;color:#e8eef2!important}
+.timer-caption{font-family:var(--ui)!important;color:#c6d3dc!important}
+.footer{font-family:var(--ui)!important;color:#bbc8d3!important}
+.question{font-family:var(--display)!important}
+.answers,.correctbox,.awards button,.modal-controls,.qmeta{font-family:var(--ui)!important}
+@media(max-width:1100px){.app{grid-template-columns:20% minmax(0,1fr)!important}.board,.scorebar{left:-8%!important;width:calc(100% + 8%)!important}.week-tabs{gap:4px!important}}
+@media(max-width:700px){.board,.scorebar{left:0!important;width:100%!important}.app{display:block!important;min-height:100dvh!important;height:auto!important;overflow:auto!important}.hero,.week-tabs,.tools,.meta-row,.board,.scorebar,.footer{margin-bottom:8px!important}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* V4.1 final spacing and readability polish: no content changes. */
+.app{grid-template-rows:minmax(116px,15.2vh) minmax(35px,4.7vh) minmax(30px,4.1vh) minmax(21px,3.0vh) minmax(0,1fr) minmax(86px,12vh) 15px!important;row-gap:8px!important}
+.hero{gap:2px!important;justify-content:center!important}
+.hero-title{line-height:1.07!important}
+.motto{margin-top:5px!important;line-height:1.26!important}
+.translation{margin-top:4px!important;line-height:1.23!important}
+.category{gap:3px!important}
+.cat-main{line-height:1.14!important}
+.cat-sub{line-height:1.18!important}
+.tools{align-self:stretch!important}
+.meta-row .info{line-height:1.4!important}
+@media(max-width:1100px){.app{grid-template-rows:minmax(104px,14vh) minmax(34px,4.6vh) minmax(29px,4.1vh) minmax(22px,3vh) minmax(0,1fr) minmax(83px,11.7vh) 15px!important}.cat-main{font-size:clamp(10px,1vw,14px)!important}.cat-sub{font-size:clamp(8px,.78vw,11px)!important}}
 </style></head>
 <body><main class="app">
 <header class="hero"><div class="moon" aria-hidden="true">☾</div><div class="hero-prefix">THE</div><h1 class="hero-title">MIDNIGHT ARCHIVE</h1><div class="motto">Per Scientiam ad Fiduciam</div><div class="translation">Through Knowledge to Confidence</div></header>
@@ -194,12 +277,12 @@ const guilds=[
  {name:'The Alchemists',c:'#ba8b8a',icon:'<path d="M9 2h6m-5 0v7l-6 10a2.5 2.5 0 0 0 2 3h12a2.5 2.5 0 0 0 2-3l-6-10V2M7 16h10M12 12l1 2m-2 4h.1"/>'}];
 const icon = path => `<svg viewBox="0 0 24 24" aria-hidden="true">${path}</svg>`;
 const columns=[
- ['FOUNDATIONS','Key Concepts',icon('<path d="M12 21v-9M12 16c-3 0-6-2-7-6 4 0 7 1.5 7 6Zm0-5c0-4 3-7 7-8 0 5-2 8-7 8Z"/><path d="M5 21h14"/>')],
- ['THERAPEUTICS','Medications',icon('<path d="M11.5 3.5a5 5 0 0 1 7 7l-8 8a5 5 0 0 1-7-7l8-8Z"/><path d="m8 8 8 8"/>')],
- ['SYSTEMS','Body Systems',icon('<path d="M20.1 4.6a5.5 5.5 0 0 0-7.9-.3L12 4.5l-.2-.2a5.5 5.5 0 0 0-7.9 7.6L12 20l8.1-8.1a5.5 5.5 0 0 0 0-7.3Z"/><path d="M3.7 12h4l2-3 3.2 6 2-3h5.4"/>')],
- ['PRACTICE','Applications',icon('<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4.5V3h6v1.5M9 9h6M9 13h6M9 17h3"/>')],
- ['PATIENT CARE','Scenarios',icon('<circle cx="12" cy="5" r="2"/><path d="M7 21v-5c0-3 2-5 5-5s5 2 5 5v5"/><path d="m9 16 3 3 3-3"/>')],
- ['INTEGRATION','Higher Order',icon('<circle cx="12" cy="4" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="19" cy="18" r="2"/><path d="M11 6 6 16m7-10 5 10M7 18h10"/>')]
+ ['FOUNDATIONS','Key Concepts',icon('<path d="M12 22V4"/><path d="M12 18C7 18 5 15 4 12c5 0 8 2 8 6ZM12 13c0-5 3-8 8-9 0 5-2 8-8 9ZM12 8C8 8 7 6 6 3c4 0 6 2 6 5Z"/>')],
+ ['THERAPEUTICS','Medications',icon('<path d="M12 2v20M8 5c0-2 8-2 8 0-2 2-6 2-8 0Zm-3 5c4-1 10-1 14 0M7 11c5-2 11 0 10 3s-9 1-9 4 6 3 7 0"/><path d="M5 9V7m14 2V7"/>')],
+ ['SYSTEMS','Body Systems',icon('<path d="M5 21h14M7 18h10M8 7h8M5 4h14l-2 3H7L5 4ZM8 9v9m4-9v9m4-9v9"/>')],
+ ['PRACTICE','Applications',icon('<path d="M7 3h9l3 3v15H5V3h2ZM16 3v4h3"/><path d="M9 11h7M9 15h7M9 19h5"/>')],
+ ['PATIENT CARE','Scenarios',icon('<circle cx="12" cy="6" r="2.5"/><circle cx="4.5" cy="10" r="2"/><circle cx="19.5" cy="10" r="2"/><path d="M7 20v-4c0-2.5 2-4 5-4s5 1.5 5 4v4M2 20v-3c0-2 1.5-3 4-3M22 20v-3c0-2-1.5-3-4-3"/>')],
+ ['INTEGRATION','Higher Order',icon('<path d="M12 5c-3-2-6-2-9-1v15c3-1 6-1 9 1 3-2 6-2 9-1V4c-3-1-6-1-9 1ZM12 5v15M6 9h3m6 0h3M6 13h3m6 0h3"/>')],
 ];
 const safe=(k,f)=>{try{return JSON.parse(localStorage.getItem(k))??f}catch{return f}},store=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}};
 let all=[],pool=[],boards=[],active=null,revealed=false,used=new Set(),scores=[0,0,0,0],round=0,seconds=30,interval=null,focusBefore=null;
