@@ -735,6 +735,24 @@
 @media(min-width:1050px){.guild-select{grid-column:1 / 4;grid-row:3}#boardView{grid-row:4}.timer-card{grid-row:4}#questionPanel,#howToPanel{grid-row:4 / span 2}.scoreboard{grid-row:6;grid-column:1 / 4}.footer{grid-row:7}}
 @media(max-width:900px){.scoreboard[data-count],.award-bar[data-count]{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.scoreboard[data-count],.award-bar[data-count]{grid-template-columns:1fr}}
+
+/* Isolated round-navigation preview. Question text and artwork are not replaced here. */
+.archive-round-nav {display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:5px;margin:2px 0 5px}
+.archive-round-nav .round-tab {padding:7px 10px;border:1px solid #7c808a;color:#e4e5e8;background:#151f2c;font-size:.81rem}
+.archive-round-nav .current-round {background:#28344a;border-color:#d3c7ae;box-shadow:inset 0 -2px #e6d8b8}
+.archive-round-nav .round-tab:focus-visible {outline:3px solid #ede5d0;outline-offset:2px}
+.round-status {font-size:.84rem;line-height:1.35;padding:7px 10px;margin-bottom:6px;color:#d8dce4;background:rgba(12,22,37,.89);border-left:2px solid #aaa6a0}
+.original-extras {display:flex;align-items:center;justify-content:center;gap:8px;margin:5px 0 8px;font-size:.79rem;color:#dfd6c9}
+.original-extras[hidden] {display:none}
+.original-extras button {font-size:.79rem;padding:6px 10px}
+.board[hidden],.final-row[hidden] {display:none !important}
+@media(min-width:1050px){.archive-round-nav{grid-column:1 / 4;grid-row:3}
+ .guild-select{grid-row:4}
+ #boardView{grid-row:5}
+ .timer-card{grid-row:5}
+ #questionPanel,#howToPanel{grid-row:5 / span 2}
+ .scoreboard{grid-row:7}
+ .footer{grid-row:8}}
 </style>
 
 </head>
@@ -752,7 +770,8 @@
     <button class="danger" onclick="resetGame()">Reset Entire Game</button>
   </div>
 
-  <section class="guild-select" aria-label="Guild selector"><span class="guild-select-label">Active Guilds</span><div class="guild-select-buttons" id="guildSelectButtons"><button type="button" data-teams="2" onclick="setTeamCount(2)">2</button><button type="button" data-teams="3" onclick="setTeamCount(3)">3</button><button type="button" data-teams="4" onclick="setTeamCount(4)">4</button></div></section>
+  <nav class="archive-round-nav" role="tablist" aria-label="Archive rounds" id="roundTabs"></nav>
+<section class="guild-select" aria-label="Guild selector"><span class="guild-select-label">Active Guilds</span><div class="guild-select-buttons" id="guildSelectButtons"><button type="button" data-teams="2" onclick="setTeamCount(2)">2</button><button type="button" data-teams="3" onclick="setTeamCount(3)">3</button><button type="button" data-teams="4" onclick="setTeamCount(4)">4</button></div></section>
 <section class="scoreboard" id="scoreboard"></section>
 
   <section class="timer-card">
@@ -768,7 +787,9 @@
   </section>
 
   <section id="boardView">
+    <div class="round-status" id="roundStatus" role="status" aria-live="polite"></div>
     <div class="board" id="board"></div>
+    <div class="original-extras" id="originalExtras" hidden></div>
     <div class="final-row">
       <button class="gold" onclick="openFinal()">⚑ Final Championship</button>
     </div>
@@ -834,9 +855,24 @@ const QUOTES = [
 
 const GUILDS = [{name:"The Herbalists",accent:"#5C8A54"},{name:"The Distillers",accent:"#4C78A8"},{name:"The Archivists",accent:"#8060A5"},{name:"The Alchemists",accent:"#A14E45"}];
 const TEAMS = GUILDS.map(g => g.name);
+const ROUND_DEFS = [
+  {id:"original",label:"Original Board"},
+  {id:"week1",label:"Week 1"},
+  {id:"week2",label:"Week 2"},
+  {id:"week3",label:"Week 3"},
+  {id:"week4",label:"Week 4"},
+  {id:"week5",label:"Week 5"},
+  {id:"week6",label:"Week 6"},
+  {id:"championship",label:"Championship"}
+];
+const WEEK_CATEGORIES = ["Foundations / SIG","Therapeutics","Body Systems","Workflow","Patient Safety","Law & Integration"];
+const ROUND_BANKS = {original:QUESTIONS,week1:[],week2:[],week3:[],week4:[],week5:[],week6:[],championship:[]};
+const DEV_SAVE_KEY = "midnightArchivePHRA1001_DEV_ROUNDS_v1";
+const LIVE_SAVE_KEY = "midnightArchivePHRA1001_STABLE_v11";
 let state = {
   scores: [0,0,0,0],
   teamCount: 4,
+  activeRound: "original",
   used: {},
   current: null,
   timerSeconds: 60,
@@ -846,21 +882,30 @@ let state = {
 let timerHandle = null;
 
 function saveState() {
-  localStorage.setItem("midnightArchivePHRA1001_STABLE_v11", JSON.stringify(state));
+  // The preview intentionally never writes the live game's save key.
+  localStorage.setItem(DEV_SAVE_KEY, JSON.stringify(state));
 }
 
 function loadState() {
-  const saved = localStorage.getItem("midnightArchivePHRA1001_STABLE_v11");
-  if (saved) {
+  const saved = localStorage.getItem(DEV_SAVE_KEY);
+  // First preview visit imports an independent copy of existing live progress.
+  const legacy = saved ? null : localStorage.getItem(LIVE_SAVE_KEY);
+  const source = saved || legacy;
+  if (source) {
     try {
-      state = JSON.parse(saved);
-      if (!Array.isArray(state.scores) || state.scores.length !== 4) state.scores = [0,0,0,0];
-      if (![2,3,4].includes(state.teamCount)) state.teamCount = 4;
-      if (!state.used) state.used = {};
-      if (!state.timerSeconds) state.timerSeconds = 60;
-      if (!state.timerRemaining) state.timerRemaining = state.timerSeconds;
+      const restored = JSON.parse(source);
+      if (restored && typeof restored === "object") state = {...state,...restored};
     } catch(e) {}
   }
+  if (!Array.isArray(state.scores) || state.scores.length !== 4) state.scores = [0,0,0,0];
+  if (![2,3,4].includes(state.teamCount)) state.teamCount = 4;
+  if (!state.used || typeof state.used !== "object") state.used = {};
+  if (!ROUND_DEFS.some(r => r.id === state.activeRound)) state.activeRound = "original";
+  if (![30,60,90].includes(state.timerSeconds)) state.timerSeconds = 60;
+  if (!Number.isFinite(state.timerRemaining) || state.timerRemaining < 0) state.timerRemaining = state.timerSeconds;
+  state.timerRunning = false;
+  // A saved open clue in the old build should not automatically reopen on load.
+  state.current = null;
 }
 
 function toast(msg) {
@@ -917,11 +962,52 @@ function adjustScore(teamIndex, amount) {
   renderScores();
 }
 
-function renderBoard() {
-  const categories = [...new Set(QUESTIONS.map(q => q.category))];
-  const board = document.getElementById("board");
-  board.innerHTML = "";
+function renderRoundTabs() {
+  const nav = document.getElementById("roundTabs");
+  nav.replaceChildren();
+  ROUND_DEFS.forEach(round => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.role = "tab";
+    btn.textContent = round.label;
+    const selected = round.id === state.activeRound;
+    btn.setAttribute("aria-selected", String(selected));
+    btn.tabIndex = selected ? 0 : -1;
+    btn.className = selected ? "round-tab current-round" : "round-tab";
+    btn.onclick = () => selectRound(round.id);
+    nav.appendChild(btn);
+  });
+}
+function selectRound(id) {
+  if (!ROUND_DEFS.some(round => round.id === id)) return;
+  if (id === state.activeRound) return;
+  pauseTimer();
+  state.activeRound = id;
+  state.current = null;
+  saveState();
+  showBoard();
+}
 
+function renderBoard() {
+  const questions = ROUND_BANKS[state.activeRound] || [];
+  const isOriginal = state.activeRound === "original";
+  const isChampionship = state.activeRound === "championship";
+  const categories = isOriginal ? [...new Set(QUESTIONS.map(q => q.category))] : WEEK_CATEGORIES;
+  const board = document.getElementById("board");
+  const extras = document.getElementById("originalExtras");
+  const status = document.getElementById("roundStatus");
+  board.innerHTML = "";
+  extras.innerHTML = "";
+  extras.hidden = true;
+  board.hidden = isChampionship;
+  document.querySelector(".final-row").hidden = !(isOriginal || isChampionship);
+  if (isOriginal) {
+    status.textContent = "Original playable archive: all 31 clues preserved, including the extra question below. These clues have not yet been mapped to individual weeks.";
+  } else if (isChampionship) {
+    status.textContent = "Original Final Championship question is ready. The 30 cumulative-round positions await curriculum approval.";
+  } else {
+    status.textContent = "Week " + state.activeRound.slice(4) + ": 30 positions prepared. Questions stay locked until the instructor's taught-week map is verified.";
+  }
   categories.forEach(cat => {
     const stack = document.createElement("div");
     stack.className = "category-stack";
@@ -944,18 +1030,37 @@ function renderBoard() {
     stack.appendChild(header);
 
     [100,200,300,400,500].forEach(points => {
-      const q = QUESTIONS.find(item => item.category === cat && item.points === points);
+      const q = questions.find(item => item.category === cat && item.points === points);
       const btn = document.createElement("button");
       const id = q ? questionId(q) : "";
       btn.className = "cell" + (state.used[id] ? " used" : "");
       btn.textContent = state.used[id] ? "" : "$" + points;
-      btn.disabled = !q || state.used[id];
+      btn.disabled = !q || Boolean(state.used[id]);
+      if (!q) btn.title = "Pending taught-week assignment";
       btn.onclick = (event) => selectQuestionCell(event, q);
       stack.appendChild(btn);
     });
 
     board.appendChild(stack);
   });
+
+  // Preserve the 31st original clue, which shares a 400-point position.
+  if (isOriginal) {
+    const extrasList = QUESTIONS.filter((q,i) => QUESTIONS.findIndex(x => x.category === q.category && x.points === q.points) < i);
+    if (extrasList.length) {
+      extras.hidden = false;
+      const caption = document.createElement("span");
+      caption.textContent = "Original extra clue:";
+      extras.appendChild(caption);
+      extrasList.forEach(q => {
+        const btn = document.createElement("button");
+        btn.textContent = q.category + " · " + q.points + " points (extra)";
+        btn.disabled = Boolean(state.used[questionId(q)]);
+        btn.onclick = () => openQuestion(q);
+        extras.appendChild(btn);
+      });
+    }
+  }
 }
 
 
@@ -985,7 +1090,12 @@ function selectQuestionCell(event, q) {
 }
 
 function questionId(q) {
-  return q.category + "_" + q.points;
+  const base = q.category + "_" + q.points;
+  if (state.activeRound !== "original") return state.activeRound + ":" + (q.id || base);
+  // First clue retains original saved-progress ID; collisions get their own ID.
+  const index = QUESTIONS.indexOf(q);
+  const first = QUESTIONS.findIndex(x => x.category === q.category && x.points === q.points);
+  return index > first ? base + "_extra_" + index : base;
 }
 
 function activityIcon(activity) {
@@ -996,7 +1106,7 @@ function activityIcon(activity) {
 }
 
 function openQuestion(q) {
-  state.current = {...q, id: questionId(q), isFinal:false};
+  state.current = {...q, id: questionId(q), round:state.activeRound, isFinal:false};
   saveState();
   showQuestionPanel();
 }
@@ -1074,6 +1184,7 @@ function awardTeam(teamIndex) {
 
 function showBoard() {
   pauseTimer();
+  renderRoundTabs();
   document.getElementById("questionPanel").classList.remove("active");
   document.getElementById("howToPanel").classList.remove("active");
   document.getElementById("boardView").style.display = "block";
@@ -1128,10 +1239,11 @@ function updateTimerDisplay() {
 
 function resetGame() {
   if (!confirm("Reset scores and used questions?")) return;
-  localStorage.removeItem("midnightArchivePHRA1001_STABLE_v11");
+  localStorage.removeItem(DEV_SAVE_KEY);
   state = {
     scores:[0,0,0,0],
     teamCount: state.teamCount,
+    activeRound: state.activeRound,
     used:{},
     current:null,
     timerSeconds:60,
@@ -1147,6 +1259,7 @@ function resetGame() {
 }
 
 loadState();
+renderRoundTabs();
 renderQuote();
 renderScores();
 renderBoard();
