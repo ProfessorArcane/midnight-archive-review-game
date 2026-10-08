@@ -38,3 +38,42 @@ The external review labeled Q15 (Dilantin), Q17 (Macrobid), and Q18 (Sprintec) a
 **Primary references:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf ; https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8f270a9f-12a1-44d4-bc7e-873613555801
 
 **Instructor approval received:** The instructor replied 'yes' to approval of all ten questions with NHA tags corrected and Q15/Q17/Q18 placed only after relevant instruction. Preserve all original live content; no playable game changes were requested. **Next step:** Review Batch 03.
+
+## Batch 03 · Fact-checked 2026-10-08 — PENDING INSTRUCTOR APPROVAL
+
+**Status:** Gemini review received (10/10 answer keys passed), checked against authoritative primary sources; **not yet approved**. **Nothing added to live game.**
+
+| Q | Topic | Correct key | QA assessment |
+|---|---|---|---|
+| 21 | Vaccine-induced active immunity | B | PASS |
+| 22 | Cetirizine H1-antihistamine | A | PASS |
+| 23 | 1 gtt OU qhs | D | PASS; write full directions on patient label |
+| 24 | Otic versus ophthalmic | C | PASS with refined explanation |
+| 25 | Hydroxyzine vs hydralazine | B | PASS |
+| 26 | Insulin glargine U-100 vs U-300 | C | PASS with refined explanation, K-code corrected |
+| 27 | FDA Orange Book AB-rated product | A | PASS; use K.18/K.69, not an incorrect general code |
+| 28 | Warfarin + ibuprofen question | D | PASS |
+| 29 | Pseudoephedrine CMEA retail transaction | B | PASS *with revised stem to exclude 60 mg small-package exception* |
+| 30 | Vaccine temperature excursion | C | PASS |
+
+**Revised Q24 explanation:** “The technician must stop filling and correct the otic-versus-ophthalmic product selection, with pharmacist verification before dispensing. Otic preparations are not automatically suitable for ocular administration and may cause stinging, pain, redness, blurred vision, or other injury. Avoid unsupported blanket claims that they invariably cause blindness or that all are nonsterile.”
+
+**Revised Q26 explanation:** “Insulin glargine products labeled U-100 (100 units/mL) and U-300 (300 units/mL) have different concentrations and product/device-specific instructions. A technician must not substitute a different concentration without pharmacist review. The U-300 pen delivers doses marked in units; a threefold concentration difference does not by itself establish that any given pen setting delivers three times the prescribed units. Do not assume a universal dose conversion.” NHA primary tagging: 4B.2 (correct product and strength), relevant medication safety, rather than K.59 as ‘high-alert medications’ (K.59 means dosage forms).
+
+**Revised Q29 stem (keep answer B):** “A customer requests a non-exempt 24-count package of pseudoephedrine 30 mg tablets at a U.S. retail pharmacy. Under federal CMEA rules, which action is generally required for the sale?” Four choices and answer stay unchanged; explain acceptable ID requirements, required records and purchase limits. Federal law has an exception for a *single sales package containing no more than 60 mg* of pseudoephedrine, so do not teach ID/log requirements as universally exceptionless.
+
+**Q27 tagging:** K.18 Orange Book; K.69 Therapeutic equivalence. Note AB and AB1/AB2 nuances in deeper instructor discussion, but the stem specifies an appropriate reference product.
+
+**Q30 explanation:** Label “DO NOT USE,” separate, maintain the correct storage conditions, notify coordinator, document, and seek manufacturer/program guidance; do not discard without viability determination.
+
+**Instructor curriculum mapping:** Q26 after insulin/high-alert handling is taught; Q27 after Orange Book introduction. Do not automatically defer to PHRA 1043 based only on generic curriculum assumptions.
+
+**Primary sources:** 
+- NHA ExCPT test plan: https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+- ISMP preventing otic-in-eye errors: https://www.ismp.org/sites/default/files/attachments/2023-08/community202308.pdf
+- FDA Toujeo label: https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/206538Orig1s017Lbl.pdf
+- FDA Orange Book preface: https://www.fda.gov/drugs/development-approval-process-drugs/orange-book-preface
+- DEA CMEA rules and exception: https://www.deadiversion.usdoj.gov/meth/cma2005.html
+- CDC vaccine storage: https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-5-vaccine-storage-and-handling.html
+
+**Next action:** Await explicit instructor approval before changing Batch 03 status. Preserve the playable game unchanged.
