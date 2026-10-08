@@ -1,0 +1,230 @@
+{
+  "title": "Midnight Archive — supplemental question bank for review",
+  "version": "draft-2026-10-08",
+  "notes": "DO NOT overwrite existing QUESTIONS. These questions are draft entries; some point/category slots overlap existing board. Instructor must assign week and select replacements before integration. Reproductive section is supplemental until taught; PHRA 1009-level concentration bonus should not be shown in early Intro.",
+  "official_nha_items": false,
+  "excp_style": [
+    {
+      "id": "excpt-original-1",
+      "category": "Foundations",
+      "points": 100,
+      "question": "A prescription reads: '1 tab po bid'. Which direction is correct?",
+      "answer": "Take one tablet by mouth twice daily.",
+      "notes": "SIG translation; route and frequency.",
+      "provenance": "Original author-written question informed by NHA ExCPT test plan; NOT an official NHA item",
+      "status": "draft"
+    },
+    {
+      "id": "excpt-original-2",
+      "category": "Foundations",
+      "points": 300,
+      "question": "Which dosage form is designed to dissolve under the tongue?",
+      "answer": "Sublingual tablet.",
+      "notes": "Routes and dosage forms.",
+      "provenance": "Original author-written question informed by NHA ExCPT test plan; NOT an official NHA item",
+      "status": "draft"
+    },
+    {
+      "id": "excpt-original-3",
+      "category": "Therapeutics",
+      "points": 200,
+      "question": "What is the generic name of Synthroid?",
+      "answer": "Levothyroxine.",
+      "notes": "Brand/generic and thyroid therapy.",
+      "provenance": "Original author-written question informed by NHA ExCPT test plan; NOT an official NHA item",
+      "status": "draft"
+    },
+    {
+      "id": "excpt-original-4",
+      "category": "Therapeutics",
+      "points": 400,
+      "question": "A patient requests Norvasc. Which generic and drug class match it?",
+      "answer": "Amlodipine; calcium channel blocker.",
+      "notes": "Frequently prescribed drugs.",
+      "provenance": "Original author-written question informed by NHA ExCPT test plan; NOT an official NHA item",
+      "status": "draft"
+    },
+    {
+      "id": "excpt-original-5",
+      "category": "Systems",
+      "points": 200,
+      "question": "Which hormone primarily triggers ovulation during the menstrual cycle?",
+      "answer": "Luteinizing hormone (LH).",
+      "notes": "Reproductive anatomy and physiology; supplemental.",
+      "provenance": "Original author-written question informed by NHA ExCPT test plan; NOT an official NHA item",
+      "status": "draft"
+    },
+    {
+      "id": "excpt-original-6",
+      "category": "Systems",
+      "points": 400,
+      "question": "Which organ normally produces insulin?",
+      "answer": "Pancreas.",
+      "notes": "Endocrine system.",
+      "provenance": "Original author-written question informed by NHA ExCPT test plan; NOT an official NHA item",
+      "status": "draft"
+    },
+    {
+      "id": "excpt-original-7",
+      "category": "Practice",
+      "points": 200,
+      "question": "An order is 1 tablet twice daily for 30 days. How many tablets are needed?",
+      "answer": "60 tablets. 1 × 2 × 30 = 60.",
+      "notes": "Prescription quantity calculation.",
+      "provenance": "Original author-written question informed by NHA ExCPT test plan; NOT an official NHA item",
+      "status": "draft"
+    },
+    {
+      "id": "excpt-original-8",
+      "category": "Practice",
+      "points": 400,
+      "question": "An oral suspension contains 250 mg per 5 mL. How many mL provide 500 mg?",
+      "answer": "10 mL. 500 mg × 5 mL / 250 mg = 10 mL.",
+      "notes": "Pharmacy calculations.",
+      "provenance": "Original author-written question informed by NHA ExCPT test plan; NOT an official NHA item",
+      "status": "draft"
+    },
+    {
+      "id": "excpt-original-9",
+      "category": "Patient Care",
+      "points": 200,
+      "question": "A patient asks whether a new prescription will interact with an OTC medication. What should the technician do?",
+      "answer": "Refer the interaction question to the pharmacist.",
+      "notes": "Scope of practice.",
+      "provenance": "Original author-written question informed by NHA ExCPT test plan; NOT an official NHA item",
+      "status": "draft"
+    },
+    {
+      "id": "excpt-original-10",
+      "category": "Patient Care",
+      "points": 400,
+      "question": "A prescription label is missing the patient's name. What should the technician do before dispensing?",
+      "answer": "Stop and have the discrepancy corrected and pharmacist verification completed.",
+      "notes": "Medication safety and label accuracy.",
+      "provenance": "Original author-written question informed by NHA ExCPT test plan; NOT an official NHA item",
+      "status": "draft"
+    },
+    {
+      "id": "excpt-original-11",
+      "category": "Integration",
+      "points": 300,
+      "question": "A patient requests a brand-name medication even though generic substitution is permitted. Which DAW code indicates patient choice?",
+      "answer": "DAW 2.",
+      "notes": "Prescription claims and substitution.",
+      "provenance": "Original author-written question informed by NHA ExCPT test plan; NOT an official NHA item",
+      "status": "draft"
+    },
+    {
+      "id": "excpt-original-12",
+      "category": "Integration",
+      "points": 500,
+      "question": "An older epinephrine concentration is written 1:10,000 (w/v). What is the equivalent strength in mg/mL?",
+      "answer": "0.1 mg/mL. 1 g/10,000 mL = 1,000 mg/10,000 mL.",
+      "notes": "Concentration and safety; PHRA 1009-level bonus, not early Intro core.",
+      "provenance": "Original author-written question informed by NHA ExCPT test plan; NOT an official NHA item",
+      "status": "draft"
+    }
+  ],
+  "reproductive": [
+    {
+      "id": "reproductive-original-1",
+      "category": "Reproductive System",
+      "points": 100,
+      "question": "Which organ produces ova (egg cells)?",
+      "answer": "Ovaries.",
+      "notes": "Core anatomy",
+      "provenance": "Original supplemental PHRA 1001 reproductive mini-lesson item; NOT official NHA",
+      "status": "draft"
+    },
+    {
+      "id": "reproductive-original-2",
+      "category": "Reproductive System",
+      "points": 200,
+      "question": "What is the primary function of the uterus?",
+      "answer": "To support implantation and development of a pregnancy.",
+      "notes": "Core anatomy",
+      "provenance": "Original supplemental PHRA 1001 reproductive mini-lesson item; NOT official NHA",
+      "status": "draft"
+    },
+    {
+      "id": "reproductive-original-3",
+      "category": "Reproductive System",
+      "points": 300,
+      "question": "Which structure carries sperm from the epididymis toward the urethra?",
+      "answer": "Vas deferens.",
+      "notes": "Core anatomy",
+      "provenance": "Original supplemental PHRA 1001 reproductive mini-lesson item; NOT official NHA",
+      "status": "draft"
+    },
+    {
+      "id": "reproductive-original-4",
+      "category": "Reproductive System",
+      "points": 400,
+      "question": "Which hormone surge triggers ovulation?",
+      "answer": "Luteinizing hormone (LH).",
+      "notes": "Core physiology",
+      "provenance": "Original supplemental PHRA 1001 reproductive mini-lesson item; NOT official NHA",
+      "status": "draft"
+    },
+    {
+      "id": "reproductive-original-5",
+      "category": "Reproductive System",
+      "points": 500,
+      "question": "Where does fertilization most commonly occur?",
+      "answer": "In the fallopian (uterine) tube, commonly the ampulla.",
+      "notes": "Core anatomy",
+      "provenance": "Original supplemental PHRA 1001 reproductive mini-lesson item; NOT official NHA",
+      "status": "draft"
+    },
+    {
+      "id": "reproductive-original-6",
+      "category": "Reproductive Medications",
+      "points": 100,
+      "question": "What is the purpose of an oral contraceptive?",
+      "answer": "To prevent pregnancy.",
+      "notes": "Medication indications",
+      "provenance": "Original supplemental PHRA 1001 reproductive mini-lesson item; NOT official NHA",
+      "status": "draft"
+    },
+    {
+      "id": "reproductive-original-7",
+      "category": "Reproductive Medications",
+      "points": 200,
+      "question": "Which route does a contraceptive vaginal ring use?",
+      "answer": "Vaginal route.",
+      "notes": "Dosage form and route",
+      "provenance": "Original supplemental PHRA 1001 reproductive mini-lesson item; NOT official NHA",
+      "status": "draft"
+    },
+    {
+      "id": "reproductive-original-8",
+      "category": "Reproductive Medications",
+      "points": 300,
+      "question": "What is the generic ingredient in Plan B One-Step?",
+      "answer": "Levonorgestrel.",
+      "notes": "Brand/generic",
+      "provenance": "Original supplemental PHRA 1001 reproductive mini-lesson item; NOT official NHA",
+      "status": "draft"
+    },
+    {
+      "id": "reproductive-original-9",
+      "category": "Reproductive Medications",
+      "points": 400,
+      "question": "Plan B One-Step and Mirena contain levonorgestrel. Are they interchangeable products? Explain.",
+      "answer": "No. They use different dosage forms, doses and routes, and are used differently. Refer product selection questions to the pharmacist.",
+      "notes": "Medication recognition and safety",
+      "provenance": "Original supplemental PHRA 1001 reproductive mini-lesson item; NOT official NHA",
+      "status": "draft"
+    },
+    {
+      "id": "reproductive-original-10",
+      "category": "Reproductive Medications",
+      "points": 500,
+      "question": "What are the active ingredients in Sprintec?",
+      "answer": "Ethinyl estradiol and norgestimate.",
+      "notes": "Combination brand/generic",
+      "provenance": "Original supplemental PHRA 1001 reproductive mini-lesson item; NOT official NHA",
+      "status": "draft"
+    }
+  ]
+}
