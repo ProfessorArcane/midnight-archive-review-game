@@ -464,9 +464,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Live game integration:** These are approved question bank *review specifications*, not instructions to edit the live `index.html`; the playable game remains unchanged until instructor specifically authorizes publication of approved question content.
 
-## Batch 15 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 15 · Approved 2026-10-08 (instructor delegated final approval with corrections)
 
-**Status:** Independent Gemini audit rated all ten Q141–Q150 answer keys PASS. Primary-source check against NHA's 2023 ExCPT blueprint, FDA/DailyMed labels, FDA history and current Texas statutes confirmed keys with NHA-description and safety-explanation corrections below. **PENDING INSTRUCTOR APPROVAL. NOT ADDED TO LIVE GAME.**
+**Status:** ALL TEN Q141–Q150 INSTRUCTOR-APPROVED with corrected NHA knowledge codes/explanations and curriculum holds noted below. User delegated the final decision: 'whatever you say lets go'. **NOT ADDED TO LIVE GAME.**
 
 | Q | Original topic | Verified answer | Official NHA alignment | Review |
 |---|---|---|---|---|
@@ -497,4 +497,4 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Official source:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
 
-**NEXT:** Ask instructor to approve corrected Batch 15 Q141–Q150. Do not edit `index.html` or live game.
+**Instructor approval received:** User replied 'whatever you say lets go' after recommendation to approve corrected Batch 15. All ten approved, subject to the written corrections and teaching holds. **NEXT:** Batch 16 Q151–Q160 for independent Gemini audit. Do not edit `index.html` or live game.
