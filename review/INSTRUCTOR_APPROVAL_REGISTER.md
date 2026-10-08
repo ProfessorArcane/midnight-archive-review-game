@@ -376,3 +376,41 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 8. **Q111–113** correct brand/generic and drug classifications; no changes to answer choices.
 
 **Instructor conditional approval received:** User replied 'asd long as everyhitgg is correct' after review of the corrections and assistant recommendation to approve all ten. Approval applies to the CORRECTED version summarized here. Q117 remains held for PHRA 1009 Meeting 7 and Q120 for unit-dose overview. **Next:** Batch 13 for independent review. Do not edit live `index.html`.
+
+## Batch 13 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** Q121–Q130 passed external Gemini answer-key review and were checked against NHA's official 2023-job-analysis ExCPT test plan and applicable FDA/DailyMed, OSHA and primary-engineering-control references. **PENDING INSTRUCTOR APPROVAL. NOT ADDED TO LIVE GAME.**
+
+| Q | Topic | Verified key | Exact NHA alignment | Result |
+|---|---|---|---|---|
+| 121 | Jardiance/empagliflozin SGLT2 inhibitor | B | K.57, K.61, K.68 | PASS |
+| 122 | Cymbalta/duloxetine SNRI | A | K.57, K.61, K.68 | PASS; HOLD until psychiatric medications are taught |
+| 123 | OTC Flonase fluticasone propionate nasal corticosteroid | C | K.57, K.59, K.60, K.65, task 3A.5 | PASS |
+| 124 | OTC Drug Facts Active Ingredient(s) section | D | K.104, task 4B.11 as supporting alignment | PASS |
+| 125 | Jordan Lee wrong-patient prevention, confirm DOB/independent identifier | B | K.141; tasks 5E and 5F | PASS |
+| 126 | Nonhazardous sterile PEC, ISO Class 5/HEPA critical-site protection | C | **K.126, K.138**, task **4D.3** | PASS; HOLD until sterile environment overview |
+| 127 | Hazardous chemical spill OSHA SDS sections 6 and 8 | A | K.16, 2A.7, 5A as related | PASS |
+| 128 | Bradycardia = abnormally slow heart rate | D | K.9, task 1F | PASS |
+| 129 | Insurance Tier 3 rather than Tier 1, copay may differ by plan | B | K.89, task 4A.10 | PASS |
+| 130 | Alligation 20% and 5% ointments to 10% w/w: high:low = 1:2 | A | K.120, task 4C.5 | PASS; HOLD PHRA 1009 Meeting 5 |
+
+**MANDATORY CORRECTIONS AND INSTRUCTOR NOTES**
+1. Gemini's code descriptions are NOT all correct. Most notably, **K.138 means primary engineering controls** (e.g., laminar versus vertical flow hood and isolator types), **NOT** 'handling, disposal, and spill cleanup for hazardous and non-hazardous substances.' For Q126, keep **K.126 = maintaining sterile environment**, **K.138 = primary engineering controls**, and Task 4D.3 = maintain sterile-compounding-area environment. A PEC delivers ISO Class 5 HEPA-filtered environment protecting critical sites, but it does not automatically sterilize solutions or remove need for aseptic technique. USP <797>/ASHP.
+2. **K.104 = components of OTC packaging**, not the precise title 'OTC drug facts labeling requirements'; its practical application includes Active Ingredient(s) of OTC Drug Facts. **K.89 = tiered co-pay structures**, whereas K.87 separately means types of formularies. Q129: The tier *may affect* cost sharing, dependent on plan, not universally a higher patient out-of-pocket cost.
+3. **K.59 = dosage forms**, **K.60 = routes of administration**, not a combined 'forms and routes' definition; Q123 can include both.
+4. **K.141 = best practices for quality assurance during entire filling process**, while tasks 5E (match patient info to Rx/order) and 5F (ensure correct Rx released to correct patient) most specifically match Q125. Do not assert every jurisdiction mandates the exact same identifier pair. Follow pharmacy procedures, verify independent identifiers such as DOB or medical record number.
+5. Q130 math: HC=20%, LC=5%, DC=10%. Alligation: high-strength parts = DC−LC = 10−5=5; low-strength parts = HC−DC = 20−10=10. High:low = 5:10 = **1:2**. Mass-weighted verification: (20 × 1 + 5 × 2)/(1+2)=10. *High concentration top left, desired center, low bottom left; show cross subtraction and simplify.* W/w compatible preparations and additive weights.
+6. Q128 'bradycardia' means abnormally slow heart rate; precise adult cutoffs can vary by patient context, so no cutoff is needed in explanation.
+7. Q122 must be held until central nervous system/psychiatric drugs taught; Q126 until sterile-compounding orientation; Q130 until PHRA 1009 Meeting 5. No testing before instruction.
+8. Q121–Q123 medication pairings and class details verified against DailyMed; Q127 SDS sections 6/8 supported by OSHA format; accurate pharmacist referrals and safety boundaries preserved.
+
+**PRIMARY SOURCES**
+- NHA ExCPT 2023 test plan (K-code definitions and task codes): https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+- JARDIANCE label: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5777b8a8-ada6-4950-8548-43a1de11f075
+- CYMBALTA label: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2f7d4d67-10c1-4bf4-a7f2-c185fbad64ba
+- FLONASE ALLERGY RELIEF label: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b6134ba0-b70a-4eac-9a82-cef64b242c1d
+- FDA OTC Drug Facts: https://www.fda.gov/drugs/understanding-over-counter-medicines/over-counter-drug-facts-label
+- OSHA SDS sections: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200AppD
+- ASHP PEC guide: https://ashp.mhmedical.com/content.aspx?bookid=3669&sectionid=308117765
+
+**Next action:** Obtain instructor approval of Q121–Q130 as corrected. Do not modify `index.html`.
