@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Midnight Archive | Stoic Classroom Edition</title><style>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Midnight Archive | Classroom Game</title><style>
 :root{color-scheme:dark;--ivory:#f3efdf;--muted:#bdc3cb;--marble:#d7dce1;--navy:#07101a;--slate:#111a26;--border:#988675;--gold:#d8c196;--gold2:#eee0bd;--sage:#859982;--steel:#8aabc7;--violet:#ad9ec7;--crimson:#ba8b8a;--glass:rgba(6,12,19,.93)}
 *{box-sizing:border-box}html,body{height:100%;margin:0}body{color:var(--ivory);font-family:Georgia,'Times New Roman',serif;background-color:#08101a;background-image:linear-gradient(90deg,rgba(1,7,13,.03),rgba(2,7,13,.09) 45%,rgba(2,7,13,.12)),url("none");background-position:center center;background-size:cover;background-repeat:no-repeat;background-attachment:fixed}button,select{font:inherit}button{cursor:pointer}button:focus-visible,select:focus-visible{outline:3px solid #ecdbaf;outline-offset:3px}button:disabled{cursor:default}
 .app{height:100dvh;min-height:680px;width:min(100%,1920px);margin:0 auto;padding:10px clamp(12px,2.2vw,33px) 8px 0;display:grid;grid-template-columns:22.5% minmax(0,1fr);grid-template-rows:minmax(110px,15vh) minmax(37px,4.8vh) 40px minmax(23px,3.2vh) minmax(0,1fr) minmax(91px,12vh) 15px;row-gap:5px;overflow:hidden}
@@ -63,6 +63,50 @@ body { background-color:#07111d; background-image:linear-gradient(90deg,rgba(4,1
 .answer.correct{background:#203d43;border-color:#91b6a9}
 .correctbox{color:#c5e1d7}
 @media (max-width:1100px){.cat-glyph svg{width:22px;height:22px}.cat-glyph{height:22px}}
+
+/* Reference-locked visual override: keep close to approved mockups */
+:root{--ivory:#f4f4f1;--muted:#d7d8d8;--marble:#ece9e2;--navy:#08111b;--slate:#131c26;--border:#b7a07c;--gold:#cdb58f;--gold2:#e8dcc1;--glass:rgba(6,12,19,.88)}
+body{background-color:#07111c;color:var(--ivory)}
+.hero{padding-top:4px}
+.hero-title{font-size:clamp(34px,4.2vw,68px)!important;letter-spacing:.06em!important;color:#f2e8d8!important;text-shadow:0 2px 12px rgba(0,0,0,.42)}
+.motto{font-size:clamp(13px,1.45vw,22px)!important;color:#e6d8b8!important;letter-spacing:.17em!important}
+.translation{font-size:clamp(11px,1.15vw,17px)!important;color:#ddd7ca!important;letter-spacing:.05em!important}
+.week-tabs{gap:6px!important;padding:0 3.2%!important}
+.week-tab{background:linear-gradient(180deg,rgba(16,24,34,.97),rgba(8,14,22,.97))!important;color:#efe7d8!important;border:1px solid #b9a07b!important;border-radius:8px!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.08), inset 0 -10px 24px rgba(255,255,255,.02)!important}
+.week-tab.active{background:linear-gradient(180deg,#efede8,#d9d2c6)!important;color:#1d1610!important;border-color:#d4c3a4!important;box-shadow:0 0 0 1px rgba(225,208,170,.5), inset 0 0 0 1px rgba(130,110,80,.12)!important}
+.week-tab:not(:disabled):hover{background:linear-gradient(180deg,rgba(32,40,50,.98),rgba(11,18,28,.98))!important;border-color:#d2bd97!important}
+.tools label,.meta-row .info,.board-progress,.footer{color:#cfd3d7!important}
+.tools select,.tools button{background:rgba(9,16,25,.9)!important;border:1px solid rgba(180,160,125,.58)!important;color:#f2ede4!important;border-radius:7px!important}
+.board{background:linear-gradient(180deg,rgba(6,10,16,.93),rgba(4,8,14,.95))!important;border:1px solid #b69d77!important;border-radius:18px!important;box-shadow:0 14px 36px rgba(0,0,0,.46), inset 0 0 0 1px rgba(235,214,170,.14)!important;padding:6px!important;gap:5px!important}
+.column{gap:5px!important}
+.category,.tile{border-radius:5px!important}
+.category{background:linear-gradient(180deg,rgba(18,27,38,.98),rgba(10,16,24,.98))!important;border:1px solid rgba(177,154,118,.84)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.08), inset 0 0 0 1px rgba(255,255,255,.03)!important;color:#f0e7d7!important;padding:5px 3px 4px!important}
+.cat-glyph{height:26px!important;color:#e7d4aa!important}
+.cat-glyph svg{width:24px!important;height:24px!important;stroke-width:1.8!important;filter:drop-shadow(0 1px 1px rgba(0,0,0,.22))}
+.cat-main{font-size:clamp(10px,1vw,16px)!important;letter-spacing:.045em!important}
+.cat-sub{font-size:clamp(8px,.78vw,12px)!important;color:#e0ddd6!important}
+.tile{background:linear-gradient(180deg,#f1efe9,#dfdbd2)!important;border:1px solid rgba(155,135,100,.8)!important;color:#18140f!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.6), inset 0 0 0 1px rgba(120,100,70,.08)!important;text-shadow:none!important;font:500 clamp(18px,2.1vw,37px) Georgia!important}
+.tile:not(:disabled):hover{background:linear-gradient(180deg,#faf8f3,#ebe5d8)!important;border-color:#d0bb97!important}
+.tile.done{background:linear-gradient(180deg,#d9d6d0,#c7c2ba)!important;color:#6b655c!important;border-color:rgba(120,110,95,.55)!important;text-decoration:line-through}
+.tile.empty{background:linear-gradient(180deg,rgba(24,32,43,.96),rgba(11,16,23,.96))!important;color:#48515a!important;border-color:#33404b!important}
+.scorebar{gap:8px!important;padding-top:2px!important}
+.guild{border:1px solid rgba(174,152,118,.85)!important;border-radius:8px!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.07),0 8px 22px rgba(0,0,0,.18)!important;padding:9px 6px 6px!important}
+.guild:nth-child(1){background:linear-gradient(180deg,rgba(25,44,40,.96),rgba(11,22,24,.96))!important}
+.guild:nth-child(2){background:linear-gradient(180deg,rgba(18,35,54,.96),rgba(9,18,28,.96))!important}
+.guild:nth-child(4){background:linear-gradient(180deg,rgba(37,25,49,.96),rgba(16,10,23,.96))!important}
+.guild:nth-child(5){background:linear-gradient(180deg,rgba(56,26,31,.96),rgba(23,10,14,.96))!important}
+.guild-name{color:#f0e7dc!important;font-size:clamp(10px,.95vw,15px)!important;letter-spacing:.06em!important}
+.guild-points{color:#f7f1e8!important}
+.guild-hint{color:#c4c8ce!important}
+.guild-mark{color:var(--guild-color)!important}
+.timer-ring{border:2px solid #d1b88b!important;box-shadow:inset 0 0 0 5px #09121c,inset 0 0 0 6px #8d7a60,0 0 0 4px rgba(167,144,109,.45)!important;background:linear-gradient(180deg,rgba(9,15,24,.98),rgba(4,8,14,.98))!important}
+.main-clock{color:#f5eee0!important}
+.timer-caption{color:#e0cfad!important}
+.modal{background-image:linear-gradient(180deg,#13202d,#0a111d)!important;border:1px solid rgba(185,166,130,.65)!important}
+.answer{background:#101a27!important;border-color:#59687a!important;color:#edf0f3!important}
+.answer.correct{background:#20333a!important;border-color:#87a99c!important}
+@media (max-width:1100px){.week-tabs{gap:4px!important}.board{gap:4px!important}.column{gap:4px!important}}
+
 </style></head>
 <body><main class="app">
 <header class="hero"><div class="moon" aria-hidden="true">☾</div><div class="hero-prefix">THE</div><h1 class="hero-title">MIDNIGHT ARCHIVE</h1><div class="motto">Per Scientiam ad Fiduciam</div><div class="translation">Through Knowledge to Confidence</div></header>
