@@ -463,3 +463,38 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 **Other state-specific caveats to inspect as post-answer notes when appropriate:** Q29 pseudoephedrine; Q31 C-II refills; Q37 DAW; Q47 III–IV refills; Q79 DEA Form 222; Q86 child-resistant packaging; Q99 Form 106 including separate Texas Board reporting; Q119 pharmacist verification vs permitted Texas institutional tech-check-tech; Q140 suspected alteration. These are flagged for *review of notes*, not automatic invalidation of nationally correct answers. Only add a Texas Law Note when factually warranted and supported by TSBP/TAC sources.
 
 **Live game integration:** These are approved question bank *review specifications*, not instructions to edit the live `index.html`; the playable game remains unchanged until instructor specifically authorizes publication of approved question content.
+
+## Batch 15 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** Independent Gemini audit rated all ten Q141–Q150 answer keys PASS. Primary-source check against NHA's 2023 ExCPT blueprint, FDA/DailyMed labels, FDA history and current Texas statutes confirmed keys with NHA-description and safety-explanation corrections below. **PENDING INSTRUCTOR APPROVAL. NOT ADDED TO LIVE GAME.**
+
+| Q | Original topic | Verified answer | Official NHA alignment | Review |
+|---|---|---|---|---|
+| 141 | Januvia (sitagliptin) DPP-4 inhibitor | C | K.57, K.61, K.68 | PASS |
+| 142 | Colcrys (colchicine) gout flare treatment/prophylaxis | A | K.61, K.62, K.68 | PASS |
+| 143 | Fentanyl transdermal patch: never cut; pharmacist referral | D | K.59 (dosage forms), K.60 (routes), K.151 (high alert), task 5D | PASS; HOLD until controlled/transdermal safety |
+| 144 | KCl oral 20mEq/15mL, target 40mEq = 30mL | B | K.110 (mEq calculations), task 4C.2 | PASS; HOLD PHRA 1009 mEq |
+| 145 | Durham-Humphrey Amendment of 1951 Rx vs OTC | D | K.30, task 2A.1 | PASS |
+| 146 | Missed maintenance doses: document adherence issue and refer | A | **K.7 (pharmacy technician role in medication therapy management), K.146 (medication adherence), tasks 1D and 5C**; K.10 could support communication | PASS; correct K.7 interpretation |
+| 147 | Unexpected cloudiness/precipitate in sterile preparation: stop, prevent use, pharmacist evaluation | C | K.72, K.133, task 4D.12 | PASS; HOLD compounding |
+| 148 | OTC Voltaren Arthritis Pain: For external use only | B | K.65, K.102 (purpose and placement of auxiliary labels), task 4B.8 | PASS |
+| 149 | Noncontrolled Rx exhausted refills: request new authorization | C | **K.77 (refills allowed by prescription, drug type/class)**, task **4A.4** (send/process refill authorization requests) | PASS |
+| 150 | Hypothetical safe-dose range 18kg×10–15mg/kg/day=180–270mg/day; Rx 120mg BID=240mg/day | A | **K.114 (weight-based dosage concentration, mg/kg/day), K.144 (safe dosage ranges)**, task 4C.2 | PASS; HOLD PHRA 1009 Meeting 6 |
+
+**EXACT CORRECTIONS AND TEACHING NOTES**
+1. **Gemini misdefined K.7:** NHA K.7 = *purpose and benefits of medication therapy management (MTM) and pharmacy technician's role therein*, NOT merely communication techniques. **K.10** covers communication methods/strategies. K.146 means *medication adherence*. Q146 fits K.7, K.146, tasks 1D and 5C.
+2. **Gemini misdefined K.60:** NHA **K.59 = dosage forms** (tablet, topical, liquids, injectables, inhalers), **K.60 = routes of administration** (oral, topical, parenteral, etc.), not generic transdermal drug-delivery-system mechanisms. Q143 is correct because FDA labeling warns fentanyl patches must NOT be cut, with risk of overdose/death. Do not falsely teach that cutting every type of transdermal patch necessarily destroys identical matrix/reservoir mechanisms or always causes immediate dose dumping. Refer patch modification to pharmacist; maintain teaching hold.
+3. **Q144:** 40mEq × (15mL/20mEq)=30mL, cancel mEq and circle mL. Product-specific oral KCl 20mEq/15mL verified on DailyMed. **IMPORTANT safety note if included after math feedback:** liquid KCl must be diluted prior to administration per manufacturer labeling; the volume calculation alone is not patient-specific dose authorization. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b17d54ca-5885-48d3-96e9-b29ad14f8d76
+4. **Q145:** FDA confirms Durham-Humphrey of 1951 separated prescription from nonprescription; no Texas Law Note necessary since no meaningful distinction changes the national rule. https://www.fda.gov/about-fda/fda-history/milestones-us-food-and-drug-law
+5. **Q147:** Since the stem states the sterile mixture was expected to be clear, unexpected particles/cloudiness are a possible incompatibility: **stop, do not use or attempt to fix, segregate as needed, refer to pharmacist**. Do not assert every solution with cloudiness is categorically unsterile or describe fatal embolism as a certainty. NHA K.72 physical interactions/incompatibilities; K.133 forms of incompatibility (physical, chemical, osmolarity); task 4D.12 inspection.
+6. **Q148:** FDA DailyMed Voltaren OTC Drug Facts states “For external use only”; K.102 purpose/placement of auxiliary labels, not the inaccurate blanket definition “auxiliary warnings and patient statements.” https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=30a94282-0892-442a-aa10-6525cbd4fe88
+7. **Q149:** K.77 does NOT literally mean “refill authorization requests and procedures”; it means *refills allowed based on prescription, drug type and drug class*. **Task 4A.4** explicitly concerns sending/processing refill authorization requests. Answer C correct. **Texas Law Note after answer ONLY** if instructional context warrants: Texas Occupations Code §562.054 and 22 TAC §291.34(b)(8)(D) permit a **pharmacist**, after reasonable unsuccessful attempts to contact the prescriber and risk of interruption of therapy/suffering, to authorize limited emergency dispensing (normally **up to 72-hour supply**, excluding Schedule II), with required patient/prescriber notifications and recordkeeping; a separate **up-to-30-day** exception exists under specified state-declared/disaster conditions. Never imply automatic entitlement, authority to technician, or 72 hours universally. https://statutes.capitol.texas.gov/Docs/OC/htm/OC.562.htm and https://regulations.justia.com/states/texas/title-22/part-15/chapter-291/subchapter-b/section-291-34/
+8. **Q150:** NHA K.114 = weight-based dosage concentration, K.144 = safe dosage ranges (not both vaguely 'dose verification'). 18kg × 10–15mg/kg/day gives 180–270mg/day; ordered 120mg/dose × 2/day = 240mg/day; within *hypothetical supplied range*. Clinical approval not implied; held until PHRA1009 Meeting6.
+9. **Q141–Q142:** Januvia DPP-4 and Colcrys gout treatment/prophylaxis correct under DailyMed labeling. https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ecaa34e-1bed-49a5-b97c-a8f8c0d885a7
+10. **Q143** FDA fentanyl labeling prohibits cutting, breaking, crushing or damaging patch. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=242759ef-cb6d-4e3e-9f8d-5e31efa1f289
+
+**National-first examination policy:** Original question asks national NHA ExCPT target. If Texas law adds a different requirement, append separate **Texas Law Note after answer reveal**, and do NOT place in stem or modify nationwide correct letter.
+
+**Official source:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+
+**NEXT:** Ask instructor to approve corrected Batch 15 Q141–Q150. Do not edit `index.html` or live game.
