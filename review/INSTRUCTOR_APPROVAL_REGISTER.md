@@ -248,9 +248,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Instructor approval received:** User replied 'yes okay' to approval of Q71–Q80 with the listed corrections. The corrected version is the approved version, and original keys remain. **Next:** Present Batch 09 for review. No changes to `index.html`.
 
-## Batch 09 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 09 · Approved 2026-10-08 (instructor confirmation with corrections)
 
-**Status:** All ten question-answer keys Q81–Q90 passed the submitted Gemini audit; independently cross-checked relevant FDA/CPSC/NCC MERP facts and official NHA K-code definitions. **INSTRUCTOR APPROVAL STILL REQUIRED. NOT PUBLISHED TO THE LIVE GAME.** These are original ExCPT-style questions, not official NHA exam items.
+**Status:** ALL TEN QUESTIONS Q81–Q90 APPROVED BY INSTRUCTOR WITH CORRECTED NHA CODES AND EXPLANATION REFINEMENTS BELOW. **NOT PUBLISHED TO THE LIVE GAME.** Original ExCPT-style questions, not official NHA exam items.
 
 | Question | Topic | Verified answer | NHA knowledge/task alignment | Current status |
 |---|---|---|---|---|
@@ -276,4 +276,4 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Blueprint:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
 
-**Next:** Obtain instructor approval of Batch 09 **with these corrections**. Keep `index.html` unchanged.
+**Instructor approval received:** User explicitly said 'yes give me next' in reply to approving Q81–Q90 with corrections. Approval applies to the verified corrected version. **Next:** Prepare Batch 10 (Q91–Q100). Keep `index.html` unchanged.
