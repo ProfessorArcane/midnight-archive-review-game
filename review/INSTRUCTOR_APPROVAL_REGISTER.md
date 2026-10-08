@@ -565,3 +565,38 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 **DEA inventory disposal source:** https://www.deadiversion.usdoj.gov/faq/disp-destr-faq.html
 
 **Instructor approval:** User replied 'whatever you think is correct' after the assistant recommended approval of corrected Q161–Q170. Approved corrected batch. **Next:** Batch 18 Q171–Q180 independent audit. Do not edit `index.html` or playable game.
+
+## Batch 18 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** Gemini marked all ten Q171–Q180 answer keys PASS. Independently checked the high-risk rule nuances against NHA official ExCPT 2023-test-plan PDF, HHS HIPAA guidance, DEA 21 CFR and DEA Form 41 instructions, FDA DSCSA product-identifier guidance, and Texas H&S Code §481.074. All ten proposed answer letters remain correct. **PENDING INSTRUCTOR APPROVAL. NO LIVE GAME / `index.html` CHANGES.**
+
+| Q | Topic | Correct letter | Verified official NHA code/task | Outcome |
+|---|---|---|---|---|
+| 171 | Zetia/ezetimibe lowers intestinal cholesterol absorption (NPC1L1) | B | K.57, K.61, K.68 | PASS |
+| 172 | Topamax/topiramate anticonvulsant for migraine prevention | C | K.57, K.61, K.68 | PASS; HOLD neurologic/migraine lesson |
+| 173 | Trusopt/dorzolamide 2% ophthalmic carbonic anhydrase inhibitor | A | K.57, **K.60 (routes of administration)**, K.61, K.68 | PASS; HOLD ophthalmic lesson |
+| 174 | Flagyl/metronidazole nitroimidazole antimicrobial | D | K.57, K.61, K.68 | PASS |
+| 175 | Federal HIPAA treatment disclosure between healthcare providers exempt from minimum necessary | B | K.25, task 2A.2 | PASS; qualify internal access |
+| 176 | DEA Form 41 for registrant's controlled substance on-site destruction | A | K.48 (**DEA forms 41/106/222**), K.54 (**CS ordering, receiving, storing, disposal**), task 2B.7 | PASS; distinguish reverse distributor transfer |
+| 177 | Aspirin viral illness in child/teen: pharmacist referral due to Reye syndrome risk | C | K.65, K.70, task 3A.5 | PASS |
+| 178 | DSCSA product identifier: NDC, serial, lot and expiration | D | K.33, task 2A.1 | PASS; distinguish standardized numerical identifier |
+| 179 | Federal emergency oral C-II prescription: limited emergency quantity, immediate pharmacist writing, prescriber 7-day follow-up | B | **K.46 (CS prescription requirements), K.50 (emergency filling procedures)**, task 2B.4 | PASS; optional TEXAS LAW NOTE only after answer |
+| 180 | (104 °F−32)×5/9=40°C | C | **K.121 (temperature scales)**, task **4C.6 (temperature conversions)** | PASS; HOLD PHRA1009 Meeting1 |
+
+**Audit corrections (must accompany any final approval):**
+
+1. **Q173:** Gemini inaccurately titles NHA K.60 “Delivery Systems.” Official **K.60 = routes of administration** (oral, topical, parenteral, etc.). Ophthalmic route is applicable. K.57 drug class, K.61 indication, K.68 brand/generic all valid.
+2. **Q175:** HHS minimum necessary standard does NOT apply to disclosures **to**, or requests **by**, a healthcare provider for **treatment**, but **internal uses and workforce access** are not globally exempt from reasonable role-based restrictions. The question specifically describes a treating physician requesting information, so B correct. Do not teach that all uses labeled “treatment” lack privacy safeguards. HHS: https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/disclosures-treatment-payment-health-care-operations/index.html
+3. **Q176:** DEA Form 41 documents **actual registrant destruction** of lawfully held controlled substances, following 21 CFR 1317 requirements. **Not** a blanket form for every return to reverse distributor; transfer records/DEA Form 222 for Schedule II inventory as applicable are separate. Q176 explicitly says authorized *on-site* destruction, so answer A is sound. https://www.deadiversion.usdoj.gov/21cfr_reports/surrend/surrend.html ; https://www.ecfr.gov/current/title-21/chapter-II/part-1317/section-1317.95
+4. **Q178:** Under DSCSA, *standardized numerical identifier* (SNI) consists of **NDC plus unique serial number**; the **complete product identifier** includes SNI **plus lot number and expiration date**. Q178 asks complete product identifier so answer D. Avoid wrongly describing lot+expiration as part of SNI. FDA https://www.fda.gov/media/116304/download
+5. **Q179:** Federal 21 CFR §1306.11(d)(1)–(4) permits bona fide emergency *oral* C-II initial Rx dispensed by pharmacist in limited emergency quantity, immediately reduced to writing, with appropriate prescriber verification and paper/electronic follow-up within **7 days**; pharmacist must notify the nearest DEA office when prescriber fails to provide the required follow-up (where applicable). **No C-II refills**. The question's B is correct. https://www.ecfr.gov/current/title-21/chapter-II/part-1306/section-1306.11
+6. **Q179 Texas note, ONLY AFTER ANSWER REVEAL:** Texas H&S Code **§481.074(c)** says prescriber shall cause completed **electronic** follow-up prescription to be delivered to dispensing pharmacist no later than **7 days** after emergency oral/telephonic authorization; other legal exemptions must be considered rather than claiming every possible written order always prohibited. Distinguish national federal rule permitting paper OR electronic follow-up from typical Texas electronic requirement. https://statutes.capitol.texas.gov/Docs/HS/htm/HS.481.htm ; legal exceptions https://statutes.capitol.texas.gov/Docs/HS/htm/HS.481.htm#481.0755
+7. **Gemini's extra Texas assertion in Q179 is UNVERIFIED AND SHOULD NOT BE REPEATED:** It claimed the pharmacy must notify **both** TSBP and local DEA if the 7-day follow-up missing, citing Texas rule 22 TAC §315.8. But **§315.8 concerns pharmacy responsibility for prescription modifications**, not this asserted notification pair. Retain verified federal DEA notification language; omit claimed Texas Board notification unless backed by a specifically applicable current Texas provision. An outdated TSBP source may apply different procedural duties; do not guess.
+8. **Q180:** NHA K.121 means **temperature scales**, while task **4C.6** is conversion. (104−32)×5/9 = **40°C**. PHRA1009 Meeting1 only; no practice before taught.
+9. **Q171–174, Q177:** DailyMed/FDA product facts independently supported: Zetia inhibits cholesterol absorption via NPC1L1; Topamax migraine prevention; dorzolamide ophthalmic carbonic anhydrase inhibitor; Flagyl/metronidazole nitroimidazole; aspirin warning for children/teens with viral symptoms. Do not add unsupported blanket indications or broad safety claims.
+10. **Curriculum holds:** Q172 neurologic/migraine; Q173 ophthalmic; Q180 PHRA1009 Meeting1. Clarify other instructional prerequisites as needed before putting on week-specific boards.
+
+**Standing question policy:** National NHA ExCPT focus; Texas deviations only as explicit instructor feedback **after** answer reveal. Preserve original Q179 national key B.
+
+**Official NHA source:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+**Next step:** Request approval of corrected Batch 18 Q171–Q180. Then Batch 19 Q181–Q190. Do not edit live `index.html`.
