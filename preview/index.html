@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Midnight Archive — PHRA 1001 Review</title>
+
+<style>
+  :root {
+    --navy:#050713;
+    --ink:#f7e8bf;
+    --muted:#cab98b;
+    --gold:#d5a64d;
+    --bright:#f5d989;
+    --border:rgba(213,166,77,.62);
+    --panel:rgba(4, 8, 19, .86);
+    --parchment:#c8aa73;
+  }
+
+  * { box-sizing:border-box; }
+  html, body { margin:0; min-height:100%; }
+
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    color:var(--ink);
+    background:
+      radial-gradient(circle at 50% 20%, rgba(168,75,255,.38), transparent 16%),
+      radial-gradient(circle at 55% 24%, rgba(255,179,61,.22), transparent 20%),
+      radial-gradient(circle at 62% 18%, rgba(45,160,255,.18), transparent 18%),
+      linear-gradient(180deg, #060814 0%, #02030a 100%);
+    overflow-x:hidden;
+  }
+
+  body::before {
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    background:
+      radial-gradient(circle, rgba(245,217,137,.9) 1px, transparent 1.8px),
+      radial-gradient(circle, rgba(150,190,255,.75) 1px, transparent 1.7px);
+    background-size: 88px 88px, 143px 143px;
+    background-position: 10px 22px, 42px 71px;
+    opacity:.34;
+    z-index:-2;
+  }
+
+  body::after {
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    background:radial-gradient(circle at center, transparent 42%, rgba(0,0,0,.62) 100%);
+    z-index:-1;
+  }
+
+  .app {
+    width:min(1540px, 98vw);
+    margin:0 auto;
+    padding:18px 14px 24px;
+  }
+
+  .title-card {
+    min-height:285px;
+    border:1px solid var(--border);
+    border-radius:34px 34px 18px 18px;
+    padding:26px 30px;
+    position:relative;
+    overflow:hidden;
+    background:
+      radial-gradient(circle at 50% 98%, rgba(246,173,49,.34), transparent 22%),
+      radial-gradient(circle at 55% 46%, rgba(140,60,255,.42), transparent 19%),
+      radial-gradient(circle at 57% 52%, rgba(45,160,255,.22), transparent 22%),
+      linear-gradient(180deg, rgba(4,7,18,.96), rgba(4,8,20,.86));
+    box-shadow:0 22px 55px rgba(0,0,0,.55), inset 0 0 0 2px rgba(213,166,77,.14);
+  }
+
+  .title-card::before {
+    content:"✧   ✦      ✧        ✦        ✧";
+    position:absolute;
+    inset:auto 0 18px 0;
+    text-align:center;
+    color:rgba(245,217,137,.72);
+    letter-spacing:24px;
+    font-size:18px;
+  }
+
+  .title-card::after {
+    content:"N\A W   ✦   E\A S";
+    white-space:pre;
+    position:absolute;
+    top:20px;
+    left:50%;
+    transform:translateX(-50%);
+    width:170px;
+    height:170px;
+    border:2px solid rgba(213,166,77,.58);
+    border-radius:50%;
+    display:grid;
+    place-items:center;
+    color:rgba(245,217,137,.9);
+    font-size:30px;
+    line-height:1.15;
+    text-align:center;
+    opacity:.75;
+    box-shadow:0 0 34px rgba(213,166,77,.18);
+  }
+
+  h1 {
+    margin:26px 0 8px;
+    width:46%;
+    color:var(--bright);
+    font-size:clamp(2.6rem, 5vw, 5.1rem);
+    line-height:.9;
+    letter-spacing:.045em;
+    text-transform:uppercase;
+    text-shadow:0 3px 0 rgba(0,0,0,.65), 0 0 18px rgba(213,166,77,.3);
+  }
+
+  .subtitle {
+    width:46%;
+    color:#f0d58e;
+    font-size:1.55rem;
+    letter-spacing:.06em;
+    line-height:1.55;
+  }
+
+  .subtitle::after {
+    content:"Maps for the Journey";
+    display:block;
+    font-style:italic;
+    color:#f0d58e;
+    font-size:1.25rem;
+    letter-spacing:0;
+    margin-top:6px;
+  }
+
+  .quote {
+    position:absolute;
+    right:72px;
+    top:74px;
+    width:280px;
+    border:1px solid rgba(213,166,77,.38);
+    padding:18px;
+    color:#f7e0a2;
+    font-size:1.1rem;
+    line-height:1.45;
+    background:rgba(4,8,20,.42);
+  }
+
+  .quote::before {
+    content:"WORDS TO GUIDE US";
+    display:block;
+    font-style:normal;
+    color:#d5a64d;
+    font-size:.78rem;
+    letter-spacing:.12em;
+    margin-bottom:8px;
+  }
+
+  .top-controls {
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin:14px 0;
+  }
+
+  button {
+    font-family: Georgia, "Times New Roman", serif;
+    border:1px solid var(--border);
+    border-radius:5px;
+    background:linear-gradient(180deg, #12243b, #07101f);
+    color:var(--bright);
+    padding:9px 13px;
+    font-weight:700;
+    letter-spacing:.02em;
+    cursor:pointer;
+    box-shadow:0 7px 18px rgba(0,0,0,.28), inset 0 0 0 1px rgba(255,255,255,.04);
+  }
+
+  button:hover:not(:disabled) {
+    filter:brightness(1.15);
+    box-shadow:0 0 18px rgba(213,166,77,.22);
+  }
+
+  button:disabled {
+    opacity:.35;
+    cursor:not-allowed;
+  }
+
+  .danger { background:linear-gradient(180deg, #692422, #2d0c0d); }
+  .gold { background:linear-gradient(180deg, #805c18, #2d210b); }
+  .green { background:linear-gradient(180deg, #154d2b, #092315); }
+
+  .scoreboard {
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:9px;
+    margin:10px 0 12px;
+  }
+
+  .team {
+    border:1px solid var(--border);
+    background:linear-gradient(180deg, rgba(13,27,48,.94), rgba(4,9,20,.92));
+    padding:10px;
+    text-align:center;
+    min-height:86px;
+  }
+
+  .team:nth-child(2) { background:linear-gradient(180deg, rgba(13,56,38,.95), rgba(6,25,17,.95)); }
+  .team:nth-child(3) { background:linear-gradient(180deg, rgba(54,28,82,.95), rgba(22,12,38,.95)); }
+  .team:nth-child(4) { background:linear-gradient(180deg, rgba(82,30,24,.95), rgba(34,12,10,.95)); }
+
+  .team-name {
+    color:var(--bright);
+    letter-spacing:.07em;
+    font-size:1rem;
+    text-transform:uppercase;
+  }
+
+  .score {
+    font-size:2.1rem;
+    color:#ffd98a;
+    margin:2px 0 7px;
+  }
+
+  .team-actions {
+    display:flex;
+    gap:6px;
+    justify-content:center;
+  }
+
+  .team-actions button { padding:4px 8px; font-size:.78rem; }
+
+  .timer-card {
+    border:1px solid var(--border);
+    background:var(--panel);
+    padding:10px;
+    display:flex;
+    gap:12px;
+    justify-content:center;
+    align-items:center;
+    margin:10px 0 14px;
+  }
+
+  .timer-display {
+    font-size:2.6rem;
+    color:#ffd98a;
+    min-width:110px;
+    text-align:center;
+  }
+
+  .timer-buttons {
+    display:flex;
+    gap:7px;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  #boardView {
+    border:1px solid var(--border);
+    background:linear-gradient(180deg, rgba(4,8,20,.90), rgba(2,5,12,.95));
+    padding:16px;
+    box-shadow:0 20px 45px rgba(0,0,0,.38);
+  }
+
+  #boardView::before {
+    content:"THE MIDNIGHT ARCHIVE \A PHRA 1001 REVIEW · Weeks 1–4";
+    white-space:pre;
+    display:block;
+    text-align:center;
+    color:#f2d082;
+    letter-spacing:.09em;
+    font-weight:bold;
+    margin-bottom:10px;
+    font-size:1.25rem;
+  }
+
+  .board {
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    gap:6px;
+  }
+
+  .category {
+    min-height:70px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:7px;
+    border:1px solid var(--border);
+    background:linear-gradient(180deg, #11243b, #050b16);
+    color:#ffd98a;
+    font-weight:bold;
+    font-size:.95rem;
+    text-transform:uppercase;
+  }
+
+  .cell {
+    min-height:55px;
+    font-size:1.35rem;
+    color:#ffd98a;
+    background:rgba(5,9,18,.86);
+    border:1px solid rgba(213,166,77,.44);
+  }
+
+  .cell:hover:not(:disabled) {
+    background:#2b1746;
+  }
+
+  .cell.used {
+    background:#080a10;
+    color:#675d4c;
+    text-decoration:line-through;
+  }
+
+  .final-row { text-align:center; margin:14px 0 2px; }
+
+  .panel {
+    display:none;
+    border:1px solid var(--border);
+    background:
+      radial-gradient(circle at 92% 10%, rgba(168,75,255,.14), transparent 22%),
+      linear-gradient(180deg, rgba(4,8,20,.96), rgba(2,5,12,.98));
+    padding:16px;
+    margin-top:12px;
+    box-shadow:0 22px 52px rgba(0,0,0,.45);
+  }
+
+  .panel.active { display:block; }
+
+  .tagline {
+    display:flex;
+    justify-content:space-between;
+    gap:8px;
+    flex-wrap:wrap;
+    border-bottom:1px solid rgba(213,166,77,.35);
+    padding-bottom:10px;
+    margin-bottom:14px;
+  }
+
+  .badge {
+    padding:8px 12px;
+    border:1px solid var(--border);
+    color:var(--bright);
+    background:rgba(6,11,24,.75);
+    font-weight:800;
+    text-transform:uppercase;
+    letter-spacing:.05em;
+  }
+
+  .question, .answer, .notes {
+    white-space:pre-wrap;
+    line-height:1.45;
+    font-size:1.28rem;
+  }
+
+  .question {
+    background:#c8aa73;
+    color:#111;
+    border:2px solid rgba(80,55,25,.6);
+    box-shadow:inset 0 0 30px rgba(55,28,10,.18);
+    padding:24px;
+    text-align:center;
+    min-height:220px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .answer {
+    display:none;
+    margin-top:14px;
+    background:rgba(3,8,18,.86);
+    border:1px solid var(--border);
+    padding:22px;
+    text-align:center;
+    color:#ffe3a0;
+    min-height:170px;
+  }
+
+  .answer::before {
+    content:"ANSWER:";
+    display:block;
+    color:#d5a64d;
+    letter-spacing:.1em;
+    margin-bottom:10px;
+    font-size:.9rem;
+  }
+
+  .notes {
+    display:none;
+    margin-top:14px;
+    background:rgba(24,18,41,.88);
+    border:1px solid rgba(196,181,253,.38);
+    padding:14px;
+    font-size:1rem;
+    color:#f0e9ff;
+  }
+
+  .action-bar {
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:14px;
+  }
+
+  .award-bar {
+    display:none;
+    grid-template-columns:repeat(4, 1fr);
+    gap:9px;
+    margin-top:14px;
+  }
+
+  .award-bar button:nth-child(1) { background:linear-gradient(180deg, #0b2c4a, #06111e); }
+  .award-bar button:nth-child(2) { background:linear-gradient(180deg, #13482f, #081f16); }
+  .award-bar button:nth-child(3) { background:linear-gradient(180deg, #41215f, #180d28); }
+  .award-bar button:nth-child(4) { background:linear-gradient(180deg, #59231d, #220d0b); }
+
+  .footer {
+    text-align:center;
+    color:#e4c978;
+    font-style:italic;
+    font-size:1.1rem;
+    margin:13px 0 0;
+  }
+
+  .toast {
+    position:fixed;
+    bottom:18px;
+    left:50%;
+    transform:translateX(-50%);
+    background:#050914;
+    border:1px solid var(--border);
+    color:var(--bright);
+    padding:11px 16px;
+    display:none;
+    z-index:20;
+  }
+
+  @media (min-width: 1050px) {
+    .app {
+      display:grid;
+      grid-template-columns: 1fr 1fr 260px;
+      gap:12px;
+      align-items:start;
+    }
+    .title-card, .top-controls, .footer {
+      grid-column:1 / 4;
+    }
+    .scoreboard {
+      grid-column:1 / 2;
+      grid-row:4;
+      align-self:end;
+    }
+    .timer-card {
+      grid-column:3;
+      grid-row:3;
+      flex-direction:column;
+    }
+    #boardView {
+      grid-column:1;
+      grid-row:3;
+    }
+    #questionPanel {
+      grid-column:2;
+      grid-row:3 / span 2;
+      margin-top:0;
+      min-height:560px;
+    }
+    #howToPanel {
+      grid-column:2;
+      grid-row:3 / span 2;
+      margin-top:0;
+    }
+    .timer-buttons { flex-direction:column; width:100%; }
+    .timer-buttons button { width:100%; }
+    .final-row { grid-column:3; }
+  }
+
+  @media (max-width: 900px) {
+    h1, .subtitle { width:100%; }
+    .quote { position:static; width:auto; margin-top:14px; }
+    .title-card::after { opacity:.22; }
+    .scoreboard { grid-template-columns:repeat(2, 1fr); }
+    .board { grid-template-columns:repeat(3, 1fr); }
+    .award-bar { grid-template-columns:repeat(2, 1fr); }
+  }
+
+  @media (max-width: 560px) {
+    .app { padding:8px; }
+    .scoreboard, .award-bar { grid-template-columns:1fr; }
+    .board { grid-template-columns:repeat(2, 1fr); }
+    .question, .answer { font-size:1.04rem; }
+  }
+
+  /* Strong touchscreen selection feedback */
+  button,
+  .cell {
+    -webkit-tap-highlight-color: rgba(255, 223, 128, .65);
+    touch-action: manipulation;
+    user-select: none;
+  }
+
+  button:active,
+  button:focus,
+  button.touch-glow,
+  .cell:active,
+  .cell:focus,
+  .cell.touch-glow,
+  .cell.selected {
+    outline: 4px solid #ffe38a;
+    outline-offset: 3px;
+    box-shadow:
+      0 0 0 5px rgba(255, 227, 138, .24),
+      0 0 22px rgba(255, 227, 138, .95),
+      0 0 46px rgba(168, 85, 247, .78),
+      inset 0 0 20px rgba(255, 227, 138, .35);
+    filter: brightness(1.45) saturate(1.25);
+  }
+
+  .cell.touch-glow,
+  .cell.selected {
+    background: linear-gradient(180deg, #6d35a8, #27103f) !important;
+    color: #fff7c8 !important;
+    transform: scale(1.06);
+    border-color: #ffe38a !important;
+  }
+
+  button.touch-glow {
+    background: linear-gradient(180deg, #7a4cc2, #3a1760) !important;
+    color: #fff7c8 !important;
+  }
+
+  .selection-banner {
+    position: fixed;
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    background: rgba(15, 8, 34, .96);
+    border: 2px solid #ffe38a;
+    color: #fff7c8;
+    padding: 12px 18px;
+    border-radius: 12px;
+    box-shadow: 0 0 28px rgba(255, 227, 138, .72), 0 0 52px rgba(168, 85, 247, .48);
+    font-size: 1.15rem;
+    font-weight: bold;
+    display: none;
+    text-align: center;
+  }
+
+  @media (pointer: coarse) {
+    button { min-height: 52px; }
+    .cell { min-height: 70px; }
+  }
+
+
+  /* Universal button selected confirmation */
+  button.universal-selected {
+    outline: 4px solid #ffe38a !important;
+    outline-offset: 3px !important;
+    background: linear-gradient(180deg, #7a4cc2, #3a1760) !important;
+    color: #fff7c8 !important;
+    box-shadow:
+      0 0 0 5px rgba(255, 227, 138, .28),
+      0 0 26px rgba(255, 227, 138, .98),
+      0 0 54px rgba(168, 85, 247, .85),
+      inset 0 0 22px rgba(255, 227, 138, .38) !important;
+    filter: brightness(1.45) saturate(1.25) !important;
+    transform: scale(1.04) !important;
+  }
+
+  button.universal-selected::after {
+    content: " ✓";
+    color: #fff7c8;
+  }
+
+
+  /* Board grid touch feedback: category headers + dollar cells */
+  .category,
+  .cell {
+    -webkit-tap-highlight-color: rgba(255, 223, 128, .75);
+    touch-action: manipulation;
+    user-select: none;
+  }
+
+  .category:active,
+  .category:focus,
+  .category.touch-glow,
+  .category.selected,
+  .cell:active,
+  .cell:focus,
+  .cell.touch-glow,
+  .cell.selected {
+    outline: 5px solid #ffe38a !important;
+    outline-offset: 3px !important;
+    border-color: #ffe38a !important;
+    background: linear-gradient(180deg, #7a4cc2, #2b124a) !important;
+    color: #fff7c8 !important;
+    box-shadow:
+      0 0 0 6px rgba(255, 227, 138, .30),
+      0 0 30px rgba(255, 227, 138, 1),
+      0 0 62px rgba(168, 85, 247, .90),
+      inset 0 0 22px rgba(255, 227, 138, .45) !important;
+    filter: brightness(1.55) saturate(1.35) !important;
+    transform: scale(1.045) !important;
+    z-index: 10;
+    position: relative;
+  }
+
+  .cell.selected::after {
+    content: "SELECTED";
+    display:block;
+    font-size:.62rem;
+    letter-spacing:.08em;
+    margin-top:4px;
+    color:#fff7c8;
+  }
+
+
+  /* FIX: category buttons now stay grouped with their own questions */
+  .board {
+    display:grid !important;
+    grid-template-columns:repeat(auto-fit, minmax(135px, 1fr)) !important;
+    gap:8px !important;
+  }
+
+  .category-stack {
+    display:flex;
+    flex-direction:column;
+    gap:7px;
+    min-width:0;
+  }
+
+  .category-stack .category {
+    width:100%;
+    min-height:76px;
+  }
+
+  .category-stack .cell {
+    width:100%;
+  }
+
+  .category-stack.selected-stack {
+    outline:3px solid rgba(255, 227, 138, .72);
+    outline-offset:4px;
+    box-shadow:0 0 30px rgba(255, 227, 138, .28);
+  }
+
+  @media (max-width: 650px) {
+    .board { grid-template-columns:repeat(2, minmax(140px, 1fr)) !important; }
+  }
+  @media (max-width: 430px) {
+    .board { grid-template-columns:1fr !important; }
+  }
+
+
+  /* Stronger answered/used question state */
+  .cell.used,
+  .cell.used:disabled {
+    background: #2b2b2f !important;
+    color: #9ca3af !important;
+    border-color: rgba(156,163,175,.45) !important;
+    text-decoration: none !important;
+    opacity: .62 !important;
+    box-shadow: inset 0 0 12px rgba(0,0,0,.55) !important;
+  }
+
+  .cell.used::after {
+    content: "ANSWERED";
+    display:block;
+    font-size:.58rem;
+    letter-spacing:.08em;
+    margin-top:4px;
+    color:#cbd5e1;
+  }
+
+
+  /* Removed quote box to avoid odd/broken phrase display */
+  .quote {
+    display:none !important;
+  }
+
+
+  /* Answered questions stay visibly grayed out after points are awarded */
+  .cell.used,
+  .cell.used:disabled {
+    background: #2b2b2f !important;
+    color: #d1d5db !important;
+    border-color: rgba(209,213,219,.55) !important;
+    text-decoration: none !important;
+    opacity: .72 !important;
+    box-shadow: inset 0 0 18px rgba(0,0,0,.72) !important;
+    filter: grayscale(1) brightness(.82) !important;
+    transform: none !important;
+  }
+
+  .cell.used::before {
+    content: "✓";
+    display:block;
+    font-size:1.45rem;
+    line-height:1;
+    color:#f3f4f6;
+    margin-bottom:3px;
+  }
+
+  .cell.used::after {
+    content: "ANSWERED";
+    display:block;
+    font-size:.58rem;
+    letter-spacing:.08em;
+    margin-top:2px;
+    color:#cbd5e1;
+  }
+
+.copyright-footer{margin:18px auto 6px;padding:10px 14px;text-align:center;color:#e4c978;font-size:.88rem;line-height:1.35;border-top:1px solid rgba(213,166,77,.35);opacity:.92}
+/* Preview-only: functional guild picker. Final marble/Milky Way artwork is not staged yet. */
+.archive-motto {display:flex;flex-direction:column;gap:3px;margin-top:12px;color:#eae3d6;font-size:1rem}
+.archive-motto span {font-style:italic;color:#c8c4c0}
+.guild-select {display:flex;align-items:center;justify-content:center;gap:12px;margin:3px 0 6px;font-size:.86rem;color:#e6e1d9}
+.guild-select-label {text-transform:uppercase;letter-spacing:.1em;font-weight:700}
+.guild-select-buttons {display:flex;gap:5px}
+.guild-select-buttons button {min-width:42px;padding:6px 9px;color:#ddd9d2;border:1px solid #6b6e78;background:#111c2b}
+.guild-select-buttons .selected-guild-count {outline:1px solid #e0cfa7;outline-offset:1px;background:#26334a}
+.team,.team:nth-child(2),.team:nth-child(3),.team:nth-child(4) {background:linear-gradient(180deg,rgba(18,27,42,.95),rgba(7,12,24,.95));border-top:2px solid var(--guild-accent,#aeb5c3)}
+.team-name {color:#ebe7df;letter-spacing:.025em;font-size:.89rem}
+.score {color:#e9e5dd}
+.scoreboard[data-count="2"],.award-bar[data-count="2"] {grid-template-columns:repeat(2,minmax(0,1fr))}
+.scoreboard[data-count="3"],.award-bar[data-count="3"] {grid-template-columns:repeat(3,minmax(0,1fr))}
+.scoreboard[data-count="4"],.award-bar[data-count="4"] {grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(min-width:1050px){.guild-select{grid-column:1 / 4}}
+@media(max-width:900px){.scoreboard[data-count],.award-bar[data-count]{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.scoreboard[data-count],.award-bar[data-count]{grid-template-columns:1fr}}
+</style>
+
+</head>
+<body>
+<div class="app">
+  <section class="title-card">
+    <h1>The Midnight Archive</h1>
+    <div class="subtitle">PHRA 1001 · INSTRUCTOR REVIEW GAME</div>
+    <div class="archive-motto"><strong>Per Scientiam ad Fiduciam</strong><span>Through Knowledge to Confidence.</span></div>
+  </section>
+
+  <div class="top-controls">
+    <button class="gold" onclick="showBoard()">Game Board</button>
+    <button onclick="showHowToPlay()">How to Play</button>
+    <button class="danger" onclick="resetGame()">Reset Entire Game</button>
+  </div>
+
+  <section class="guild-select" aria-label="Guild selector"><span class="guild-select-label">Active Guilds</span><div class="guild-select-buttons" id="guildSelectButtons"><button type="button" data-teams="2" onclick="setTeamCount(2)">2</button><button type="button" data-teams="3" onclick="setTeamCount(3)">3</button><button type="button" data-teams="4" onclick="setTeamCount(4)">4</button></div></section>
+<section class="scoreboard" id="scoreboard"></section>
+
+  <section class="timer-card">
+    <div class="timer-display" id="timerDisplay">60</div>
+    <div class="timer-buttons">
+      <button onclick="setTimer(30)">30 sec</button>
+      <button onclick="setTimer(60)">60 sec</button>
+      <button onclick="setTimer(90)">90 sec</button>
+      <button class="green" onclick="startTimer()">Start</button>
+      <button onclick="pauseTimer()">Pause</button>
+      <button onclick="resetTimer()">Reset</button>
+    </div>
+  </section>
+
+  <section id="boardView">
+    <div class="board" id="board"></div>
+    <div class="final-row">
+      <button class="gold" onclick="openFinal()">⚑ Final Championship</button>
+    </div>
+  </section>
+
+  <section class="panel" id="questionPanel">
+    <div class="tagline">
+      <span class="badge" id="activityBadge"></span>
+      <span class="badge" id="categoryBadge"></span>
+      <span class="badge" id="pointsBadge"></span>
+    </div>
+    <div class="question" id="questionText"></div>
+    <div class="answer" id="answerText"></div>
+    <div class="notes" id="notesText"></div>
+
+    <div class="action-bar">
+      <button class="green" onclick="revealAnswer()">Reveal Answer</button>
+      <button onclick="toggleNotes()">📋 Instructor Notes</button>
+      <button onclick="showBoard()">Back to Board</button>
+    </div>
+
+    <div class="award-bar" id="awardBar"></div>
+  </section>
+
+  <section class="panel" id="howToPanel">
+    <h2>How to Play</h2>
+    <div class="question">
+Select 2, 3, or 4 active guilds. The Herbalists, The Distillers, The Archivists, and The Alchemists keep independent scores.
+
+Teams choose a category and point value.
+
+Students write answers on the board when prompted.
+
+You control the timer and reveal the answer when ready.
+
+After revealing the answer, click the winning team to award points automatically.
+
+Used questions gray out on the board.
+
+Instructor notes are hidden unless opened.
+    </div>
+    <div class="action-bar">
+      <button onclick="showBoard()">Back to Board</button>
+    </div>
+  </section>
+
+  <div class="footer">Accuracy before speed. Recognize the pattern. Verify the details.</div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div class="selection-banner" id="selectionBanner">Selected</div>
+
+<script>
+const QUESTIONS = [{"category": "Sig Decoder", "points": 100, "activity": "Individual", "question": "Translate completely:\n\n\"i tab po qd\"", "answer": "Take 1 tablet by mouth once daily.", "notes": "Good warm-up. If students hesitate, remind them to decode left to right: quantity → form → route → frequency."}, {"category": "Sig Decoder", "points": 200, "activity": "Individual", "question": "Translate completely:\n\n\"ii caps po bid ac\"", "answer": "Take 2 capsules by mouth twice daily before meals.", "notes": "Watch for students who skip 'ac.' That detail matters — some meds must be taken before eating."}, {"category": "Sig Decoder", "points": 300, "activity": "Individual", "question": "Translate completely:\n\n\"1 gtt oph qid prn\"", "answer": "Instill 1 drop into the eye four times daily as needed.", "notes": "Common stumble: 'oph' vs 'otic.' oph = eye · otic = ear. Consider asking the class to name both after the answer is revealed."}, {"category": "Sig Decoder", "points": 400, "activity": "Board Race", "question": "BOARD RACE — First team with the correct complete translation wins.\n\nTranslate completely:\n\n\"apply thin film top bid × 10d\"", "answer": "Apply a thin film topically/to the skin twice daily for 10 days.", "notes": "BOARD RACE. This stays focused on SIG translation. Watch for: top = topical, bid = twice daily, 10d = 10 days."}, {"category": "Pharmacy Workflow", "points": 400, "activity": "Board Race", "question": "BOARD RACE — First team with the correct answer wins.\n\nPrescription: \"1 tab po qid · Qty: #120\"\n\nWhat is the days supply?", "answer": "30 days.\n\n1 tablet × 4 times per day = 4 tablets per day.\n120 tablets ÷ 4 per day = 30 days.", "notes": "BOARD RACE. Teams write just the number and show their math. Award full points for correct answer with correct calculation. Discuss why days supply accuracy matters for insurance billing."}, {"category": "Sig Decoder", "points": 500, "activity": "Team Discussion", "question": "TEAM CHALLENGE — Discuss and write BOTH answers.\n\nPrescription: Hydrocodone/APAP 5-325mg\nSig: \"i-ii tabs po q4-6h prn pain · NTE 8 tabs/24h\"\n\n(1) Translate the SIG completely.\n(2) At MAXIMUM dosage, how many milligrams of acetaminophen per day?", "answer": "(1) Take 1 to 2 tablets by mouth every 4 to 6 hours as needed for pain. Do not take more than 8 tablets in 24 hours.\n\n(2) Maximum 8 tablets × 325 mg = 2,600 mg acetaminophen per day.\n\n(Safe — under the 4,000 mg daily maximum.)", "notes": "TEAM DISCUSSION first, then board. The APAP calculation reinforces why NTE matters for high-APAP products. If time allows: 'What schedule is hydrocodone/APAP?'"}, {"category": "Stem Detective", "points": 100, "activity": "Individual", "question": "What drug class ends in the stem  -pril ?\n\nName ONE drug from this class and its brand name.", "answer": "ACE Inhibitor — blood pressure medication.\n\nExamples: lisinopril (Zestril/Prinivil), enalapril (Vasotec), benazepril (Lotensin).", "notes": "Individual. Easy entry point. If team gets it immediately, ask them to spell one brand name on the board."}, {"category": "Stem Detective", "points": 200, "activity": "Individual", "question": "What drug class ends in the stem  -statin ?\n\nName TWO drugs from this class and their brands.", "answer": "Statin — cholesterol-lowering medication.\n\natorvastatin (Lipitor), simvastatin (Zocor), rosuvastatin (Crestor) — any 2 correct.", "notes": "Individual. Common ExCPT question. Emphasize: atorvastatin = most prescribed drug in the U.S."}, {"category": "Stem Detective", "points": 300, "activity": "Board Race", "question": "BOARD RACE — 60 seconds. Each team writes as many as they can.\n\nWrite every drug whose generic name ends in  -prazole  that was taught in Weeks 1–4.\n\n(One point per correct drug. Brand names earn a bonus point.)", "answer": "omeprazole (Prilosec)\npantoprazole (Protonix)\nesomeprazole (Nexium)\n\nAll three are Proton Pump Inhibitors (PPIs) — acid reducers.\n\n★ Reinforcement (not required): rabeprazole (Aciphex), lansoprazole (Prevacid)", "notes": "BOARD RACE. Set a visible 60-second timer. Award 1 pt per generic, bonus for brand. The ★ reinforcement examples show the pattern works beyond the required list."}, {"category": "Stem Detective", "points": 400, "activity": "Board Race", "question": "BOARD RACE — Write the drug CLASS next to each generic name.\n\nMetoprolol  →\nLisinopril  →\nAtorvastatin  →\nFurosemide  →", "answer": "Metoprolol → Beta Blocker\nLisinopril → ACE Inhibitor\nAtorvastatin → Statin (cholesterol)\nFurosemide → Diuretic (water pill)", "notes": "BOARD RACE. Teams write all 4. Award points for each correct class. Furosemide has no common stem — tests whether students know it by recognition, not pattern."}, {"category": "Stem Detective", "points": 500, "activity": "Board Race", "question": "CHAMPIONSHIP BOARD RACE — Teams write simultaneously.\n\nName ALL FIVE cardiovascular drug stems from Week 4.\nFor each: stem + drug class + one example.", "answer": "-pril → ACE Inhibitor → lisinopril\n-sartan → ARB (blood pressure) → losartan\n-olol → Beta Blocker → metoprolol\n-dipine → Calcium Channel Blocker → amlodipine\n-statin → Statin (cholesterol) → atorvastatin", "notes": "BOARD RACE. Give partial credit — 1 pt per complete row. Best used at the end of the stem category for a grand finale feel. Award extra point to team that finishes first with all 5 correct."}, {"category": "Medication Match", "points": 100, "activity": "Individual", "question": "What is the brand name for omeprazole?\n\nAnd — is Nexium the same drug?", "answer": "Brand name: Prilosec.\n\nNexium is NOT the same drug — Nexium is esomeprazole, a different (though related) PPI.", "notes": "Individual. The Nexium part catches students who lump all PPIs together. Emphasize: same CLASS, different DRUG."}, {"category": "Medication Match", "points": 200, "activity": "Individual", "question": "A patient asks for \"my Norvasc.\"\n\nGive the generic name, drug class, and drug stem.", "answer": "Generic: amlodipine\nClass: Calcium Channel Blocker (blood pressure medication)\nStem: -dipine\n\nOther -dipine drug taught: nifedipine (Procardia).", "notes": "Individual. Asking for the stem reinforces the pattern on a familiar drug."}, {"category": "Medication Match", "points": 300, "activity": "Board Race", "question": "BOARD RACE — Two-part answer.\n\nName the TWO antibiotics from Week 3 that require refrigeration after the suspension is mixed (reconstituted).", "answer": "1. Amoxicillin (Amoxil)\n2. Amoxicillin-clavulanate (Augmentin)\n\nBoth are penicillin-class antibiotics. Both suspensions require refrigeration after mixing and are typically discarded within 10–14 days.", "notes": "BOARD RACE. Quick and high-yield. Both answers required for full points. Connects to patient counseling — patients often don't know this."}, {"category": "Medication Match", "points": 400, "activity": "Team Discussion", "question": "TEAM DISCUSSION — Discuss, then write your answer.\n\nBoth prescriptions contain metoprolol. Why can a technician NOT automatically substitute Lopressor for Toprol XL — even though they are the same generic drug?", "answer": "Lopressor = immediate-release metoprolol (taken 2-3x/day).\nToprol XL = extended-release metoprolol (taken once daily).\n\nThey release the medication differently. Substituting one for the other without pharmacist direction could cause the patient to receive either too much or too little medication at the wrong time.", "notes": "TEAM DISCUSSION first. This is about dosage form awareness, not just brand recognition. Award points for any answer that correctly identifies the release mechanism difference."}, {"category": "Medication Match", "points": 500, "activity": "Board Race", "question": "BOARD RACE — Teams race to write the most complete answers.\n\nFor THREE antibiotics from Week 3:\nWrite the generic name, brand name, and ONE tech awareness point.\n\n(One point per complete row. First to three correct rows wins.)", "answer": "azithromycin / Zithromax / Z-pack; QT prolongation risk\namoxicillin / Amoxil / check penicillin allergy; refrigerate suspension\namox-clavulanate / Augmentin / penicillin allergy check; take with food\ncephalexin / Keflex / cross-reactivity with penicillin allergy\ndoxycycline / Vibramycin / no dairy or antacids; photosensitivity\ntrimeth/sulfa / Bactrim / SULFA allergy check required\nnitrofurantoin / Macrobid / UTI only; take with food", "notes": "BOARD RACE. Any 3 of the 7 antibiotics accepted. Award 1 pt per complete correct row. Partial credit for rows missing only the awareness point."}, {"category": "Pharmacy Workflow", "points": 100, "activity": "Individual", "question": "Quick answer — no discussion needed.\n\nHow many refills can a Schedule II (C-II) prescription receive?", "answer": "ZERO.\n\nA brand-new prescription is required every single fill. This applies to oxycodone, hydrocodone, Adderall, fentanyl, and all other C-II medications — no exceptions to the no-refill rule.", "notes": "Individual. Fast answer — reward speed here. If a student says 'one,' that's a common confusion with C-III/IV. Clarify the zero-refill rule immediately."}, {"category": "Pharmacy Workflow", "points": 200, "activity": "Board Race", "question": "BOARD RACE — All teams write simultaneously.\n\nName the 5 steps of the prescription lifecycle IN CORRECT ORDER.", "answer": "1. Receive\n2. Enter\n3. Prepare\n4. Verify ← PHARMACIST ONLY\n5. Dispense", "notes": "BOARD RACE. Teams write 1–5 on the board. Award bonus point to any team that correctly marks Step 4 as pharmacist-only. Fastest correct team wins."}, {"category": "Pharmacy Workflow", "points": 300, "activity": "Board Race", "question": "ROMAN NUMERAL BOARD RACE — Solve all three.\n\nXLVIII  =  ?\n\nXIV  =  ?\n\nMCMXCIX  =  ?\n  (bonus — hardest one)", "answer": "XLVIII = 48   (XL=40, VIII=8)\n\nXIV = 14   (X=10, IV=4)\n\nMCMXCIX = 1999   (M=1000, CM=900, XC=90, IX=9)\n\nBonus points for getting 1999.", "notes": "BOARD RACE. Three answers — award 1 pt for each correct. MCMXCIX is a genuine bonus challenge. If time allows, show the subtraction rule breakdown on the board."}, {"category": "Pharmacy Workflow", "points": 400, "activity": "Team Discussion", "question": "TEAM DISCUSSION — Discuss first, then answer as a team.\n\nA patient brings in a prescription for tramadol (Schedule C-IV). The prescription was written 7 months ago. It still shows 3 refills remaining.\n\nCan this be refilled? Why or why not?", "answer": "NO — it cannot be refilled.\n\nC-III and C-IV prescriptions expire 6 months from the date written, regardless of how many refills remain.\n\nThe clock matters more than the refill count. This prescription expired one month ago. A new prescription is required.", "notes": "TEAM DISCUSSION. Common real-world situation. The key insight is '6 months from issue date' — not from last fill, not from when refills run out. Discuss: what does the tech say to the patient?"}, {"category": "Pharmacy Workflow", "points": 500, "activity": "Board Race", "question": "BOARD RACE — Two-part answer. Teams write both.\n\nA patient drops off:\nHydroCODONE/APAP 5-325mg tabs\nSig: i-ii tabs po q4-6h prn pain\nQty: #60\n\n(1) What is the days supply at MAXIMUM dosage?\n(2) What DAW code if the patient specifically requests the brand-name version?", "answer": "(1) Maximum dosage: 2 tabs × every 4 hours = 2 × 6 doses/day = 12 tablets/day.\n#60 ÷ 12 = 5 days supply.\n\n(2) DAW 2 — patient requested brand name.\n\nBonus: HydroCODONE combination products = Schedule C-II (zero refills).", "notes": "BOARD RACE. Multi-concept. Award separate points for each part. The DAW part connects Weeks 3–4. The bonus reinforces the CII schedule — tall-man lettering intentional."}, {"category": "Insurance & Law", "points": 100, "activity": "Individual", "question": "What does BIN stand for on a prescription drug insurance card?", "answer": "BIN = Bank Identification Number.", "notes": "Students should know what BIN stands for. Do not focus on the number of digits for this course."}, {"category": "Insurance & Law", "points": 200, "activity": "Individual", "question": "What is the purpose of the BIN on a pharmacy insurance card?", "answer": "The BIN helps route a pharmacy insurance claim to the correct insurance processor or payer.", "notes": "Focus on function: the BIN helps direct the claim during insurance adjudication. Students do not need to memorize the number of digits for this course."}, {"category": "Insurance & Law", "points": 300, "activity": "Board Race", "question": "BOARD RACE — Two DAW scenarios. Write the DAW code for each.\n\nScenario A: The prescriber writes 'Brand Medically Necessary' on the Rx.\n\nScenario B: The patient (not the prescriber) requests the brand name.", "answer": "Scenario A → DAW 1\n(Prescriber requires brand — substitution not allowed by provider)\n\nScenario B → DAW 2\n(Patient requested brand name)\n\nDefault generic fill → DAW 0", "notes": "BOARD RACE. Teams write A and B. Both required for full points. Award bonus if they also state DAW 0 for a standard generic fill."}, {"category": "Insurance & Law", "points": 400, "activity": "Team Discussion", "question": "TEAM DISCUSSION — Discuss, then write your answer.\n\nA claim comes back:\n'Prior Authorization Required.'\n\n(1) What is a prior authorization?\n(2) Who initiates the PA process?\n(3) What does the pharmacy technician do?", "answer": "(1) PA = the insurance plan requires the prescriber to justify why this specific medication is needed before it will be covered.\n\n(2) The prescriber's office initiates and submits the PA to the insurance company.\n\n(3) Technician: notify the pharmacist → contact the prescriber's office → document in the system. Do NOT tell the patient it was denied — say it requires approval.", "notes": "TEAM DISCUSSION. Three-part answer — award partial points. The 'what do you say to the patient' is a good follow-up question if time allows."}, {"category": "Insurance & Law", "points": 500, "activity": "Team Discussion", "question": "DEA NUMBER VALIDATION\n\nDr. Sarah Martinez presents a controlled substance prescription.\nHer DEA number is:  AM1122334\n\n(1) Is the second letter correct?\n(2) Run the checksum. Show your work.\n(3) Is this DEA number valid?", "answer": "(1) Second letter M — Martinez starts with M. ✓ Second letter check passes.\n\n(2) Digits: 1, 1, 2, 2, 3, 3, 4\nStep 1 (pos 1+3+5): 1 + 2 + 3 = 6\nStep 2 (pos 2+4+6) × 2: (1 + 2 + 3) × 2 = 6 × 2 = 12\nStep 3: 6 + 12 = 18 — last digit = 8\n\n(3) 7th digit of the DEA number = 4. But check digit = 8.\n8 ≠ 4 → THIS DEA NUMBER IS INVALID. Flag to pharmacist. Do NOT fill.", "notes": "TEAM — walk through on the board together if needed. This is the most complex question. The second-letter check is a quick win before the math. Award partial points for correct process even if arithmetic slips."}, {"category": "Patient Safety", "points": 100, "activity": "Individual", "question": "Name the 3 FDA drug recall classes.\n\nOrder them from most serious to least serious.", "answer": "Class I — Most serious: strong likelihood of serious adverse effects or death.\n\nClass II — Moderate: temporary or reversible adverse health effects possible.\n\nClass III — Least serious: unlikely to cause harm; often a labeling or minor quality issue.", "notes": "Individual. Quick. Consider asking for a real-world example for each class after the answer."}, {"category": "Patient Safety", "points": 200, "activity": "Individual", "question": "What does HIPAA protect?\n\nName THREE specific examples of Protected Health Information (PHI).", "answer": "HIPAA protects Protected Health Information (PHI).\n\nAny 3 of: patient name · date of birth · home address · diagnosis · medication list · prescription history · insurance ID · Social Security number.", "notes": "Individual. Remind students: PHI doesn't mean just medical info — a name + DOB combination is enough to be PHI."}, {"category": "Patient Safety", "points": 300, "activity": "Team Discussion", "question": "TEAM DISCUSSION — Discuss, then answer together.\n\nA pharmacy technician consistently skips barcode scanning when the line is busy — 'to save time.'\n\nUnder the Just Culture model:\n(1) What type of behavior is this?\n(2) What is the appropriate organizational response?", "answer": "(1) AT-RISK behavior — the technician may not recognize the danger of skipping this safety step.\n\n(2) Coaching and education — help the technician understand WHY the protocol protects patients.\n\nNOT reckless (not intentional harm). NOT a system failure.\nReckless = knows the risk and ignores it anyway.", "notes": "TEAM DISCUSSION. Distinguish at-risk vs reckless vs system. Common confusion: students want to say 'termination.' Just Culture doesn't work that way for at-risk."}, {"category": "Patient Safety", "points": 400, "activity": "Team Discussion", "question": "TEAM DISCUSSION — Discuss, then write a complete answer.\n\nOBRA '90 created a legal requirement that changed how pharmacies operate.\n\n(1) What did OBRA '90 require?\n(2) What does 'prospective DUR' mean?\n(3) How do both of these show up in daily pharmacy work?", "answer": "(1) OBRA '90 required pharmacists to OFFER counseling to patients receiving new prescriptions.\n\n(2) Prospective DUR = reviewing the prescription against the patient's full medication profile BEFORE dispensing — checking for drug interactions, duplications, and errors.\n\n(3) 'Do you have any questions for the pharmacist?' = the counseling offer. The system generating interaction alerts when a new drug is entered = prospective DUR.", "notes": "TEAM DISCUSSION. Three-part answer. Award partial credit. Emphasize: the OFFER is required, not the acceptance. The DUR system runs automatically — most students have seen it without knowing the name."}, {"category": "Patient Safety", "points": 500, "activity": "Team Discussion", "question": "TEAM DISCUSSION — Read carefully before answering.\n\nA caller says:\n'I need to know what medications my mother is on. She was just brought to the ER and the doctors are asking for her medication list.'\n\n(1) What do you do?\n(2) What law applies?\n(3) What would you say to the caller?", "answer": "(1) You cannot provide the patient's medication list to the caller — even with a stated medical emergency — without the patient's authorization.\n\nCorrect action: Offer to leave a message for the patient. If it's a genuine emergency, the treating physician may contact the pharmacy directly as a treating provider — that is allowed under HIPAA.\n\n(2) HIPAA — PHI cannot be shared with non-treating parties without authorization.\n\n(3) Script: 'I'm not able to share patient information over the phone, but I can note your call. If the ER physician needs to verify medications, they can call us directly.'", "notes": "TEAM DISCUSSION. This is nuanced and realistic. Award points for: (1) correct action, (2) citing HIPAA, (3) any version of the suggested script. The physician-can-call-directly point is a common real-world solution."}];
+const FINAL = {"category": "Final Championship", "points": 500, "activity": "Final Championship", "question": "FINAL CHAMPIONSHIP\n⚑  All teams wager BEFORE the question is revealed.\nTHE PRESCRIPTION:\nPrescriber: Dr. Alan Grant   |   DEA: AG1234563\nPatient: Maria Santos   |   DOB: 03/15/1985\nDrug: Losartan 50 mg tablets\nSig: i tab po qd   |   Qty: #90   |   Refills: 3\nInsurance: BIN 004336  ·  PCN: BIN4  ·  Group: HC1234  ·  Member ID: MS123456\nAnswer ALL FIVE questions:\n\n1.  SIG — Translate the SIG completely.\n2.  STEM — What class does -sartan identify? What is losartan used for?\n3.  MEDICATION — What is the brand name for losartan?\n4.  CS CHECK — Is a DEA number required on this prescription? Why or why not?\n5.  INSURANCE — The claim comes back 'Refill Too Soon.' What is your first action?\n\n★ BONUS: Verify the DEA number is valid. Show your work.", "answer": "1. \"Take 1 tablet by mouth once daily.\"\n\n2. -sartan = ARB (Angiotensin Receptor Blocker) — used for high blood pressure (hypertension).\n\n3. Brand name: Cozaar.\n\n4. NO DEA number is required. Losartan is NOT a controlled substance. DEA numbers are only required on controlled substance prescriptions (C-I through C-V). This tests whether students understand WHY a DEA number exists — not just how to calculate it.\n\n5. Check the days supply and consult the pharmacist. Do not tell the patient it was denied before understanding the reason.\n\n★ BONUS DEA VALIDATION:\n   AG1234563  ·  Second letter G = Grant ✓\n   Step 1 (digits 1+3+5): 1+3+5 = 9\n   Step 2 (digits 2+4+6) × 2: (2+4+6) × 2 = 24\n   Total: 9+24 = 33  →  check digit = 3\n   7th digit = 3  ✓  VALID DEA number", "notes": "Question 4 is intentionally a 'trick' — losartan is NOT a controlled substance. DEA numbers are only required on CS prescriptions. Award bonus points to any team that identifies this without being prompted."};
+
+const QUOTES = [
+  "Recognize the pattern. Verify the details.",
+  "Accuracy before speed.",
+  "Knowledge grows when shared.",
+  "Practice builds confidence."
+];
+
+const GUILDS = [{name:"The Herbalists",accent:"#5C8A54"},{name:"The Distillers",accent:"#4C78A8"},{name:"The Archivists",accent:"#8060A5"},{name:"The Alchemists",accent:"#A14E45"}];
+const TEAMS = GUILDS.map(g => g.name);
+let state = {
+  scores: [0,0,0,0],
+  teamCount: 4,
+  used: {},
+  current: null,
+  timerSeconds: 60,
+  timerRemaining: 60,
+  timerRunning: false
+};
+let timerHandle = null;
+
+function saveState() {
+  localStorage.setItem("midnightArchivePHRA1001_STABLE_v11", JSON.stringify(state));
+}
+
+function loadState() {
+  const saved = localStorage.getItem("midnightArchivePHRA1001_STABLE_v11");
+  if (saved) {
+    try {
+      state = JSON.parse(saved);
+      if (!Array.isArray(state.scores) || state.scores.length !== 4) state.scores = [0,0,0,0];
+      if (![2,3,4].includes(state.teamCount)) state.teamCount = 4;
+      if (!state.used) state.used = {};
+      if (!state.timerSeconds) state.timerSeconds = 60;
+      if (!state.timerRemaining) state.timerRemaining = state.timerSeconds;
+    } catch(e) {}
+  }
+}
+
+function toast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.style.display = "block";
+  setTimeout(() => t.style.display = "none", 1700);
+}
+
+function renderQuote() {
+  const quoteEl = document.getElementById("quote");
+  if (quoteEl) quoteEl.textContent = "";
+}
+
+function renderGuildPicker() {
+  document.querySelectorAll("[data-teams]").forEach(btn => {
+    const selected = Number(btn.dataset.teams) === state.teamCount;
+    btn.setAttribute("aria-pressed", selected ? "true" : "false");
+    btn.classList.toggle("selected-guild-count", selected);
+  });
+}
+function setTeamCount(count) {
+  if (![2,3,4].includes(Number(count))) return;
+  state.teamCount = Number(count);
+  saveState();
+  renderScores();
+  renderAwardButtons();
+  toast(state.teamCount + " active guilds; scores preserved.");
+}
+function renderScores() {
+  const box = document.getElementById("scoreboard");
+  box.innerHTML = "";
+  box.dataset.count = String(state.teamCount);
+  renderGuildPicker();
+  TEAMS.slice(0, state.teamCount).forEach((name, i) => {
+    const div = document.createElement("div");
+    div.className = "team";
+    div.style.setProperty("--guild-accent", GUILDS[i].accent);
+    div.innerHTML = `
+      <div class="team-name">${name}</div>
+      <div class="score">${state.scores[i]}</div>
+      <div class="team-actions">
+        <button onclick="adjustScore(${i}, 100)">+100</button>
+        <button onclick="adjustScore(${i}, -100)">-100</button>
+      </div>
+    `;
+    box.appendChild(div);
+  });
+}
+
+function adjustScore(teamIndex, amount) {
+  state.scores[teamIndex] += amount;
+  saveState();
+  renderScores();
+}
+
+function renderBoard() {
+  const categories = [...new Set(QUESTIONS.map(q => q.category))];
+  const board = document.getElementById("board");
+  board.innerHTML = "";
+
+  categories.forEach(cat => {
+    const stack = document.createElement("div");
+    stack.className = "category-stack";
+
+    const header = document.createElement("div");
+    header.className = "category";
+    header.textContent = cat;
+    header.tabIndex = 0;
+    header.addEventListener("pointerdown", function() {
+      document.querySelectorAll(".category-stack.selected-stack, .category.selected, .cell.selected").forEach(el => el.classList.remove("selected-stack", "selected"));
+      stack.classList.add("selected-stack");
+      header.classList.add("selected");
+      flashElement(header);
+      showSelectionBanner("Selected category: " + cat);
+      setTimeout(() => {
+        stack.classList.remove("selected-stack");
+        header.classList.remove("selected");
+      }, 1200);
+    });
+    stack.appendChild(header);
+
+    [100,200,300,400,500].forEach(points => {
+      const q = QUESTIONS.find(item => item.category === cat && item.points === points);
+      const btn = document.createElement("button");
+      const id = q ? questionId(q) : "";
+      btn.className = "cell" + (state.used[id] ? " used" : "");
+      btn.textContent = state.used[id] ? "" : "$" + points;
+      btn.disabled = !q || state.used[id];
+      btn.onclick = (event) => selectQuestionCell(event, q);
+      stack.appendChild(btn);
+    });
+
+    board.appendChild(stack);
+  });
+}
+
+
+function showSelectionBanner(text) {
+  const banner = document.getElementById("selectionBanner");
+  if (!banner) return;
+  banner.textContent = text;
+  banner.style.display = "block";
+  setTimeout(() => banner.style.display = "none", 850);
+}
+
+function flashElement(el) {
+  if (!el) return;
+  el.classList.add("touch-glow");
+  setTimeout(() => el.classList.remove("touch-glow"), 1200);
+}
+
+function selectQuestionCell(event, q) {
+  const btn = event.currentTarget;
+  const stack = btn.closest(".category-stack");
+  document.querySelectorAll(".category-stack.selected-stack, .category.selected, .cell.selected").forEach(el => el.classList.remove("selected-stack", "selected"));
+  if (stack) stack.classList.add("selected-stack");
+  btn.classList.add("selected");
+  flashElement(btn);
+  showSelectionBanner("Selected: " + q.category + " $" + q.points);
+  setTimeout(() => openQuestion(q), 750);
+}
+
+function questionId(q) {
+  return q.category + "_" + q.points;
+}
+
+function activityIcon(activity) {
+  if (activity === "Board Race") return "🏃 Board Race";
+  if (activity === "Team Discussion") return "👥 Team Discussion";
+  if (activity === "Individual") return "👤 Individual";
+  return activity;
+}
+
+function openQuestion(q) {
+  state.current = {...q, id: questionId(q), isFinal:false};
+  saveState();
+  showQuestionPanel();
+}
+
+function openFinal() {
+  state.current = {...FINAL, id:"FINAL", isFinal:true};
+  saveState();
+  showQuestionPanel();
+}
+
+function showQuestionPanel() {
+  document.getElementById("boardView").style.display = "none";
+  document.getElementById("howToPanel").classList.remove("active");
+  document.getElementById("questionPanel").classList.add("active");
+
+  const q = state.current;
+  document.getElementById("activityBadge").textContent = "Question Type: " + activityIcon(q.activity);
+  document.getElementById("categoryBadge").textContent = "Category: " + q.category;
+  document.getElementById("pointsBadge").textContent = q.isFinal ? "Final Championship" : "Value: $" + q.points;
+  document.getElementById("questionText").textContent = q.question;
+  document.getElementById("answerText").textContent = q.answer;
+  document.getElementById("answerText").style.display = "none";
+  document.getElementById("notesText").textContent = q.notes || "No instructor notes for this question.";
+  document.getElementById("notesText").style.display = "none";
+  document.getElementById("awardBar").style.display = "none";
+  renderAwardButtons();
+  renderQuote();
+}
+
+function revealAnswer() {
+  document.getElementById("answerText").style.display = "block";
+  document.getElementById("awardBar").style.display = "grid";
+}
+
+function toggleNotes() {
+  const n = document.getElementById("notesText");
+  n.style.display = n.style.display === "block" ? "none" : "block";
+}
+
+function renderAwardButtons() {
+  const bar = document.getElementById("awardBar");
+  bar.innerHTML = "";
+  bar.dataset.count = String(state.teamCount);
+  TEAMS.slice(0, state.teamCount).forEach((name, i) => {
+    const btn = document.createElement("button");
+    btn.textContent = `Award ${name}`;
+    btn.onclick = () => awardTeam(i);
+    bar.appendChild(btn);
+  });
+}
+
+function awardTeam(teamIndex) {
+  const q = state.current;
+  const amount = q.isFinal ? 500 : q.points;
+  state.scores[teamIndex] += amount;
+
+  if (!q.isFinal) {
+    state.used[q.id] = true;
+  }
+
+  saveState();
+  renderScores();
+  renderBoard();
+
+  document.querySelectorAll("#awardBar button").forEach(btn => {
+    btn.disabled = true;
+    btn.textContent = "Awarded";
+  });
+
+  if (typeof showSelectionBanner === "function") {
+    showSelectionBanner(`${TEAMS[teamIndex]} awarded +${amount}`);
+  }
+  toast(`${TEAMS[teamIndex]} +${amount}`);
+}
+
+function showBoard() {
+  pauseTimer();
+  document.getElementById("questionPanel").classList.remove("active");
+  document.getElementById("howToPanel").classList.remove("active");
+  document.getElementById("boardView").style.display = "block";
+  renderBoard();
+  renderScores();
+}
+
+function showHowToPlay() {
+  document.getElementById("boardView").style.display = "none";
+  document.getElementById("questionPanel").classList.remove("active");
+  document.getElementById("howToPanel").classList.add("active");
+}
+
+function setTimer(seconds) {
+  state.timerSeconds = seconds;
+  state.timerRemaining = seconds;
+  saveState();
+  updateTimerDisplay();
+}
+
+function startTimer() {
+  if (timerHandle) clearInterval(timerHandle);
+  state.timerRunning = true;
+  timerHandle = setInterval(() => {
+    if (state.timerRemaining > 0) {
+      state.timerRemaining -= 1;
+      updateTimerDisplay();
+    } else {
+      pauseTimer();
+      toast("Time!");
+    }
+  }, 1000);
+}
+
+function pauseTimer() {
+  state.timerRunning = false;
+  if (timerHandle) clearInterval(timerHandle);
+  timerHandle = null;
+  saveState();
+}
+
+function resetTimer() {
+  pauseTimer();
+  state.timerRemaining = state.timerSeconds;
+  saveState();
+  updateTimerDisplay();
+}
+
+function updateTimerDisplay() {
+  document.getElementById("timerDisplay").textContent = state.timerRemaining;
+}
+
+function resetGame() {
+  if (!confirm("Reset scores and used questions?")) return;
+  localStorage.removeItem("midnightArchivePHRA1001_STABLE_v11");
+  state = {
+    scores:[0,0,0,0],
+    teamCount: state.teamCount,
+    used:{},
+    current:null,
+    timerSeconds:60,
+    timerRemaining:60,
+    timerRunning:false
+  };
+  pauseTimer();
+  renderScores();
+  renderBoard();
+  updateTimerDisplay();
+  renderQuote();
+  toast("Game reset");
+}
+
+loadState();
+renderQuote();
+renderScores();
+renderBoard();
+updateTimerDisplay();
+</script>
+<div class="copyright-footer">© 2026 Lori Holguin · The Midnight Archive Review Game · Educational Use Only · Unauthorized redistribution, commercial use, or republication is prohibited.</div></body>
+</html>
