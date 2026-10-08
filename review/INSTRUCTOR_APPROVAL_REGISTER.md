@@ -638,21 +638,23 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 ## Standing dilution worked-solution teaching format · 2026-10-08
 
-**Instructor directive:** Every dilution/concentration question whose proper method is `C₁V₁ = C₂V₂` (current AND future review-bank questions, including Q190) must teach BOTH the mathematical symbols AND their pharmacy meanings: **STOCK (what we HAVE)** versus **DESIRED (what we WANT)**. Use this in instructor feedback/reveal or illustrated worked solution AFTER the student answers, not in advance on the question board. Preserve four choices, single correct answer, and existing NHA codes/teaching holds. Do NOT modify `index.html` until instructor explicitly authorizes publication.
+**Instructor directive (CLARIFIED):** Every dilution/concentration question whose proper method is `C₁V₁ = C₂V₂` (current AND future review-bank questions, including Q190) must SHOW BOTH the traditional equation **`C₁ × V₁ = C₂ × V₂`** AND instructor's ORIGINAL pharmacy notation **`SC × SV = DC × DV`**. `SC = Stock Concentration`, `SV = Stock Volume (or weight when a compatible mass-based calculation is explicitly used)`, `DC = Desired Concentration`, `DV = Desired FINAL Volume (or weight when appropriate)`; STOCK = what we HAVE; DESIRED = what we WANT. Use this in instructor feedback/reveal or illustrated worked solution AFTER the student answers, not in advance on the question board. Preserve four choices, single correct answer, and existing NHA codes/teaching holds. Do NOT modify `index.html` until instructor explicitly authorizes publication.
 
 **Required teaching sequence:**
 1. **Identify what is wanted and the unit first:** in typical questions `V₁ = ? mL of stock`.
-2. **Label the two sides:** STOCK / HAVE: `C₁ = stock concentration`, `V₁ = volume of original stock required`. DESIRED / WANT: `C₂ = target concentration`, `V₂ = FINAL TOTAL VOLUME of prepared product`, NOT the volume of water to add.
-3. **Set up:** `(C₁ × V₁) [STOCK] = (C₂ × V₂) [DESIRED]`. When solving stock volume use `V₁=(C₂×V₂)/C₁`. Make concentrations consistent: e.g., 20% w/v and 5% w/v, not mis-matched units.
+2. **Label the two sides in BOTH sets of notation:** STOCK/HAVE: `SC = C₁ = Stock Concentration`, `SV = V₁ = Stock Volume required`. DESIRED/WANT: `DC = C₂ = Desired Concentration`, `DV = V₂ = Desired FINAL Volume` (not simply the water/diluent to add). For solid/mass-based compatibility, Stock/Desired *Weight* may replace Volume, with consistent units.
+3. **Set up BOTH parallel forms:** `C₁ × V₁ = C₂ × V₂`, THEN emphasize instructor's `SC × SV = DC × DV`. Solve for the requested stock quantity using **`SV = (DC × DV) / SC`**, equivalently `V₁=(C₂×V₂)/C₁`. Concentration formats must be compatible (20% w/v and 5% w/v, not mismatched units).
 4. **Solve, show units, and box the result**, with student-readable intermediate multiplication/division and a surviving `mL` unit.
-5. **Translate result to practice:** "Measure __ mL of STOCK at __%, then add compatible diluent quantity sufficient (q.s.) to a FINAL __ mL of DESIRED __% solution." Where a textbook exercise expressly assumes additive volumes, optional separate step `diluent = final desired volume − stock volume`; for real compounding do NOT unconditionally equate subtraction with exact volume of diluent due to volume displacement/contracting. **Q.S. to final volume** is always safer.
+5. **Find diluent only when asked:** The user's course rule is **`Diluent = DV − SV`**, where DV means **final desired volume**, but treat this subtraction as a classroom volume-additivity approximation. For real compounding, add compatible diluent **q.s. to the stated final volume**; do not assume volumetric additivity or exact 60mL diluent. **Translate result to practice:** "Measure __ mL of STOCK at __%, then add compatible diluent quantity sufficient (q.s.) to a FINAL __ mL of DESIRED __% solution." Where a textbook exercise expressly assumes additive volumes, optional separate step `diluent = final desired volume − stock volume`; for real compounding do NOT unconditionally equate subtraction with exact volume of diluent due to volume displacement/contracting. **Q.S. to final volume** is always safer.
 
 **Locked Q190 teaching example, no answer change:**
 - Stem: Need **80 mL of 5% w/v** prepared from **20% w/v stock**.
-- STOCK / HAVE: `C₁=20%`, `V₁=?mL`.
-- DESIRED / WANT: `C₂=5%`, `V₂=80mL final`.
-- `20% × V₁ = 5% × 80mL`.
-- `V₁=(5 × 80mL)/20=20mL stock`. **Correct A**.
+- STOCK / HAVE: `SC = C₁ = 20%`, `SV = V₁ = ?mL`.
+- DESIRED / WANT: `DC = C₂ = 5%`, `DV = V₂ = 80mL final`.
+- Two labeled equivalent formulas: `C₁V₁ = C₂V₂` AND **`SC × SV = DC × DV`**.
+- Substitute: `20% × SV = 5% × 80mL`.
+- `SV = (DC × DV) / SC = (5 × 80mL)/20 = 20mL stock`. **Correct A**.
+- If textbook asks amount of diluent, `Diluent = DV − SV = 80mL − 20mL = 60mL` **only assuming additive volumes**; actual prep: q.s. to final 80mL.
 - Final instruction: "Measure 20 mL of 20% STOCK; add compatible diluent q.s. to 80 mL FINAL of 5% DESIRED."
 - Retain PHRA1009 Meeting 4 hold, NHA K.118, task 4C.5.
 
