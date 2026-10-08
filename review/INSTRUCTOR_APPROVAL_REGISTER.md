@@ -532,9 +532,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Next action:** Ask for instructor approval of the corrected Q151–Q160, then proceed to Batch 17 Q161–Q170 (5 new ten-question batches remain after Batch16).
 
-## Batch 17 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 17 · Approved 2026-10-08 (delegated instructor approval with corrections)
 
-**Status:** All ten Q161–Q170 answer keys rated PASS in uploaded independent Gemini audit. Compared factual/scope claims with official NHA ExCPT 2023-job-analysis outline, DailyMed, NCC MERP, DEA, CDC and ASHP. **ANSWER REVIEW PASS WITH EXPLANATION/CODE CORRECTIONS. PENDING INSTRUCTOR APPROVAL. NOT ADDED TO LIVE GAME.**
+**Status:** Q161–Q170 INSTRUCTOR-APPROVED following verified Gemini answer-key audit, with all listed NHA description, safety and curriculum corrections mandatory. User delegated final judgment: 'whatever you think is correct'. **NOT ADDED TO LIVE GAME.**
 
 | Q | Topic | Verified correct choice | Accurate NHA code and task | Review |
 |---|---|---|---|---|
@@ -564,4 +564,4 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 **Primary NHA source:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
 **DEA inventory disposal source:** https://www.deadiversion.usdoj.gov/faq/disp-destr-faq.html
 
-**Next step:** Ask instructor to approve corrected Batch 17 Q161–Q170; proceed to Batch 18 Q171–Q180 only after approval. Do not edit `index.html` or playable game.
+**Instructor approval:** User replied 'whatever you think is correct' after the assistant recommended approval of corrected Q161–Q170. Approved corrected batch. **Next:** Batch 18 Q171–Q180 independent audit. Do not edit `index.html` or playable game.
