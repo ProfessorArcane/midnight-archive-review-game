@@ -348,9 +348,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Approval recorded:** Instructor delegated final judgment ('whatever you think is correct'); approved corrected versions of Q101–Q110. Preserve Q105 neurological-course hold and Q106 FDA references-course hold. **Next:** Batch 12 questions Q111–Q120 for independent review. Do not edit `index.html`.
 
-## Batch 12 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 12 · Approved 2026-10-08 (conditional instructor approval with corrections)
 
-**Status:** All ten Q111–Q120 answer keys verified against independent Gemini audit, FDA/DailyMed label, NHA official blueprint, HHS privacy guidance, and relevant pharmacy law; **NOT YET INSTRUCTOR APPROVED** and **NOT ADDED TO LIVE GAME**. The instructor previously delegated judgment for Batch 11 only, not an evergreen waiver of new-batch approval.
+**Status:** ALL TEN Q111–Q120 VERIFIED AND INSTRUCTOR-APPROVED, contingent on preserving all corrections below, especially K.129's real definition, K.2/Task 1I scope, iPLEDGE effective dates and curriculum holds. **NOT ADDED TO LIVE GAME.**
 
 | Q | Topic | Verified answer | Accurate NHA mapping | Status |
 |---|---|---|---|---|
@@ -375,4 +375,4 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 7. **Q118** secure disposal follows HHS guidelines and actual pharmacy procedure; using the locked approved confidential-destruction bin is correct. https://www.hhs.gov/hipaa/for-professionals/faq/what-does-hipaa-require-of-covered-entities-when-they-dispose-information/index.html
 8. **Q111–113** correct brand/generic and drug classifications; no changes to answer choices.
 
-**Approval next:** Explicitly ask instructor if Q111–Q120 may be approved with these refinements. Do not edit live `index.html`.
+**Instructor conditional approval received:** User replied 'asd long as everyhitgg is correct' after review of the corrections and assistant recommendation to approve all ten. Approval applies to the CORRECTED version summarized here. Q117 remains held for PHRA 1009 Meeting 7 and Q120 for unit-dose overview. **Next:** Batch 13 for independent review. Do not edit live `index.html`.
