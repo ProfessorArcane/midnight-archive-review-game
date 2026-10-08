@@ -600,3 +600,38 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Official NHA source:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
 **Instructor approval confirmed:** User replied 'ok' to approval request for corrected Batch 18 Q171–Q180. **Next:** Batch 19 Q181–Q190 for independent Gemini audit. Do not edit live `index.html`.
+
+## Batch 19 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** Uploaded Gemini independent audit rated all ten Q181–Q190 answer choices correct (PASS). Independent check confirmed answers using NHA official 2023-job-analysis ExCPT test plan; FDA/DailyMed labeling; NCCIH herbal-drug information; Joint Commission prohibited notation; federal Medicaid drug-review rules (42 CFR 456.705); Texas 22 TAC 291.33; and dilution calculation. **TEN ANSWER KEYS VERIFIED. PENDING INSTRUCTOR APPROVAL. DO NOT EDIT PLAYABLE GAME / `index.html`.**
+
+| Q | Topic | Correct letter | Exact NHA tag/task | Decision |
+|---|---|---|---|---|
+| 181 | Entresto = sacubitril + valsartan ARNI | D | K.57, K.61, K.68 | PASS; HOLD cardiovascular / heart failure |
+| 182 | Actos/pioglitazone = thiazolidinedione; boxed CHF warning | A | K.57, K.61, K.68 | PASS |
+| 183 | Requip/ropinirole = dopamine agonist | C | K.57, K.61, K.68 | PASS; HOLD neurologic content |
+| 184 | Safe notation for five mg is '5 mg', never '5.0 mg' | B | **K.142 (ISMP Guidelines, error-prone medication practices)**, task 5D; K.153 only indirectly relevant to error-prone abbreviations, omit as primary because this question is about decimal notation | PASS; refine primary NHA mapping |
+| 185 | Pregnancy + lisinopril fetal-toxicity warning: alert pharmacist urgently | D | **K.145 = pregnancy and lactation warnings; K.149 = black-box warnings**, task 5D | PASS |
+| 186 | St. John's wort may reduce certain hormonal contraceptives' efficacy | A | K.71, **K.106 = vitamins, minerals, herbal supplements**, task 3B.3 | PASS |
+| 187 | OBRA '90 created federal Medicaid outpatient prospective DUR and counseling-standard framework | C | K.29, task 2A.1 | PASS; corrected Texas note only after answer |
+| 188 | PAR reorder threshold reached → refill to specified target stock | B | K.13 (*ordering and inventory management methods, including PAR levels*), task 1J | PASS |
+| 189 | Root cause analysis for look-alike-vial near misses examines systems and prevents recurrence | D | **K.161 = error investigation and risk management, including RCA; K.164 = continuous quality improvement**, task 5G | PASS |
+| 190 | 20% w/v stock → 80mL 5% w/v solution: 20mL stock q.s. to final 80mL | A | **K.118 = dilution/concentration**, task **4C.5 = compounding calculations** | PASS; HOLD PHRA1009 Meeting 4 |
+
+**Mandatory corrections, scope, and instructional notes before approval:**
+1. **Q184:** Gemini falsely grouped K.142/K.153 together as both “error-prone abbreviations, symbols and dose designations.” Official **K.142 = ISMP Guidelines, including considerations for error-prone drugs**; **K.153 = error-prone abbreviations**. The question's primary alignment is K.142 with Joint Commission prohibited dose designations, task 5D. Do not cite K.153 as a perfect exact match for trailing/leading decimal zeros. Joint Commission says write “5 mg” rather than “5.0 mg”; use “0.5 mg”, not “.5 mg”. Source: https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/standards-faqs/000001229
+2. **Q185:** **K.145 = pregnancy and lactation warnings**, **K.149 = black-box warnings**, not the Gemini combined heading “black box warnings, high-risk populations and safety alerts.” Lisinopril has boxed warning for fetal toxicity; labeling states discontinue as soon as pregnancy is detected. Tech must alert pharmacist/prescriber urgently, **not personally change the regimen**. https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b6dc0d4-4acd-3606-e054-00144ff8d46c
+3. **Q186:** K.106 = *vitamins, minerals, herbal supplements*. NCCIH explicitly warns St. John's wort can weaken oral birth control pills. Do not guarantee contraceptive failure for every brand/regimen; refer for pharmacist-led assessment and counseling. https://www.nccih.nih.gov/health/st-johns-wort
+4. **Q187 federal OBRA:** Under 42 CFR §456.705, state Medicaid prospective DUR program standards require offering pharmacist counseling subject to state implementation, and beneficiary refusal/unavailability rules. **Do not confuse a required offer to counsel with universal mandatory counseling performed for every prescription.** Original question tests federal framework and C remains correct. https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-C/part-456/subpart-K/section-456.705
+5. **Q187 TEXAS LAW NOTE (AFTER ANSWER ONLY):** In Texas **Class A community pharmacies**, 22 TAC **§291.33(c)(1)(B)(i)–(iii)** requires pharmacist communication/counseling with each **new prescription drug order**, ordinarily orally unless patient/agent not at the pharmacy or communication barrier prevents it. **§291.33(c)(1)(D)** permits a patient/agent to decline consultation, with refusal documentation. The exact correct citation is **NOT Gemini's §291.33(c)(1)(I)**. State that the pharmacist, not the technician, delivers clinical counseling. Current rule: https://regulations.justia.com/states/texas/title-22/part-15/chapter-291/subchapter-b/section-291-33/ ; TSBP consumer summary: https://www.pharmacy.texas.gov/consumer/broch8.asp . Preserve distinction between federal Medicaid requirements and Texas rules.
+6. **Q188:** K.13 explicitly lists periodic automatic replenishment (PAR) levels, just-in-time ordering, stock rotation; replenishment to target according to the specified facility policy, do not assert every PAR system has identical triggers.
+7. **Q189:** NHA K.161 explicitly mentions root cause analysis and workflow analysis; K.164 is CQI. Near-miss reporting is important even without injury; RCA systems-based not blame-only.
+8. **Q190:** 20%×V1=5%×80mL => **V1=20mL**. Measure stock, add compatible diluent *quantity sufficient* to total 80mL. No unconditional “add exactly 60mL” because volume additivity may not hold; under course math canon show units and solve with fractions, final answer boxed. PHRA1009 **Meeting4** hold, do not assess earlier.
+9. **Q181–183:** Entresto sacubitril/valsartan, pioglitazone TZD with congestive-heart-failure boxed warning, ropinirole IR dopamine agonist for Parkinson's and moderate-to-severe primary RLS are supported by current DailyMed labels. Ropinirole **ER (Requip XL)** is not approved for RLS; question merely asks dopamine class for Parkinson's and is sound.
+10. Teaching holds: Q181 cardiovascular/heart failure, Q183 neurologic, Q190 PHRA1009 Meeting4; confirm content has been taught before assigning weekly boards.
+
+**Primary NHA:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+
+**National ExCPT first:** Add separate Texas law note only AFTER correct-answer reveal if legally necessary. Question wording and right answers remain nationally framed. All 10 remain NON-LIVE.
+
+**Next:** Ask for instructor approval of corrected Batch 19 Q181–Q190. On approval, mark it approved and proceed to Batch 20 Q191–Q200; no live game changes.
