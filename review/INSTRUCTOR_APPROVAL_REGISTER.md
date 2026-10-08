@@ -377,9 +377,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Instructor conditional approval received:** User replied 'asd long as everyhitgg is correct' after review of the corrections and assistant recommendation to approve all ten. Approval applies to the CORRECTED version summarized here. Q117 remains held for PHRA 1009 Meeting 7 and Q120 for unit-dose overview. **Next:** Batch 13 for independent review. Do not edit live `index.html`.
 
-## Batch 13 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 13 · Approved 2026-10-08 (instructor confirmation with corrections)
 
-**Status:** Q121–Q130 passed external Gemini answer-key review and were checked against NHA's official 2023-job-analysis ExCPT test plan and applicable FDA/DailyMed, OSHA and primary-engineering-control references. **PENDING INSTRUCTOR APPROVAL. NOT ADDED TO LIVE GAME.**
+**Status:** Q121–Q130 VERIFIED AND INSTRUCTOR-APPROVED with the corrected NHA descriptions (especially K.138, K.104, K.89), answers and teaching restrictions below. **NOT ADDED TO LIVE GAME.**
 
 | Q | Topic | Verified key | Exact NHA alignment | Result |
 |---|---|---|---|---|
@@ -413,4 +413,4 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 - OSHA SDS sections: https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200AppD
 - ASHP PEC guide: https://ashp.mhmedical.com/content.aspx?bookid=3669&sectionid=308117765
 
-**Next action:** Obtain instructor approval of Q121–Q130 as corrected. Do not modify `index.html`.
+**Instructor approval received:** User replied 'ok' after recommendation to approve Batch 13 with its documented corrections. Approval applies to the corrected version. Q122 held until psychiatric instruction, Q126 until sterile-compounding overview, Q130 until PHRA 1009 Meeting 5. **Next:** Draft Batch 14 Q131–Q140 for independent review. Do not modify `index.html`.
