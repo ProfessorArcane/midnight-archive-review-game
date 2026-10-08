@@ -39,9 +39,9 @@ The external review labeled Q15 (Dilantin), Q17 (Macrobid), and Q18 (Sprintec) a
 
 **Instructor approval received:** The instructor replied 'yes' to approval of all ten questions with NHA tags corrected and Q15/Q17/Q18 placed only after relevant instruction. Preserve all original live content; no playable game changes were requested. **Next step:** Review Batch 03.
 
-## Batch 03 · Fact-checked 2026-10-08 — PENDING INSTRUCTOR APPROVAL
+## Batch 03 · Approved 2026-10-08 (instructor confirmation)
 
-**Status:** Gemini review received (10/10 answer keys passed), checked against authoritative primary sources; **not yet approved**. **Nothing added to live game.**
+**Status:** ALL TEN QUESTIONS Q21–Q30 APPROVED BY INSTRUCTOR after external review, with refinements for Q24, Q26, and Q29 and corrected knowledge tags. **NOT ADDED TO LIVE GAME.**
 
 | Q | Topic | Correct key | QA assessment |
 |---|---|---|---|
@@ -76,4 +76,4 @@ The external review labeled Q15 (Dilantin), Q17 (Macrobid), and Q18 (Sprintec) a
 - DEA CMEA rules and exception: https://www.deadiversion.usdoj.gov/meth/cma2005.html
 - CDC vaccine storage: https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-5-vaccine-storage-and-handling.html
 
-**Next action:** Await explicit instructor approval before changing Batch 03 status. Preserve the playable game unchanged.
+**Instructor approval received:** User explicitly replied 'yes now save and next batch' to approval of all ten Q21–Q30 with the above refinements. **Next:** Review Batch 04. Preserve the playable game unchanged.
