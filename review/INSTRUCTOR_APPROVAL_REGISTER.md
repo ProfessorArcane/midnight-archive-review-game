@@ -566,9 +566,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Instructor approval:** User replied 'whatever you think is correct' after the assistant recommended approval of corrected Q161–Q170. Approved corrected batch. **Next:** Batch 18 Q171–Q180 independent audit. Do not edit `index.html` or playable game.
 
-## Batch 18 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 18 · Approved 2026-10-08 (instructor confirmation with corrections)
 
-**Status:** Gemini marked all ten Q171–Q180 answer keys PASS. Independently checked the high-risk rule nuances against NHA official ExCPT 2023-test-plan PDF, HHS HIPAA guidance, DEA 21 CFR and DEA Form 41 instructions, FDA DSCSA product-identifier guidance, and Texas H&S Code §481.074. All ten proposed answer letters remain correct. **PENDING INSTRUCTOR APPROVAL. NO LIVE GAME / `index.html` CHANGES.**
+**Status:** ALL TEN Q171–Q180 INSTRUCTOR-APPROVED with all verified NHA, HIPAA, DEA Form 41, DSCSA and C-II seven-day emergency prescription explanation corrections below. Texas-specific clarification appears ONLY after answer reveal. User confirmed 'ok'. **NO LIVE GAME / `index.html` CHANGES.**
 
 | Q | Topic | Correct letter | Verified official NHA code/task | Outcome |
 |---|---|---|---|---|
@@ -599,4 +599,4 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 **Standing question policy:** National NHA ExCPT focus; Texas deviations only as explicit instructor feedback **after** answer reveal. Preserve original Q179 national key B.
 
 **Official NHA source:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
-**Next step:** Request approval of corrected Batch 18 Q171–Q180. Then Batch 19 Q181–Q190. Do not edit live `index.html`.
+**Instructor approval confirmed:** User replied 'ok' to approval request for corrected Batch 18 Q171–Q180. **Next:** Batch 19 Q181–Q190 for independent Gemini audit. Do not edit live `index.html`.
