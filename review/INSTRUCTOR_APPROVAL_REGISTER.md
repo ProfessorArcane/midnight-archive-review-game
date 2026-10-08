@@ -531,3 +531,37 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 **Exam-first authoring rule remains:** National NHA ExCPT answer is primary; short Texas-specific note, only when relevant, appears after answer reveal. Do NOT edit live `index.html`.
 
 **Next action:** Ask for instructor approval of the corrected Q151–Q160, then proceed to Batch 17 Q161–Q170 (5 new ten-question batches remain after Batch16).
+
+## Batch 17 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** All ten Q161–Q170 answer keys rated PASS in uploaded independent Gemini audit. Compared factual/scope claims with official NHA ExCPT 2023-job-analysis outline, DailyMed, NCC MERP, DEA, CDC and ASHP. **ANSWER REVIEW PASS WITH EXPLANATION/CODE CORRECTIONS. PENDING INSTRUCTOR APPROVAL. NOT ADDED TO LIVE GAME.**
+
+| Q | Topic | Verified correct choice | Accurate NHA code and task | Review |
+|---|---|---|---|---|
+| 161 | Cardizem CD/diltiazem ER = nondihydropyridine CCB | C | K.57, K.59, K.61, K.68 | PASS |
+| 162 | Cleocin HCl/clindamycin = lincosamide; C. difficile warning | B | K.57, K.61, K.68 | PASS |
+| 163 | Myrbetriq/mirabegron ER = beta-3 agonist OAB | D | K.57, K.61, K.68 | PASS; HOLD genitourinary content |
+| 164 | Tessalon/benzonatate = nonopioid antitussive | A | K.57, K.61, K.68 | PASS |
+| 165 | NCC MERP category C: error reaches patient, no harm | D | **K.160 = types of errors**, task 5H documentation/reporting | PASS; HOLD until error categories taught |
+| 166 | Expired C-II inventory: remove/secure; pharmacist-directed DEA-compliant disposition | A | **K.54 = ordering/receiving/storing/disposing CS**, task 1L and 2B.7 | PASS; clarify reverse distributor vs Form 41 |
+| 167 | ASHP Injectable Drug Information (formerly Handbook on Injectable Drugs) = Y-site compatibility reference | B | **K.22 = Handbook on Injectables**, task 1O | PASS; HOLD references lesson |
+| 168 | Needlestick: immediately wash, report and prompt medical evaluation | C | **K.124 = CDC/OSHA Universal Precautions Guidelines**, tasks 4D.1, 4D.2 (applicable universal precautions/infection control) | PASS; HOLD bloodborne pathogen lesson |
+| 169 | Medication reconciliation: tech gathers/compares lists, pharmacist resolves discrepancies | D | **K.6 = purpose/benefits medication reconciliation and tech's role**, task 1C | PASS |
+| 170 | Insulin days supply U-100 10mL=1000 units; 16+24=40 units/day; 25 days | C | K.111 days' supply, task 4C.3 | PASS; HOLD PHRA1009 insulin/days supply |
+
+**Required corrections and safety nuances before approval:**
+1. **Q165:** NHA **K.160** is precisely **types of errors** (e.g., medication, human, near misses, software), NOT a specific NCC MERP taxonomy mandate. NCC MERP Category C nonetheless fits as a valid application to medication-error types. Category C = reaches patient, no harm; D = reaches patient with required monitoring and/or intervention to preclude harm. Answer D. Teach all NCC MERP categories before using.
+2. **Q166:** NHA **K.54** explicitly says *procedures for ordering, receiving, storing, and disposing of controlled substances*. DEA §1317 allows inventory transfer to DEA-registered reverse distributor or on-site non-retrievable destruction as permitted. **DEA Form 41 is required for registrant destruction under 21 CFR §1304.21(e); NOT a blanket requirement for every shipment to a reverse distributor.** Separate recordkeeping for transfer, and CS inventory retention, apply. Correct answer A is safe. **Do not insert Gemini's Texas note claiming 22 TAC §291.34(g) always imposes a simple 2-year controlled substance disposal record rule**; that specific citation is not sufficiently verified and is unnecessary to the federal exam item. A Texas note should be included only if a verified material difference is relevant.
+3. **Q168:** NHA **K.124 = CDC/OSHA Universal Precautions Guidelines**; tasks 4D.1–4D.2 concern Universal Precautions and infection control in compounding (supporting but not an exact postexposure task statement). CDC recommends soap/water wash, immediate reporting and prompt medical assessment. Where HIV PEP indicated, start as soon as possible, no later than **72 hours after potential exposure**, NOT a hard “within 2 hours” rule as Gemini stated. In the user's scenario, answer C is correct. CDC https://www.cdc.gov/hiv/prevention/pep.html ; https://www.cdc.gov/hiv/causes/occupational-transmission.html
+4. **Q167:** NHA **K.22 = Handbook on Injectables** (specific reference rather than generic “drug information resources”). ASHP confirms its current product ASHP Injectable Drug Information is formerly Handbook on Injectable Drugs and provides IV Y-site compatibility and stability tables. https://www.ashp.org/products-and-services/injectables ; https://news.ashp.org/news/meetingnews/2023/04/03/how-does-ashp-injectable-drug-information-stack-up-against-other-resources
+5. **Q169:** NHA **K.6 = purpose and benefits of medication reconciliation and tech's role**, not just generic scope at intake. Task 1C = assist pharmacist in medication reconciliation. Technician gathers and flags but does not make clinical changes.
+6. **Q163:** FDA Myrbetriq extended-release tablets are beta-3 agonist used for OAB in adults. Myrbetriq and Myrbetriq Granules are different products **not substitutable milligram-for-milligram**. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ba9e9e15-e666-4c56-9271-2e24739cfa2d
+7. **Q162:** Clindamycin = lincosamide antibiotic; highlight boxed warning for C. difficile-associated diarrhea as relevant pharmacist referral, not a blanket claim every case must occur. **Q164:** benzonatate capsule must be swallowed whole, accidental ingestion in children is emergency.
+8. **Q170:** (10mL × 100units/mL)/(16+24 units/day) = **25 days**. Assumptions explicitly exclude priming and other waste; be aware insulin product-specific in-use expiration can limit real dispensing days. Keep hypothetical math problem separate from clinical guidance.
+9. **Curriculum holds:** Q163 genitourinary; Q165 NCC MERP categories; Q167 pharmacy reference overview; Q168 bloodborne pathogen/Universal Precautions; Q170 PHRA1009 days' supply. Do not assess before instruction.
+10. **Policy:** National NHA ExCPT correct answers primary; Texas law notes, if independently verified and materially relevant, ONLY after answer reveal. No Texas note is necessary for these questions as drafted.
+
+**Primary NHA source:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+**DEA inventory disposal source:** https://www.deadiversion.usdoj.gov/faq/disp-destr-faq.html
+
+**Next step:** Ask instructor to approve corrected Batch 17 Q161–Q170; proceed to Batch 18 Q171–Q180 only after approval. Do not edit `index.html` or playable game.
