@@ -316,9 +316,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Instructor approval received:** User stated 'okay as long as you agree let us move forward.' Approval applies to the corrected NHA codes (including K.150, K.149/K.154), reporting explanation, and curriculum holds recorded here. **Next: draft Batch 11, Q101–Q110 for external review. Do NOT modify `index.html` yet.**
 
-## Batch 11 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 11 · Approved 2026-10-08 (delegated instructor approval, corrections applied)
 
-**Status:** Gemini reports all ten Q101–Q110 answer choices correct; answers are independently consistent with checked NHA/FDA/DEA/CMS sources. **PENDING INSTRUCTOR APPROVAL. NO LIVE GAME UPDATE.** Practice questions are original and not actual ExCPT exam items.
+**Status:** Q101–Q110 INSTRUCTOR-APPROVED WITH REQUIRED NHA MAPPING AND EXPLANATION CORRECTIONS BELOW. Instructor delegated the final review judgment by saying 'whatever you think is correct'. **NO LIVE GAME UPDATE.** Practice questions are original and not actual ExCPT exam items.
 
 | Q | Topic | Correct answer | NHA alignment | Outcome |
 |---|---|---|---|---|
@@ -346,4 +346,4 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Official NHA blueprint**: https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
 
-**Next step:** Ask the instructor to explicitly approve Batch 11 Q101–Q110 **with the above corrections and teaching holds** before marking approved. Do not edit `index.html`.
+**Approval recorded:** Instructor delegated final judgment ('whatever you think is correct'); approved corrected versions of Q101–Q110. Preserve Q105 neurological-course hold and Q106 FDA references-course hold. **Next:** Batch 12 questions Q111–Q120 for independent review. Do not edit `index.html`.
