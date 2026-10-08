@@ -177,3 +177,38 @@ Primary references:
 - DailyMed Ditropan XL: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b0384a5-c65a-454d-9761-716af8afe5bd
 
 **Instructor approval received:** Instructor wrote 'yes lets continue as long as you think everything is correct.' Approval applies to the corrected answers, K-code descriptions, and explanations listed in this register. Q53 is held until the reproductive lesson; Q56 is held until PHRA 1009 percent strength. **Next:** Review Batch 07. Do not modify playable `index.html`.
+
+## Batch 07 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** All ten answer keys Q61–Q70 independently reviewed against available primary sources and agreed with external review. **PENDING INSTRUCTOR APPROVAL; NOT IN LIVE GAME.**
+
+| Q | Topic | Correct choice | NHA alignment | Disposition |
+|---|---|---|---|---|
+| 61 | Aldactone/spironolactone, potassium-sparing diuretic | B | K.57, K.61, K.68 | PASS |
+| 62 | Advair Diskus/fluticasone propionate + salmeterol | C | K.57, K.59, K.68 | PASS |
+| 63 | Pepcid/famotidine, H2-receptor antagonist | A | K.57, K.61, K.68 | PASS |
+| 64 | Seroquel/quetiapine, atypical antipsychotic | D | K.57, K.61, K.68 | PASS; follow Week 6 psychiatric medications |
+| 65 | Nexplanon/etonogestrel subdermal implant | D | K.59 (dosage form), K.60 (route), K.68 (brand/generic) | PASS; HOLD until reproductive mini-lesson |
+| 66 | Mupirocin ointment, topical antibiotic | A | K.57, K.59, K.61 | PASS |
+| 67 | EpiPen/epinephrine, anaphylaxis | C | K.59, K.61, K.68 | PASS |
+| 68 | Duplicate acetaminophen in OTC products | B | K.65 (OTC), K.71 (drug–OTC interactions, adjacent concept), Task 4B.12; duplicate ingredient/therapy safety | PASS; clarify actual K.71 meaning |
+| 69 | Medicare Part D drug coverage | A | K.90 (types of coverage), Task 4A.6 | PASS |
+| 70 | Older epinephrine 1:1,000 w/v = 1 mg/mL | C | K.116 (ratio strength), 4C.1 (unit conversion) | PASS; HOLD until PHRA 1009 ratio strength |
+
+**Corrections to Gemini's explanations, required for approved version:**
+1. K.68 = brand/generic medication names, *not* 'body systems: renal/cardiovascular', 'body systems: respiratory', 'body systems: psychiatric', 'reproductive', or 'immune'. K.62 is basic body systems and disease states. K.60 is routes of administration, not simply 'drug delivery systems'. K.71 = basic drug interactions; duplicate acetaminophen is primarily duplicate-active-ingredient/therapy medication safety, with related OTC and consultation concepts.
+2. Q68 explanation: “A patient taking multiple OTC products containing acetaminophen can unknowingly exceed safe daily dosing and risk liver injury. Technicians should spot duplicate active ingredients and refer product- or dose-selection questions to the pharmacist.” Avoid giving a one-size-fits-all '4,000 mg/day' recommendation in a question that does not specify patient factors.
+3. Q70 calculation: 1:1,000 w/v = 1 g in 1,000 mL = 1,000 mg in 1,000 mL = 1 mg/mL. FDA instructs manufacturers to replace ratio expressions on labeling of single-entity injectable drugs with mg/mL to help reduce errors. This is *not* a clinical dosing or administration question. Hold for PHRA 1009 K.116 lesson.
+4. Q65 Nexplanon is etonogestrel *subdermal implant*, not an intrauterine system or vaginal ring. Teach dosage form and brand generic after reproductive mini-lesson.
+5. Q62 full name: Advair Diskus contains fluticasone propionate and salmeterol (as salmeterol xinafoate). It is an inhaled ICS/LABA combination. Avoid presenting a universal claim about nonexistent brand combinations as part of the distractor rationale without validation.
+6. Q69 Part D *generally* covers many self-administered outpatient prescription drugs, with specific coverage determined by the plan and possible Part B exceptions.
+
+**Original answer letters remain unchanged.** Week mapping must be confirmed prior to actual question-board integration. PHRA 1001 questions never expose medication or body-system content before instruction.
+
+Primary references:
+- NHA test plan: https://knowledge.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+- FDA labels ratio elimination: https://www.fda.gov/media/105663/download
+- DailyMed Advair Diskus 2026: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4eeb5f6a-593f-4a9e-9692-adefa2caf8fc
+- Medicare outpatient Part D coverage: https://www.medicare.gov/coverage/prescription-drugs-outpatient
+
+**Next:** Ask instructor to approve Q61–Q70 with above precise labels and explanation refinements; THEN mark Batch 07 approved. Do not modify `index.html`.
