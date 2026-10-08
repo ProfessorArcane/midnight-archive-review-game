@@ -693,9 +693,9 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 
 **Instructor approval confirmed:** User replied 'if u do yes' following explicit recommendation to approve the corrected Batch 20. **Next:** Final Batch 21 Q201–Q210 for Gemini independent audit. Never edit live `index.html` without separate permission. 
 
-## Batch 21 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 21 · Approved 2026-10-08 (instructor delegated approval with corrections)
 
-**Status:** Independent Gemini audit marked all Q201–Q210 answer choices PASS. Assistant cross-checked official NHA ExCPT 2023 job-analysis detailed test plan, FDA/DailyMed, CDC/FDA VAERS and Class III recalls, ISMP community pharmacy clean-equipment guidance, and calculation accuracy. **TEN ANSWER KEYS VERIFIED; CORRECT NHA TASK ALIGNMENT AND IMPRECISE CLEANING CLAIMS AS BELOW. PENDING EXPLICIT INSTRUCTOR APPROVAL. DO NOT MODIFY PLAYABLE GAME / `index.html`.**
+**Status:** Q201–Q210 INSTRUCTOR-APPROVED, preserving all verified NHA alignment and medication-safety corrections below. Independent Gemini audit passed all ten answer keys; assistant reviewed and recommended approval. Instructor replied **'if u agree yes'**, granting explicit conditional approval. Assistant agreed. **DO NOT MODIFY PLAYABLE GAME / `index.html`.**
 
 | Q | Objective | Answer | Correct NHA alignment | Review |
 |---|---|---|---|---|
@@ -723,4 +723,4 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 10. **Teaching holds:** Q202 neurologic, Q203 GU, Q204 vaccines, Q206 sterile-compounding needles, Q210 PHRA1009 Meeting 7. Other lesson-placement prerequisites still apply.
 11. **The Gemini Final Master Curriculum Hold table is NOT exhaustive and should NOT be trusted as a complete 210-question crosswalk**. It omits other previously noted category holds and includes possible misclassified math-only questions. Build complete crosswalk separately, comparing every question's objective to the PHRA1001/1009 course taught-before-assessed sequence. Do NOT publish a 210-question “final” game yet.
 
-**Ready to approve only following instructor sign-off.** When explicitly approved, mark Batch21 Approved, bringing **all 210 drafted questions through the 21-batch audit**. This completes ANSWER-BANK INSTRUCTOR APPROVAL, not the final duplicate/domain/course-placement/live-game publish audit. Keep user rule national NHA answer first; any verified Texas distinction must only appear after answer reveal. Do NOT modify `index.html` or playable game until separately authorized.
+**Instructor confirmation:** User said **'if u agree yes'** to the recommendation to approve final corrected Batch 21. Assistant agreed and marked Q201–Q210 APPROVED, making **210/210 answer-bank questions approved**. This completes question-by-question INSTRUCTOR APPROVAL, **NOT** the separately required full-bank duplicate/NHA domain coverage/curriculum placement/hold/championship allocation audit or publication. National NHA first; verified Texas law notes ONLY after answer reveal. **Never modify `index.html` or the live game without separate permission.**
