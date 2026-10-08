@@ -212,3 +212,38 @@ Primary references:
 - Medicare outpatient Part D coverage: https://www.medicare.gov/coverage/prescription-drugs-outpatient
 
 **Instructor approval received:** User said 'next batch as long as everything is correct.' Approval applies to the verified, corrected explanations and NHA tags recorded above. Hold Q65 until reproductive mini-lesson and Q70 for PHRA 1009 ratio strength. **Next:** Batch 08 for review. Do not modify `index.html`.
+
+## Batch 08 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** All ten answer keys Q71–Q80 supported after examination of submitted external review and comparison with NHA examination outline. **PENDING INSTRUCTOR APPROVAL. NO CHANGES TO THE PLAYABLE GAME.** They are original ExCPT-style questions, not official NHA items.
+
+| ID | Subject | Verified key | Correct ExCPT alignment | Current decision |
+|---|---|---|---|---|
+| Q71 | Zyloprim/allopurinol, xanthine oxidase inhibitor | A | K.57, K.61, K.62 | PASS |
+| Q72 | Sinemet 25/100 carbidopa/levodopa | C | K.61, K.62, K.68 | PASS; teach with neurological drugs |
+| Q73 | Bactrim DS 800 mg sulfamethoxazole/160 mg trimethoprim | D | K.68, task 4B.2 | PASS |
+| Q74 | Levothyroxine 50 mcg vs 50 mg data-entry discrepancy | B | task 4B.2, 5D, 5G; K.141/K.142 as secondary | PASS |
+| Q75 | Humalog/insulin lispro rapid acting | C | K.57, K.68 | PASS |
+| Q76 | Clotrimazole 1% topical antifungal | D | K.57, K.65, task 3A.5 | PASS |
+| Q77 | Narcan 4 mg nasal spray/naloxone | A | K.61, K.65, K.68 | PASS |
+| Q78 | Nonsterile compounded BUD vs manufacturer expiration | C | K.139, task 4D.9; K.131 for nonsterile compounding | PASS |
+| Q79 | DEA Form 222 for paper Schedule II order | D | K.48, task 2B.7 | PASS |
+| Q80 | Prior Authorization Required payer rejection | C | K.88, task 4A.6 | PASS |
+
+**Required explanation and NHA mapping corrections:** External audit labels K.62 as brand/generic and K.68 as body systems; actual NHA definitions are K.62 = basic body systems/disease states and K.68 = brand and generic medication names. K.14 is medication storage and K.18 is the Orange Book, neither a medication entry-error code. K.20 means clinical information sources and K.22 the Handbook on Injectables, not nonsterile BUD; use K.139 and task 4D.9. K.50 is emergency filling procedures, not DEA Form 222; use K.48. K.43 is DEA, not insurance rejections; use K.88. These metadata corrections DO NOT change the correct answers.
+
+Q74: 50 mcg = 0.05 mg. Entry as 50 mg is 1000x the prescribed strength; stop, use authorized correction procedures, ensure pharmacist verification. Do not imply existence of a commercially available 50-mg levothyroxine tablet.
+
+Q78: Use nonsterile compounding USP <795> and actual current BUD requirements, including stability, formulation, storage, and remaining expiration dates of starting components. Do not set BUD equal to original ingredient manufacturer expiration. Avoid a categorical 'always 30 days' rule; quiz is conceptual.
+
+Q79: For paper Schedule II controlled-drug orders Form 222, where applicable; electronic orders use CSOS and both follow 21 CFR Part 1305. For student instruction distinguish ordering from prescribing.
+
+Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate the underlying prescription; the technician coordinates with pharmacist/prescriber/payer using approved procedures.
+
+**Curriculum:** Original question content should appear only after related PHRA 1001 teaching (including neurological medications and introductory BUD/compounding concepts); Q74 is a safety catch, not advanced calculation. No Math-only questions in this batch.
+
+**NHA PRIMARY SOURCE:** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+**21 CFR 1305.03:** https://www.ecfr.gov/current/title-21/chapter-II/part-1305/section-1305.03
+**ASHP BUD overview:** https://ashp.mhmedical.com/content.aspx?bookid=3688&sectionid=308946140
+
+**Next step:** Wait for user's express approval of Batch 08 before marking Q71–Q80 approved. No changes to `index.html`.
