@@ -213,9 +213,9 @@ Primary references:
 
 **Instructor approval received:** User said 'next batch as long as everything is correct.' Approval applies to the verified, corrected explanations and NHA tags recorded above. Hold Q65 until reproductive mini-lesson and Q70 for PHRA 1009 ratio strength. **Next:** Batch 08 for review. Do not modify `index.html`.
 
-## Batch 08 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+## Batch 08 · Approved 2026-10-08 (instructor approval with corrections)
 
-**Status:** All ten answer keys Q71–Q80 supported after examination of submitted external review and comparison with NHA examination outline. **PENDING INSTRUCTOR APPROVAL. NO CHANGES TO THE PLAYABLE GAME.** They are original ExCPT-style questions, not official NHA items.
+**Status:** ALL TEN QUESTIONS Q71–Q80 INSTRUCTOR-APPROVED, CONDITIONAL ON CORRECTED NHA TAGS AND CLARIFIED EXPLANATIONS RECORDED BELOW. **NOT ADDED TO THE PLAYABLE GAME.** They are original ExCPT-style questions, not official NHA items.
 
 | ID | Subject | Verified key | Correct ExCPT alignment | Current decision |
 |---|---|---|---|---|
@@ -246,4 +246,4 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 **21 CFR 1305.03:** https://www.ecfr.gov/current/title-21/chapter-II/part-1305/section-1305.03
 **ASHP BUD overview:** https://ashp.mhmedical.com/content.aspx?bookid=3688&sectionid=308946140
 
-**Next step:** Wait for user's express approval of Batch 08 before marking Q71–Q80 approved. No changes to `index.html`.
+**Instructor approval received:** User replied 'yes okay' to approval of Q71–Q80 with the listed corrections. The corrected version is the approved version, and original keys remain. **Next:** Present Batch 09 for review. No changes to `index.html`.
