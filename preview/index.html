@@ -732,7 +732,7 @@
 .scoreboard[data-count="2"],.award-bar[data-count="2"] {grid-template-columns:repeat(2,minmax(0,1fr))}
 .scoreboard[data-count="3"],.award-bar[data-count="3"] {grid-template-columns:repeat(3,minmax(0,1fr))}
 .scoreboard[data-count="4"],.award-bar[data-count="4"] {grid-template-columns:repeat(4,minmax(0,1fr))}
-@media(min-width:1050px){.guild-select{grid-column:1 / 4}}
+@media(min-width:1050px){.guild-select{grid-column:1 / 4;grid-row:3}#boardView{grid-row:4}.timer-card{grid-row:4}#questionPanel,#howToPanel{grid-row:4 / span 2}.scoreboard{grid-row:6;grid-column:1 / 4}.footer{grid-row:7}}
 @media(max-width:900px){.scoreboard[data-count],.award-bar[data-count]{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.scoreboard[data-count],.award-bar[data-count]{grid-template-columns:1fr}}
 </style>
