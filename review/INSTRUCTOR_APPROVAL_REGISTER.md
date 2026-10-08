@@ -414,3 +414,36 @@ Q80: 'Prior Authorization Required' is a claim rejection and does not invalidate
 - ASHP PEC guide: https://ashp.mhmedical.com/content.aspx?bookid=3669&sectionid=308117765
 
 **Instructor approval received:** User replied 'ok' after recommendation to approve Batch 13 with its documented corrections. Approval applies to the corrected version. Q122 held until psychiatric instruction, Q126 until sterile-compounding overview, Q130 until PHRA 1009 Meeting 5. **Next:** Draft Batch 14 Q131–Q140 for independent review. Do not modify `index.html`.
+
+## Batch 14 · Gemini-reviewed 2026-10-08 — AWAITING INSTRUCTOR APPROVAL
+
+**Status:** All ten answer keys Q131–Q140 independently reviewed against submitted Gemini audit and appropriate NHA, FDA, CDC, DEA, CMS, DailyMed primary references. **ANSWER REVIEW PASS. INSTRUCTOR APPROVAL PENDING. NOT ADDED TO PLAYABLE GAME.**
+
+| Q | Topic | Verified choice | NHA alignment | Review |
+|---|---|---|---|---|
+| 131 | Ozempic (semaglutide) *injection*, GLP-1 receptor agonist | B | K.57, K.59, K.68 | PASS |
+| 132 | Lasix/furosemide, loop diuretic | A | K.57, K.61, K.68 | PASS |
+| 133 | Valtrex/valacyclovir, antiviral for shingles | C | K.57, K.61, K.68 | PASS |
+| 134 | Shingrix recombinant zoster vaccine prevents shingles | D | K.73 | PASS; HOLD until immunization overview |
+| 135 | Concentrated KCl injection wrong storage; stop and refer | C | K.151, tasks 5D/5G | PASS; HOLD until high-alert/hospital safety |
+| 136 | One-time EPCS C-II initial dispensing transfer electronically | D | K.53, task 2B.4 | PASS; refine scope of authorized pharmacists |
+| 137 | Eligible home blood-glucose meter: Original Medicare Part B DME | A | K.90, K.91, task 4A.12 | PASS |
+| 138 | Bactrim DS + warfarin raises INR risk: pharmacist review | D | K.71, K.84, task 4A.11 | PASS; precise safety language |
+| 139 | 120 actuations / (2 puffs/dose × 2 doses/day) = 30 days | B | K.111, task 4C.3 | PASS; HOLD until PHRA 1009 days' supply lesson |
+| 140 | Possible altered handwritten prescription strength; stop and verify | C | K.107 (security features), task 4B.1 (altered prescriptions), task 5G | PASS |
+
+**Mandatory corrections and safety nuances to use with approval:**
+
+1. **Q131:** Ozempic injection specifically; FDA approved oral **Ozempic (semaglutide) tablets** in February 2026, so a blanket statement that Ozempic is only injectable would be wrong. Both forms are GLP-1 receptor agonists. Original question specifies subcutaneous injection and remains correct. FDA 2026 info: https://www.novonordisk-us.com/media/press-releases/fda-approves-ozempic-pill-tablets.html and FDA: https://nctr-crs.fda.gov/fdalabel/ui/spl-summaries/criteria/608017
+2. **Q134:** CDC recommends 2-dose recombinant zoster (Shingrix) for immunocompetent adults >=50 years, and eligible adults >=19 years with immunosuppression/immunodeficiency due to disease or therapy. Do not impose an age 50-only rule. Keep until immunizations covered. https://www.cdc.gov/shingles/hcp/vaccine-considerations/immunocompromised-adults.html
+3. **Q135:** Concentrated KCl injection is high alert and unsuitable as ready-to-administer IV fluid; segregate/restrict supply *according to institutional policy*, promptly notify pharmacist, prevent accidental selection. **Do not teach automatic universal quarantine** of all KCl stock, or that all ICU storage arrangements are identical. Under NO circumstances suggest direct undiluted IV push.
+4. **Q136:** Governing federal **21 CFR 1306.08(e)–(h)** allows patient-requested one-time initial-filling electronic transfers Schedule II–V between DEA-registered retail pharmacies, only if applicable state law permits, with unchanged electronic format, direct communication between two legally authorized pharmacists and specified recordkeeping. **Do NOT cite 1306.25** as the governing initial-fill rule. DEA interprets 'pharmacist' to encompass certain appropriately state-authorized pharmacist interns under supervision. The question uses 'authorized pharmacists' and is correct. https://www.law.cornell.edu/cfr/text/21/1306.08 https://www.deadiversion.usdoj.gov/faq/epcs-faq.html
+5. **Q137:** NHA K.90 = types of coverage; **K.91 = DME including Medicare benefits and coverage rules**. Task 4A.12 explicitly DME prescriptions. Part B generally covers prescribed home glucose monitors when eligibility, medical necessity and supplier requirements are met. https://www.medicare.gov/coverage/blood-sugar-monitors
+6. **Q138:** Brand Bactrim contains sulfamethoxazole/trimethoprim; FDA labeling warns it **may prolong prothrombin time and increase INR** in warfarin users, calls for monitoring. Correct technician behavior: stop, alert pharmacist, don't independently adjust. Do not repeat Gemini's unqualified protein displacement mechanism claim for warfarin. https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4833319a-a7b3-4bf4-bec4-6531b43182d4
+7. **Q139:** 120 actuations ÷ (2 actuations/dose × 2 doses/day)=30 days, explicitly assuming NO priming/waste; hold until PHRA1009 appropriate days' supply teaching.
+8. **Q140:** **K.107 = security features of prescriptions** (e.g., watermarks, identity requirements), not the generic Gemini title “Prescription fraud, alteration, authenticity protocols.” **Task 4B.1** directly says identify validity of forged, copied, altered Rx; Task 5G corrective action. Suspicion alone does not establish fraud; do not guess or independently amend.
+9. General: Only teach/review questions after corresponding PHRA1001/PHRA1009 topics covered; do not automatically move questions to live board.
+
+**Authoritative test plan** https://info.nhanow.com/hubfs/Test%20Plans/2023%20ExCPT%20Test%20Plan.pdf
+
+**Next:** Obtain instructor approval for corrected Q131–Q140. DO NOT edit `index.html`.
